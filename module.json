@@ -2,17 +2,38 @@
 	"id": "feanor-dragorion",
 	"title": "Fëanor Dragorion Character Automation",
 	"description": "A simple module created to provide macros and files for automating some features of the Fëanor Dragorion character.",
-	"authors": [
-		{
-			"name": "Paulo Henrique",
-			"discord": "PH#2526"
-		}
-	],
+	"authors": [{
+		"name": "Paulo Henrique",
+		"discord": "PH#2526"
+	}],
 	"version": "1.0",
-	"system": ["dnd5e"],
 	"compatibility": {
 		"minimum": "10",
 		"verified": "10"
 	},
-	"esmodules": ["scripts/features.js"]
+	"relationships": {
+		"systems": [{
+			"id": "dnd5e",
+			"type": "system",
+			"compatibility": {
+				"verified": "2.0.3"
+			}
+		}],
+		"requires": [{
+			"id": "midi-qol",
+			"type": "module",
+			"compatibility": {
+				"verified": "10.0.22"
+			}
+		},{
+			"id": "dae",
+			"type": "module",
+			"compatibility": {
+				"verified": "10.0.13"
+			}
+		}]
+	},
+	"esmodules": [
+		"scripts/features.js"
+	]
 }
