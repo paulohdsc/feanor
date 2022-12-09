@@ -1,14 +1,14 @@
 {
 	"id": "feanor-dragorion",
 	"title": "Fëanor Dragorion - D&D 5e Character Automation",
-	"description": "A simple module created to provide macros and media files for automating some features of my D&D 5e character Fëanor Dragorion.",
+	"description": "A simple module created to provide automation for some features of the Fëanor Dragorion character, a D&D 5e Draconic Bloodline Sorcerer currently at level 10.",
 	"authors": [
 		{
 			"name": "Paulo Henrique",
 			"discord": "PH#2526"
 		}
 	],
-	"version": "1.0.0",
+	"version": "1.0",
 	"compatibility": {
 		"minimum": "10",
 		"verified": "10"
@@ -42,5 +42,7 @@
 	},
 	"esmodules": [
 		"scripts/main.js"
-	]
+	],
+	"url": "https://github.com/paulohdsc/feanor-dragorion/",
+	"license": "https://github.com/paulohdsc/feanor-dragorion/blob/main/LICENSE"
 }

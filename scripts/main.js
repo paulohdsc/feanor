@@ -1,9 +1,8 @@
 /**
- * This file is part of the Fëanor Dragorion module (https://github.com/paulohdsc/feanor-dragorion/).
- * MIT License Copyright (c) 2022 Paulo Henrique (PH#2526).
- * You should have received a copy of the MIT License along with this module.
- * If not, see <https://mit-license.org/>.
+ * This file is part of the Fëanor Dragorion - D&D 5e Character Automation module
+ * MIT License Copyright (c) 2022 Paulo Henrique (PH#2526)
+ * https://github.com/paulohdsc/feanor-dragorion/blob/main/LICENSE
  */
 
-import * as feanorDragorion from "./features.js";
-globalThis.feanorDragorion = feanorDragorion;
+import features from "./features.js";
+globalThis.feanorDragorion = {features};
