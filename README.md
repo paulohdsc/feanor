@@ -1,20 +1,24 @@
 # Fëanor Dragorion - D&D 5e Character Automation
-A simple Foundry Virtual Tabletop module created to provide automation for some features of the Fëanor Dragorion character, a D&D 5e Draconic Bloodline Sorcerer currently at level 10.
+A Foundry Virtual Tabletop module created to provide automation for some features of the character Fëanor Dragorion, a D&D 5e Draconic Bloodline sorcerer currently at level 12.
 
 ## Instructions
-The module creates a global object named `feanorDragorion`, containing the automation functions sorted by category. To run a given automation, create an item macro in the feature sheet, calling the respective method in it. Example:
+The module creates a global object named `feanor`, containing the automation functions sorted by category. Use Midi QoL to call the respective method on item roll using item or actor OnUse Macro fields. Look at function comments for additional details. Example:
 ```
-feanorDragorion.features.flexibleCasting(args);
+function.return feanor.features.flexibleCasting
 ```
-Then add `ItemMacro` (case-sensitive) in the Midi QoL On Use Macro field on the sheet and roll the item. Look at the function comments for some additional configuration details.
 
 ## Required Modules
-* Item Macro
-* Midi QoL
-* Dynamic effects using Active Effects (DAE)
+- Dynamic effects using Active Effects (DAE)
+- Midi QoL
 
-## To-do list
-* Update module dependencies
-* Add manifest and download links
-* Revise scripts required modules
-* Clear Chrome DevTools Snippets
+## Recommended Modules
+- SoundFx Library
+- Times Up
+
+## To-do
+- [ ] Update module dependencies
+- [ ] Add manifest and download links
+- [ ] Revise scripts required modules
+- [ ] On v11, update module.json to use the new `relationships.recommends`
+- [ ] Insert Forgotten Adventures attribution
+- [ ] Rename module from "feanor-dragorion" to "feanor" (simplify flag scope name)

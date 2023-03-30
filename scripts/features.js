@@ -1,76 +1,126 @@
-/**
- * This file is part of the Fëanor Dragorion - D&D 5e Character Automation module
- * MIT License Copyright (c) 2022 Paulo Henrique (PH#2526)
- * https://github.com/paulohdsc/feanor-dragorion/blob/main/LICENSE
- */
+// MIT License (c) 2022 Paulo Henrique (PH#2526)
 
 const features = {
+
   // Requires: Item Macro, Midi QoL ("preItemRoll")
   flexibleCasting(args) {
     const actor = fromUuidSync(args[0].actorUuid);
     const item = fromUuidSync(args[0].itemUuid);
     const sorceryPoints = actor.items.getName("Sorcery Points");
-    const sorceryPointsLeft = sorceryPoints?.system.uses.value;
-    const sorceryPointsMax = sorceryPoints?.system.uses.max;
-    if ( !sorceryPointsMax ) {ui.notifications.warn("You must set your sorcery points maximum."); return false;}
-
-    const spellLevels = [{name: "1st level", level: "1", s: "selected"}, {name: "2nd level", level: "2", s: ""}, {name: "3rd level", level: "3", s: ""}, {name: "4th level", level: "4", s: ""}];
-    const options = spellLevels.reduce((acc, cur) => acc += `<option value="${cur.level}" ${cur.s}>${cur.name}</option>`, "");
-    const content = `<form><div class="form-group"><label>Spell Slot Level:</label><select>${options}</select></div></form>`;
+    if ( !sorceryPoints ) {
+      ui.notifications.warn("Sorcery Points feature not found.");
+      return false;
+    }
+    const sorceryPointsAvailable = sorceryPoints.system.uses.value || 0;
+    const sorceryPointsMaximum = sorceryPoints.system.uses.max || 0;
+    const spellLevelsAvailable = Object.entries(actor.system.spells).filter(e => e[1].max > 0).map(e => e[0]);
+    const options = spellLevelsAvailable.reduce((acc, cur) => {
+      return acc += `<option value="${cur.slice(-1)}">${CONFIG.DND5E.spellLevels[cur.slice(-1)]}</option>`;
+    }, "");
+    const content = `<form>
+      <div style="margin-bottom:5px"><label>You can create spell slots no higher in level than 5th.</label></div>
+      <div class="form-group" style="text-align:center"><label>Spell Slot:</label><select style="text-align:center" autofocus>${options}</select></div>
+    </form>`;
 
     new Dialog({
       title: "Flexible Casting: Usage Configuration",
       content,
       buttons: {
-        Expend: {
-          icon: '<i class="fas fa-chevron-down"></i>',
+        expend: {
+          icon: '<i class="fa-solid fa-arrow-down"></i>',
           label: "Expend Slot",
           callback: async html => {
-            const spellLevel = html.find("select").val();
-            const slotLevel = parseInt(spellLevel);
+            const spellLevel = Number(html.querySelector("select").value);
             const slotsAvailable = actor.system.spells[`spell${spellLevel}`].value;
-            if ( slotsAvailable < 1 ) return ui.notifications.warn("No spell slots available.");
-            if ( sorceryPointsLeft >= sorceryPointsMax ) return ui.notifications.warn("Impossible to gain more sorcery points.");
-            actor.update({[`data.spells.spell${spellLevel}.value`]: slotsAvailable - 1});
-            sorceryPoints.update({"data.uses.value": Math.min(sorceryPointsLeft + slotLevel, sorceryPointsMax)});
-            await item.displayCard();
+            if ( slotsAvailable < 1 ) return ui.notifications.warn("No available spell slots of selected level.");
+            if ( sorceryPointsAvailable >= sorceryPointsMaximum ) return ui.notifications.warn("Cannot exceed maximum sorcery points.");
+            await item.displayCard({});
+            actor.update({[`system.spells.spell${spellLevel}.value`]: slotsAvailable - 1});
+            sorceryPoints.update({"system.uses.value": Math.min(sorceryPointsAvailable + spellLevel, sorceryPointsMaximum)});
             ChatMessage.create({
-              speaker: {alias: actor.name},
+              speaker: ChatMessage.getSpeaker({actor}),
               content: `<div class="dice-roll">
-                <div class="dice-formula">Spent one spell slot level ${spellLevel}</div>
-                <div class="dice-formula" style="margin:0">Gained ${spellLevel} SP</div>
+                <div class="dice-formula" style="margin:0"><i class="fa-regular fa-circle-minus"></i> spell slot level ${spellLevel}</div>
+                <div class="dice-formula" style="margin:0"><i class="fa-regular fa-circle-plus"></i> ${spellLevel} sorcery point${spellLevel < 2 ? "" : "s"}</div>
               </div>`
             });
           }
         },
-        Create: {
-          icon: '<i class="fas fa-chevron-up"></i>',
+        create: {
+          icon: '<i class="fa-solid fa-arrow-up"></i>',
           label: "Create Slot",
           callback: async html => {
-            const spellLevel = html.find("select").val();
-            const slotLevel = parseInt(spellLevel);
-            const cost = slotLevel < 3 ? slotLevel + 1 : slotLevel + 2;
+            const spellLevel = Number(html.querySelector("select").value);
+            if ( spellLevel > 5 ) return ui.notifications.error("Impossible to create spell slots higher in level than 5th.");
+            const cost = spellLevel < 3 ? spellLevel + 1 : spellLevel + 2;
             const slotsAvailable = actor.system.spells[`spell${spellLevel}`].value;
-            if ( sorceryPointsLeft < cost ) return ui.notifications.warn("Not enough sorcery points.");
-            sorceryPoints.update({"data.uses.value": sorceryPointsLeft - cost});
-            actor.update({[`data.spells.spell${spellLevel}.value`]: slotsAvailable + 1});
-            await item.displayCard();
+            if ( sorceryPointsAvailable < cost ) return ui.notifications.warn("Not enough sorcery points.");
+            await item.displayCard({});
+            sorceryPoints.update({"system.uses.value": sorceryPointsAvailable - cost});
+            actor.update({[`system.spells.spell${spellLevel}.value`]: slotsAvailable + 1});
             ChatMessage.create({
-              speaker: {alias: actor.name},
+              speaker: ChatMessage.getSpeaker({actor}),
               content: `<div class="dice-roll">
-                <div class="dice-formula">Spent ${cost} SP</div>
-                <div class="dice-formula" style="margin:0">Created one spell slot level ${spellLevel}</div>
+                <div class="dice-formula" style="margin:0"><i class="fa-regular fa-circle-minus"></i> ${cost} sorcery points</div>
+                <div class="dice-formula" style="margin:0"><i class="fa-regular fa-circle-plus"></i> spell slot level ${spellLevel}</div>
               </div>`
             });
           }
         }
       },
-      render: html => html.find("select").focus(),
-      default: "Create"
-    }).render(true);
+      default: "create"
+    }, {jQuery: false, width: 350}).render(true);
 
-    throw "Flexible Casting: item roll blocked by preItemRoll macro";
+    return false;
+  },
+
+  // Requires: Item Macro, Midi QoL ("preItemRoll")
+  twinnedSpell(args) {
+    const actor = fromUuidSync(args[0].actorUuid);
+    const item = fromUuidSync(args[0].itemUuid);
+    const sorceryPoints = actor.items.getName("Sorcery Points");
+    if ( !sorceryPoints ) {
+      ui.notifications.warn("Sorcery points feature not found.");
+      return false;
+    }
+    const sorceryPointsAvailable = sorceryPoints.system.uses.value;
+    const spellLevelsAvailable = Object.entries(actor.system.spells).filter(e => e[1].max > 0).map(e => e[0]);
+    const options = spellLevelsAvailable.reduce((acc, cur) => {
+      return acc += `<option value="${cur.slice(-1)}">${CONFIG.DND5E.spellLevels[cur.slice(-1)].toLowerCase()}</option>`;
+    }, '<option value="0">Cantrip</option>');
+    const content = `<form><div class="form-group" style="text-align:center">
+      <label>Spell Level:</label><select style="text-align:center" autofocus>${options}</select>
+    </div></form>`;
+
+    new Dialog({
+      title: "Twinned Spell: Usage Configuration",
+      content,
+      buttons: {
+        twin: {
+          icon: '<i class="fa-solid fa-share-nodes"></i>',
+          label: "Twin",
+          callback: async html => {
+            const spellLevel = Number(html.querySelector("select").value);
+            const cost = spellLevel || 1;
+            if ( sorceryPointsAvailable < cost ) return ui.notifications.warn("Not enough sorcery points.");
+            await item.displayCard({});
+            sorceryPoints.update({"data.uses.value": sorceryPointsAvailable - cost});
+            ChatMessage.create({
+              speaker: ChatMessage.getSpeaker({actor}),
+              content: `<div class="dice-roll">
+                <div class="dice-formula" style="margin:0"><i class="fa-regular fa-circle-minus"></i> ${cost} sorcery point${spellLevel < 2 ? "" : "s"}</div>
+                <div class="dice-formula"> Twinned a ${CONFIG.DND5E.spellLevels[spellLevel].toLowerCase()} ${spellLevel ? "spell" : ""}</div>
+              </div>`
+            });
+          }
+        }
+      },
+      default: "twin"
+    }, {jQuery: false, width: 350}).render(true);
+
+    return false;
   }
+
 };
 
 export default features;
