@@ -24,7 +24,7 @@ const items = {
             .size(token.document.width + 1, {gridUnits: true})
             .fadeIn(500)
             .fadeOut(500)
-          .sound("upload-player/feanor/boots-of-speed.wav")
+          .sound("modules/feanor/assets/transformation.wav")
             .delay(200)
           .play();
       }

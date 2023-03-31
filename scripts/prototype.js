@@ -1,9 +1,3 @@
-// Issue Foundry: Dialog.wait wrong return value when callback function is async
-//   - See https://github.com/foundryvtt/foundryvtt/issues/8758
-// Issue Midi: add empty object as default to 'item.displayCard()'
-// Issue Midi: option to avoid notification on 'return false'
-// Review feanor.database (copy soundfxlibrary files?)
-
 (async () => {
 
   /**

@@ -1,5 +1,5 @@
 {
-	"id": "feanor-dragorion",
+	"id": "feanor",
 	"title": "Fëanor Dragorion - D&D 5e Character Automation",
 	"description": "Provides automation for some features of the character Fëanor Dragorion, a D&D 5e Draconic Bloodline sorcerer currently at level 12.",
 	"authors": [
@@ -8,8 +8,8 @@
 			"discord": "PH#2526"
 		}
 	],
-	"url": "https://github.com/paulohdsc/feanor-dragorion/",
-	"license": "https://github.com/paulohdsc/feanor-dragorion/blob/main/LICENSE",
+	"url": "https://github.com/paulohdsc/feanor",
+	"license": "https://github.com/paulohdsc/feanor/blob/main/LICENSE",
 	"version": "1.0",
 	"compatibility": {
 		"minimum": "10",
