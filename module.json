@@ -10,7 +10,7 @@
 	],
 	"url": "https://github.com/paulohdsc/feanor",
 	"license": "https://github.com/paulohdsc/feanor/blob/main/LICENSE",
-	"version": "1.0",
+	"version": "12.0",
 	"compatibility": {
 		"minimum": "10",
 		"verified": "10"
