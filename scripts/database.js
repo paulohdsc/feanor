@@ -1,13 +1,18 @@
-// MIT License (c) 2022 Paulo Henrique (PH#2526)
-
-// Review database (add jb2a and soundfxlibrary paths)
+// Review database (add jb2a, soundfxlibrary and 5e animations paths)
 // Convert to .ogg and insert original file metadata
 
 const database = {
   boots_of_speed: {
+    effects: {transmutation: "jb2a.energy_strands.complete.blue.01"},
+    sounds: {transmutation: "modules/feanor/sounds/transmutation.wav"}
+  },
+  disintegrate: {
     effects: {
-
-    }
+      ray: "jb2a.disintegrate.green",
+      impact: "jb2a.impact.004.blue",
+      pile_of_dust: "modules/feanor/images/pile-of-dust.webp"
+    },
+    sounds: {ray: "modules/feanor/sounds/disintegrate.ogg"}
   }
 };
 
@@ -25,14 +30,6 @@ const database4 = {
       channeling: "upload-player/feanor/chromatic-orb-casting.wav",
       impact_1: "upload-player/feanor/shocking-grasp.wav",
       impact_2: "modules/soundfxlibrary/Combat/Single/Spell%20Impact%20Lightning/spell-impact-lightning-4.mp3"
-    }
-  },
-  disintegrate: {
-    effects: {
-      pile_of_dust: "modules/feanor/assets/disintegrate/pile-of-dust.webp"
-    },
-    sounds: {
-      casting: "modules/feanor/assets/disintegrate/casting.ogg"
     }
   },
   magic_missile: {

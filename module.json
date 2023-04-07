@@ -1,68 +1,71 @@
 {
-	"id": "feanor",
-	"title": "Fëanor Dragorion - D&D 5e Character Automation",
-	"description": "Provides automation for some features of the character Fëanor Dragorion, a D&D 5e Draconic Bloodline sorcerer currently at level 12.",
-	"authors": [
-		{
-			"name": "Paulo Henrique",
-			"discord": "PH#2526"
-		}
-	],
-	"url": "https://github.com/paulohdsc/feanor",
-	"license": "https://github.com/paulohdsc/feanor/blob/main/LICENSE",
-	"version": "12.0",
-	"compatibility": {
-		"minimum": "10",
-		"verified": "10"
-	},
-	"esmodules": [
-		"scripts/main.js"
-	],
-	"packs": [
-		{
-			"name": "actors",
-			"label": "Fëanor Actors",
-			"path": "packs/actors.db",
-			"private": false,
-			"type": "Actor",
-			"system": "dnd5e"
-		},
-		{
-			"name": "items",
-			"label": "Fëanor Items",
-			"path": "packs/items.db",
-			"private": false,
-			"type": "Item",
-			"system": "dnd5e"
-		}
-	],
-	"relationships": {
-		"systems": [
-			{
-				"id": "dnd5e",
-				"type": "system",
-				"compatibility": {
-					"verified": "2.1.5"
-				}
-			}
-		],
-		"requires": [
-			{
-				"id": "midi-qol",
-				"type": "module",
-				"compatibility": {
-					"verified": "10.0.35"
-				}
-			},
-			{
-				"id": "dae",
-				"type": "module",
-				"compatibility": {
-					"verified": "10.0.24"
-				}
-			}
-		]
-	},
-	"manifest": "https://github.com/paulohdsc/feanor/releases/download/12.0/module.json",
-	"download": "https://github.com/paulohdsc/feanor/releases/download/12.0/module.zip"
+  "id": "feanor",
+  "title": "Fëanor Dragorion - D&D 5e Character Automation",
+  "description": "Provides automation for some features of the character Fëanor Dragorion, a D&amp;D 5e Draconic Bloodline sorcerer currently at level 12.",
+  "authors": [
+    {
+      "name": "Paulo Henrique",
+      "discord": "PH#2526",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/paulohdsc/feanor",
+  "license": "https://github.com/paulohdsc/feanor/blob/main/LICENSE",
+  "version": "12.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "packs": [
+    {
+      "name": "actors",
+      "label": "Fëanor Actors",
+      "path": "packs/actors.db",
+      "private": false,
+      "type": "Actor",
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "items",
+      "label": "Fëanor Items",
+      "path": "packs/items.db",
+      "private": false,
+      "type": "Item",
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "verified": "2.1.5"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "compatibility": {
+          "verified": "10.0.35"
+        }
+      },
+      {
+        "id": "dae",
+        "type": "module",
+        "compatibility": {
+          "verified": "10.0.24"
+        }
+      }
+    ]
+  },
+  "manifest": "https://github.com/paulohdsc/feanor/releases/download/12.0/module.json",
+  "download": "https://github.com/paulohdsc/feanor/releases/download/12.0/module.zip"
 }

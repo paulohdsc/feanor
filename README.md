@@ -10,6 +10,7 @@ function.return feanor.features.flexibleCasting
 ## Required Modules
 - DAE - Dynamic effects using Active Effects
 - Midi QoL
+- Effect Macro
 
 ## Recommended Modules
 - SoundFx Library
