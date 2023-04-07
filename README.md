@@ -18,7 +18,5 @@ function.return feanor.features.flexibleCasting
 
 ## To-do
 - [ ] Update module dependencies
-- [ ] Add manifest and download links
-- [ ] Revise functions required modules
-- [ ] On v11, update module.json to use the new `relationships.recommends`
 - [ ] Insert Forgotten Adventures attribution
+- [ ] On v11, update module.json to use the new `relationships.recommends`

@@ -5,8 +5,8 @@ const spells = {
   /* ------------------------------------------- */
 
   /**
-   * Usage: await feanor.spells.chainLightning(args)
    * Requires: Item Macro, JB2A, Midi Qol ("preambleComplete"), Sequencer
+   * Usage: await feanor.spells.chainLightning(args)
    * @param {object} args     Workflow information provided by Midi Qol
    */
   async chainLightning(args) {
