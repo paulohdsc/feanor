@@ -131,7 +131,7 @@ const spells = {
      * @param {Token[]} secondaryTargets      An array of Token targets, which the bolts will jump to
      */
     async function playSequence(sourceToken, primaryTarget, secondaryTargets) {
-      const sequence = new Sequence({moduleName: "Fëanor Dragorion", softFail: true})
+      const sequence = new Sequence({moduleName: "Fëanor", softFail: true})
         .effect()
           .file("jb2a.static_electricity.01.blue")
           .attachTo(sourceToken)
