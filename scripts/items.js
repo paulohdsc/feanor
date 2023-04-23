@@ -3,7 +3,7 @@ const items = {
   // Issue fvtt: get sourceName do not await ActiveEffect._getSourceName;
   // Issue dnd5e: add sheet indicator when item has active effect;
 
-  // Requires: Effect Macro, JB2A, Midi QoL ("preItemRoll"), Sequencer
+  // Modules: Effect Macro, JB2A, Midi QoL ("preItemRoll"), Sequencer, Times Up
   // OnUse Macro: function.return feanor.items.bootsOfSpeed
   // Effect Macros: feanor.items.bootsOfSpeed({args: "onDelete", token});
   //                feanor.items.bootsOfSpeed({args: "onTurnStart", actor, item: origin});
@@ -50,13 +50,13 @@ const items = {
       const {boots_of_speed} = feanor.database;
       await feanor.utils.preload(boots_of_speed);
       new Sequence({moduleName: "Fëanor", softFail: true})
-        .effect(boots_of_speed.effects.transmutation)
+        .effect(boots_of_speed.effects.transmute)
           .atLocation(token)
           .attachTo(token)
           .size(token.document.width + 1, {gridUnits: true})
           .fadeIn(500)
           .fadeOut(500)
-        .sound(boots_of_speed.sounds.transmutation)
+        .sound(boots_of_speed.sounds.transmute)
           .delay(200)
         .play();
     }

@@ -3,9 +3,11 @@
  * FIXME comments are often used to indicate code that does not work correctly
  * or that may not work in all supported environments
  *
- * Requires:
+ * Modules:
  * Usage:
  * Note:
+ * To do:
+ * Issue:
  */
 
 import database from "./database.js";

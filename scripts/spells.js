@@ -5,7 +5,7 @@ const spells = {
   /* ------------------------------------------- */
 
   /**
-   * Requires: Item Macro, JB2A, Midi Qol ("preambleComplete"), Sequencer
+   * Modules: Item Macro, JB2A, Midi Qol ("preambleComplete"), Sequencer
    * Usage: await feanor.spells.chainLightning(args)
    * @param {object} args     Workflow information provided by Midi Qol
    */
@@ -189,16 +189,17 @@ const spells = {
     }
   },
 
-  // Requires: JB2A, Midi QoL ("postActiveEffects"), Sequencer
+  // Modules: JB2A, Midi QoL ("postActiveEffects"), Sequencer
   // Usage: function.feanor.spells.disintegrate
+  // See eskiemoh's Disintegrate
   async disintegrate({token}) {
     const {disintegrate} = feanor.database;
     await feanor.utils.preload(disintegrate);
-    const sequence = new Sequence({moduleName: "Fëanor", softFail: true}).sound(disintegrate.sounds.ray);
+    const sequence = new Sequence({moduleName: "Fëanor", softFail: true}).sound(disintegrate.sounds.projectile);
     for ( const target of this.targets ) {
       sequence
         .effect()
-          .file(disintegrate.effects.ray)
+          .file(disintegrate.effects.projectile)
           // .attachTo(token)
           // .stretchTo(target, {attachTo: true});
           .atLocation(token)

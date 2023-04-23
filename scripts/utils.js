@@ -13,8 +13,13 @@ const utils = {
   // },
 
   preload(obj) {
-    const filesArray = Object.values(foundry.utils.flattenObject(obj));
-    return Sequencer.Preloader.preloadForClients(filesArray);
+    const flatObj = flattenObject(obj);
+    for ( const [k, v] of Object.entries(flatObj) ) {
+      if ( Array.isArray(v) ) flatObj[k] = {...v};
+    }
+    const flatArray = Object.values(flattenObject(flatObj));
+    const srcArray = flatArray.filter(value => typeof value === "string" && value);
+    return Sequencer.Preloader.preloadForClients(srcArray);
   },
 
   wait(ms) {
