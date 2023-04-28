@@ -23,9 +23,3 @@ Use Midi QoL to call the respective methods on item use. See the function commen
 - Simple Calendar
 - SoundFx Library
 - Times Up
-
-## To-do
-- [ ] Update module dependencies
-- [ ] Insert Forgotten Adventures attribution
-- [ ] On v11, update module.json to use the new `relationships.recommends`
-- [ ] Disable "require documentation" and add code comments

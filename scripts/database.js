@@ -2,78 +2,82 @@
 // Convert to .ogg and insert original file metadata
 // See https://github.com/jackkerouac/animated-spell-effects-cartoon/tree/master/sound-fx
 
-const database = {
-  ashardalonsStride: {
-    effects: {
-      magic_circle: "jb2a.magic_signs.circle.02.transmutation.complete.yellow",
-      onCast: {
-        acid: "",
-        // cold: "modules/JB2A_DnD5e/Library/Generic/Ice/SnowflakeBurst_01_Regular_BlueWhite_Loop_600x600.webm",
-        cold: "jb2a.impact.frost.white.01",
-        fire: "jb2a.eruption.orange.01",
-        lightning: "jb2a.impact.011.blue",
-        poison: "",
-        thunder: "jb2a.impact.011.blue"
-      },
-      trail: { // Must be an array
-        acid: [
-          "jb2a.liquid.splash.blue"
-        ],
-        cold: [
-          "jb2a.impact_themed.ice_shard.blue"
-          // "jb2a.impact.frost.white.01"
-        ],
-        fire: [
-          "jb2a.flames.orange.03.1x1",
-          "jb2a.flames.orange.03.2x1",
-          "jb2a.flames.orange.03.2x2"
-        ],
-        lightning: [
-          "jb2a.impact.011.blue",
-          "jb2a.impact.012.blue"
-        ],
-        poison: [
-          "jb2a.smoke.puff.centered.grey.0",
-          "jb2a.smoke.puff.centered.grey.1",
-          "jb2a.smoke.puff.centered.grey.2"
-        ],
-        thunder: [
-          "jb2a.thunderwave.center.blue"
-        ]
-      }
+export const db = {};
+
+db.ashardalons_stride = {
+  effects: {
+    magic_circle: "jb2a.magic_signs.circle.02.transmutation.complete.yellow",
+    on_cast: {
+      acid: "",
+      // cold: "modules/JB2A_DnD5e/Library/Generic/Ice/SnowflakeBurst_01_Regular_BlueWhite_Loop_600x600.webm",
+      cold: "jb2a.impact.frost.white.01",
+      fire: "jb2a.eruption.orange.01",
+      lightning: "jb2a.impact.011.blue",
+      poison: "",
+      thunder: "jb2a.impact.011.blue"
     },
-    sounds: {
-      chant: "modules/feanor/sounds/school-chants/transmutation.wav",
-      onCast: {
-        acid: "",
-        cold: "modules/feanor/sounds/inflict-cold.wav",
-        fire: "modules/feanor/sounds/inflict-fire.wav",
-        lightning: "modules/feanor/sounds/inflict-lightning.wav",
-        poison: "",
-        thunder: "modules/soundfxlibrary/Nature/Single/Thunder/thunder-7.mp3"
-      }
-    },
-    trailDelay: {}
-  },
-  boots_of_speed: {
-    effects: {
-      transmute: "jb2a.energy_strands.complete.blue.01"
-    },
-    sounds: {
-      transmute: "modules/feanor/sounds/transmute.wav"
+    trail: { // Must be an array
+      acid: [
+        "jb2a.liquid.splash.blue"
+      ],
+      cold: [
+        "jb2a.impact_themed.ice_shard.blue"
+        // "jb2a.impact.frost.white.01"
+      ],
+      fire: [
+        "jb2a.flames.orange.03.1x1",
+        "jb2a.flames.orange.03.2x1",
+        "jb2a.flames.orange.03.2x2"
+      ],
+      lightning: [
+        "jb2a.impact.011.blue",
+        "jb2a.impact.012.blue"
+      ],
+      poison: [
+        "jb2a.smoke.puff.centered.grey.0",
+        "jb2a.smoke.puff.centered.grey.1",
+        "jb2a.smoke.puff.centered.grey.2"
+      ],
+      thunder: [
+        "jb2a.thunderwave.center.blue"
+      ]
     }
   },
-  disintegrate: {
-    effects: {
-      projectile: "jb2a.disintegrate.green",
-      impact: "jb2a.impact.004.blue",
-      pile_of_dust: "modules/feanor/images/pile-of-dust.webp"
-    },
-    sounds: {
-      projectile: "modules/feanor/sounds/disintegrate.ogg"
+  sounds: {
+    chant: "modules/feanor/sounds/school-chants/transmutation.wav",
+    on_cast: {
+      acid: "",
+      cold: "modules/feanor/sounds/inflict-cold.wav",
+      fire: "modules/feanor/sounds/inflict-fire.wav",
+      lightning: "modules/feanor/sounds/inflict-lightning.wav",
+      poison: "",
+      thunder: "modules/soundfxlibrary/Nature/Single/Thunder/thunder-7.mp3"
     }
+  },
+  trail_delay: {}
+};
+
+db.boots_of_speed = {
+  effects: {
+    transmute: "jb2a.energy_strands.complete.blue.01"
+  },
+  sounds: {
+    transmute: "modules/feanor/sounds/transmute.wav"
   }
 };
+
+db.disintegrate = {
+  effects: {
+    projectile: "jb2a.disintegrate.green",
+    impact: "jb2a.impact.004.blue",
+    pile_of_dust: "modules/feanor/images/pile-of-dust.webp"
+  },
+  sounds: {
+    projectile: "modules/feanor/sounds/disintegrate.ogg"
+  }
+};
+
+/* -------------------------------------------------- */
 
 const database4 = {
   chain_lightning: {
@@ -201,5 +205,3 @@ const database1 = {
     chainLightning2: "jb2a.chain_lightning.secondary.blue"
   }
 };
-
-export default database;
