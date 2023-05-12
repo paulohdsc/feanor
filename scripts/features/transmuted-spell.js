@@ -76,18 +76,18 @@ export async function transmutedSpell({actor, item}) {
           <ol class="items-list inventory-list">
             <li class="items-header flexrow">
               <div class="item-name">
-                <h3>Spell to be transmuted</h3>
+                <h3>Eligible Spells</h3>
               </div>
             </li>
             <ol class="item-list">${spellOptions}</ol>
             <li class="items-header flexrow">
               <div class="item-name">
-                <h3>Transmutation options</h3>
+                <h3>Options</h3>
               </div>
             </li>
             <li class="item">
               <div class="item-name flexrow">
-                <h4>New damage type</h4>
+                <h4>New Damage Type</h4>
                 <select style="margin:3px">${damageOptions}</select>
               </div>
             </li>

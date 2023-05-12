@@ -2,27 +2,28 @@
 // Convert to .ogg and insert original file metadata
 // See https://github.com/jackkerouac/animated-spell-effects-cartoon/tree/master/sound-fx
 
+// The dollar sign indicates a transmutable property
 export const db = {};
 
 db.ashardalons_stride = {
   effects: {
     magic_circle: "jb2a.magic_signs.circle.02.transmutation.complete.yellow",
-    on_cast: {
+    on_cast_$: {
       acid: "",
       // cold: "modules/JB2A_DnD5e/Library/Generic/Ice/SnowflakeBurst_01_Regular_BlueWhite_Loop_600x600.webm",
       cold: "jb2a.impact.frost.white.01",
       fire: "jb2a.eruption.orange.01",
       lightning: "jb2a.impact.011.blue",
       poison: "",
-      thunder: "jb2a.impact.011.blue"
+      thunder: "jb2a.thunderwave.center.blue"
     },
-    trail: { // Must be an array
+    trail_$: { // Must be an array
       acid: [
         "jb2a.liquid.splash.blue"
       ],
       cold: [
-        "jb2a.impact_themed.ice_shard.blue"
-        // "jb2a.impact.frost.white.01"
+        // "jb2a.impact_themed.ice_shard.blue"
+        "jb2a.impact.frost.white.01"
       ],
       fire: [
         "jb2a.flames.orange.03.1x1",
@@ -43,9 +44,27 @@ db.ashardalons_stride = {
       ]
     }
   },
+  options: {
+    trail_duration_$: { // REVIEW
+      acid: 1500,
+      cold: 5900,
+      fire: 2000,
+      lightning: 1500,
+      poison: 1500,
+      thunder: 1033
+    },
+    trail_interval_$: { // REVIEW
+      acid: 100,
+      cold: 100,
+      fire: 150,
+      lightning: 100,
+      poison: 100,
+      thunder: 130
+    }
+  },
   sounds: {
     chant: "modules/feanor/sounds/school-chants/transmutation.wav",
-    on_cast: {
+    on_cast_$: {
       acid: "",
       cold: "modules/feanor/sounds/inflict-cold.wav",
       fire: "modules/feanor/sounds/inflict-fire.wav",
@@ -53,8 +72,7 @@ db.ashardalons_stride = {
       poison: "",
       thunder: "modules/soundfxlibrary/Nature/Single/Thunder/thunder-7.mp3"
     }
-  },
-  trail_delay: {}
+  }
 };
 
 db.boots_of_speed = {
@@ -77,7 +95,7 @@ db.disintegrate = {
   }
 };
 
-/* -------------------------------------------------- */
+/* -------------------------------------------- */
 
 const database4 = {
   chain_lightning: {

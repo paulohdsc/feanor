@@ -1,4 +1,6 @@
-// Issue fvtt: get sourceName do not await ActiveEffect._getSourceName;
+// BUG core: get sourceName do not await ActiveEffect._getSourceName;
+//           see https://github.com/foundryvtt/foundryvtt/issues/9332
+//           workaround: ignore the getter, and rely solely on _getSourceName()
 // Issue dnd5e: add sheet indicator when item has active effect;
 
 /**
@@ -64,6 +66,7 @@ export async function bootsOfSpeed({actor, token, item, args}) {
         .fadeOut(500)
       .sound(boots_of_speed.sounds.transmute)
         .delay(200)
-      .play({remote: true});
+      // BUG: effect do not play when 'remote: true' and only the GM is logged
+      .play(/* {remote: false} */);
   }
 }

@@ -193,7 +193,7 @@ export async function chainLightning(args) {
           .delay(1200)
         .wait(250);
     }
-    // Issue: .wait() is preventing serialization; when/if fixed, change to .play({remote: true})
+    // BUG: .wait() is preventing serialization; when/if fixed, change to .play({remote: true})
     await sequence.play();
   }
 }

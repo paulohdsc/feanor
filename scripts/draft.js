@@ -1,15 +1,12 @@
 /* eslint-disable jsdoc/require-jsdoc */
 
-let ashardalons_stride; // Cache database for playTrailSequence
+import {db as database} from "./database.js";
+console.log(database);
 
-// const main = () => { // Use with 'macro.execute()'
-// const main = (/* {actor, token, item, args} */) => { // Use with Midi OnUseMacro invoking macros
-function main({actor, token, item, args}) { // Use with Midi OnUseMacro invoking global functions
-
-}
-
+// const main = () => { // Use with core 'macro.execute()' or Midi OnUseMacro invoking macros
+// function main({actor, token, item, args}) { // Use with Midi OnUseMacro invoking global functions
+// }
 // main();
-
 
 /* Hypnotic Pattern
 new Sequence({moduleName: "Fëanor", softFail: true})
@@ -21,6 +18,7 @@ new Sequence({moduleName: "Fëanor", softFail: true})
     // .filter("Blur", {strength: 2})
     // .loopProperty("sprite", "position.x", { from: -200, to: 200, duration: 500})
     .persist()
+  // BUG: effect do not play when 'remote: true' and only the GM is logged
   .play({remote: true});
  */
 
