@@ -20,9 +20,11 @@ export async function bootsOfSpeed({actor, token, item, args}) {
   const speedEffectName = "2x walking speed";
   const disadvEffectName = "Imposes disadvantage on OAs";
   if ( args[0]?.tag === "OnUse" ) {
-    const appliedEffects = actor.effects.filter(e => e.origin === item.uuid);
+    // On v11 sourceName has become synchronous
+    // const appliedEffects = actor.effects.filter(e => e.sourceName === item.name);
+    const appliedEffects = actor.effects.filter(e => e.label === speedEffectName || e.label === disadvEffectName);
     if ( appliedEffects.length ) {
-      for ( const effect of appliedEffects ) effect.delete();
+      actor.deleteEmbeddedDocuments("ActiveEffect", appliedEffects.map(e => e.id));
     } else {
       const speedEffectData = item.effects.find(e => e.label === speedEffectName)?.toObject();
       const disadvEffectData = item.effects.find(e => e.label === disadvEffectName)?.toObject();
@@ -30,6 +32,12 @@ export async function bootsOfSpeed({actor, token, item, args}) {
         ui.notifications.error(`Failed to find required active effect on ${item.name}.`);
         return false;
       }
+
+      // HACK: Ensures that AE origin will match item uuid when it is imported from other actor
+      // Remove this when AE origins starts using relative ids (https://github.com/foundryvtt/foundryvtt/issues/6281)
+      speedEffectData.origin = item.uuid;
+      disadvEffectData.origin = item.uuid;
+
       speedEffectData.duration.rounds = item.system.uses.value;
       actor.createEmbeddedDocuments("ActiveEffect", [speedEffectData, disadvEffectData]);
       playSequence(token);
