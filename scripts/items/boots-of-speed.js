@@ -7,9 +7,6 @@
  * Boots of Speed | Rare | DMG pg. 155
  * Modules: Effect Macro, JB2A, Midi QoL ("preItemRoll"), Sequencer, Times Up
  * OnUse Macro: function.return feanor.items.bootsOfSpeed
- * Effect Macros: feanor.items.bootsOfSpeed({args: "onDelete", token});
- *                feanor.items.bootsOfSpeed({args: "onTurnStart", actor, item: origin});
- *                feanor.items.bootsOfSpeed({args: "onTurnEnd", actor});
  * @param {object} [midiHelpers]        Helper variables provided by Midi QoL
  * @param {Actor} [midiHelpers.actor]   The owner of the item
  * @param {Token} [midiHelpers.token]   The actor's token on the scene
@@ -44,15 +41,18 @@ export async function bootsOfSpeed({actor, token, item, args}) {
     }
     return false;
   }
+  // Effect Macro: feanor.items.bootsOfSpeed({args: "onTurnStart", actor, item: origin});
   if ( args === "onTurnStart" ) {
     const disadvEffect = actor.effects.find(e => e.label === disadvEffectName);
     if ( disadvEffect?.disabled ) disadvEffect.update({disabled: false});
     item?.update({"system.uses.value": item.system.uses.value - 1});
   }
+  // Effect Macro: feanor.items.bootsOfSpeed({args: "onTurnEnd", actor});
   if ( args === "onTurnEnd" ) {
     const disadvEffect = actor.effects.find(e => e.label === disadvEffectName);
     if ( disadvEffect && !disadvEffect.disabled ) disadvEffect.update({disabled: true});
   }
+  // Effect Macro: feanor.items.bootsOfSpeed({args: "onDelete", token});
   if ( args === "onDelete" ) {
     playSequence(token);
   }

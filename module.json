@@ -1,7 +1,7 @@
 {
   "id": "feanor",
   "title": "Fëanor Dragorion - D&D 5e Character Automation",
-  "description": "Provides automation for some features of the character Fëanor Dragorion, a DnD 5e Draconic Bloodline sorcerer currently at level 13.",
+  "description": "Provides automation for some features of the character Fëanor Dragorion, a DnD 5e Draconic Bloodline sorcerer currently at level 14.",
   "authors": [
     {
       "name": "Paulo Henrique",
@@ -9,7 +9,7 @@
       "flags": {}
     }
   ],
-  "version": "13.2",
+  "version": "14.0",
   "compatibility": {
     "minimum": "10",
     "verified": "10"
@@ -43,7 +43,7 @@
         "id": "dnd5e",
         "type": "system",
         "compatibility": {
-          "verified": "2.2.2"
+          "verified": "2.3.0"
         }
       }
     ],
