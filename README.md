@@ -1,5 +1,5 @@
 # Fëanor Dragorion - D&D 5e Character Automation
-A Foundry Virtual Tabletop module created to provide automation for some features of the character Fëanor Dragorion, a D&D 5e draconic bloodline sorcerer currently at level 12.
+A Foundry Virtual Tabletop module created to provide automation for some features of the character Fëanor Dragorion, a D&D 5e draconic bloodline sorcerer currently at level 14.
 
 ## Instructions
 This module creates a global object named `feanor`, containing the automation functions sorted by category. Midi QoL allows us to directly invoke those global functions via *On Use Macro* fields on item or actor sheets, using the sintax `function.functionName`. Example:
