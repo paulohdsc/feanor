@@ -15,7 +15,7 @@
  */
 export async function bootsOfSpeed({actor, token, item, args}) {
   const speedEffectName = "2x walking speed";
-  const disadvEffectName = "Imposes disadvantage on OAs";
+  const disadvEffectName = "Grants disadvantage on OAs";
   if ( args[0]?.tag === "OnUse" ) {
     // On v11 sourceName has become synchronous
     // const appliedEffects = actor.effects.filter(e => e.sourceName === item.name);
