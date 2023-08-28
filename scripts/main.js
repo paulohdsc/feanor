@@ -24,7 +24,7 @@ globalThis.feanor = {
 // globalThis.feanor.draft = draft;
 
 Hooks.once("init", () => {
-  // Allow to change the controller user midgame
+  // Allow controller user to be changed midgame with game.settings.set()
   game.settings.register("feanor", "userName", {
     name: "Fëanor Dragorion's User Name",
     scope: "world",

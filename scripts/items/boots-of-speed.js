@@ -1,22 +1,22 @@
+/* eslint-disable jsdoc/require-param */
+
 // BUG core: get sourceName do not await ActiveEffect._getSourceName;
 //           see https://github.com/foundryvtt/foundryvtt/issues/9332
 //           workaround: ignore the getter, and rely solely on _getSourceName()
-// Issue dnd5e: add sheet indicator when item has active effect;
+//           corrected on Foundry v11
+// Issue dnd5e: add sheet indicator when item has active effect
 
 /**
- * Boots of Speed | Rare | DMG pg. 155
+ * Boots of Speed | Wondrous item | DMG pg. 155
  * Modules: Effect Macro, JB2A, Midi QoL ("preItemRoll"), Sequencer, Times Up
- * OnUse Macro: function.return feanor.items.bootsOfSpeed
- * @param {object} [midiHelpers]        Helper variables provided by Midi QoL
- * @param {Actor} [midiHelpers.actor]   The owner of the item
- * @param {Token} [midiHelpers.token]   The actor's token on the scene
- * @param {Item} [midiHelpers.item]     The item itself
- * @param {object} [midiHelpers.args]   Workflow data provided by Midi QoL
  */
-export async function bootsOfSpeed({actor, token, item, args}) {
+export async function bootsOfSpeed({actor, token, item, args, trigger}) {
+  const context = args ? args[0].tag : trigger;
   const speedEffectName = "2x walking speed";
   const disadvEffectName = "Grants disadvantage on OAs";
-  if ( args[0]?.tag === "OnUse" ) {
+
+  // OnUse Macro: function.return feanor.items.bootsOfSpeed
+  if ( context === "OnUse" ) {
     // On v11 sourceName has become synchronous
     // const appliedEffects = actor.effects.filter(e => e.sourceName === item.name);
     const appliedEffects = actor.effects.filter(e => e.label === speedEffectName || e.label === disadvEffectName);
@@ -41,25 +41,27 @@ export async function bootsOfSpeed({actor, token, item, args}) {
     }
     return false;
   }
-  // Effect Macro: feanor.items.bootsOfSpeed({args: "onTurnStart", actor, item: origin});
-  if ( args === "onTurnStart" ) {
+
+  // Effect Macro: feanor.items.bootsOfSpeed({actor, item: origin, trigger: "onTurnStart"});
+  if ( context === "onTurnStart" ) {
     const disadvEffect = actor.effects.find(e => e.label === disadvEffectName);
     if ( disadvEffect?.disabled ) disadvEffect.update({disabled: false});
     item?.update({"system.uses.value": item.system.uses.value - 1});
   }
-  // Effect Macro: feanor.items.bootsOfSpeed({args: "onTurnEnd", actor});
-  if ( args === "onTurnEnd" ) {
+
+  // Effect Macro: feanor.items.bootsOfSpeed({actor, trigger: "onTurnEnd"});
+  if ( context === "onTurnEnd" ) {
     const disadvEffect = actor.effects.find(e => e.label === disadvEffectName);
     if ( disadvEffect && !disadvEffect.disabled ) disadvEffect.update({disabled: true});
   }
-  // Effect Macro: feanor.items.bootsOfSpeed({args: "onDelete", token});
-  if ( args === "onDelete" ) {
+
+  // Effect Macro: feanor.items.bootsOfSpeed({token, trigger: "onDelete"});
+  if ( context === "onDelete" ) {
     playSequence(token);
   }
 
   /**
    * Play sound and visual effects for the item
-   * @param {Token} source         The Token of the item owner
    */
   async function playSequence(source) {
     if ( !source ) return;

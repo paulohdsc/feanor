@@ -1,3 +1,4 @@
+/* eslint-disable jsdoc/require-param */
 /* eslint-disable jsdoc/require-jsdoc */
 
 /**
@@ -5,11 +6,6 @@
  * Modules: DAE, Effect Macro, JB2A, Midi QoL ("preItemRoll" and "preDamageRoll"),
  *          Sequencer, SoundFx Library and Times Up
  * Usage: For the 'trail sequence' to play, the character must be selected under User Configuration
- * @param {object} [midiHelpers]        Helper variables provided by Midi QoL
- * @param {Actor} [midiHelpers.actor]   The owner of the item
- * @param {Token} [midiHelpers.token]   The actor's token on the scene
- * @param {Item} [midiHelpers.item]     The item itself
- * @param {object} [midiHelpers.args]   Workflow data provided by Midi QoL
  */
 function main({actor, token, item, args}) {
   /**
@@ -18,23 +14,23 @@ function main({actor, token, item, args}) {
    * Issues: SnowflakeBurst missing in the JB2A database
    *         Insert optional chaining: event?.findSplice (foundry.js: 657)
    */
-  if ( args.macroPass === "preItemRoll" ) {
-    if ( args.targets.length > 1 || args.targets[0].id !== args.tokenId ) {
+  if ( args[0]?.macroPass === "preItemRoll" ) {
+    if ( args[0].targets.length > 1 || args[0].targets[0].id !== args[0].tokenId ) {
       ui.notifications.warn("You must target only the caster's token.");
       return false;
     } else {
       actor.effects.find(e => e.origin === item.uuid)?.delete();
     }
   }
-  if ( args.macroPass === "preDamageRoll" ) {
+  if ( args[0]?.macroPass === "preDamageRoll" ) {
     const damageType = item.system.damage.parts[0][1];
     if ( token ) playCastingSequence(token, damageType);
-    Hooks.once(`midi-qol.preDamageRoll.${args.uuid}`, () => false); // OR this.systemCard = true;
+    Hooks.once(`midi-qol.preDamageRoll.${args[0].uuid}`, () => false); // OR this.systemCard = true;
     Hooks.off("preUpdateToken", playTrailSequence);
     Hooks.on("preUpdateToken", playTrailSequence);
     this.next(15); // Apply dynamic effects
     actor.update({
-      "system.attributes.movement": getNewMovement(actor, args.spellLevel),
+      "system.attributes.movement": getNewMovement(actor, args[0].spellLevel),
       flags: {
         world: {
           ashardalonsStride: {
@@ -48,7 +44,7 @@ function main({actor, token, item, args}) {
               }
             ],
             itemId: item.id,
-            spellLevel: args.spellLevel
+            spellLevel: args[0].spellLevel
           }
         }
       }
@@ -116,7 +112,7 @@ async function playCastingSequence(source, damageType) {
 async function playTrailSequence(tokenDoc, change) {
   if ( !("x" in change) && !("y" in change) ) return;
   const actor = tokenDoc.actor;
-  if ( !actor || actor.uuid !== game.user.character?.uuid ) return;
+  if ( !actor || actor.uuid !== game.user.character?.uuid ) return ui.notifications.warn("Actor not found."); // Review message
   const flag = actor.getFlag("world", "ashardalonsStride");
   const item = actor.items.get(flag?.itemId);
   if ( !item ) return;
