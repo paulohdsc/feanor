@@ -6,6 +6,17 @@
 export const db = {};
 
 db.ashardalons_stride = {
+  sounds: {
+    chant: "modules/feanor/sounds/school-chants/transmutation.wav",
+    on_cast_$: {
+      acid: "",
+      cold: "modules/feanor/sounds/inflict-cold.wav",
+      fire: "modules/feanor/sounds/inflict-fire.wav",
+      lightning: "modules/feanor/sounds/inflict-lightning.wav",
+      poison: "",
+      thunder: "modules/soundfxlibrary/Nature/Single/Thunder/thunder-7.mp3"
+    }
+  },
   effects: {
     magic_circle: "jb2a.magic_signs.circle.02.transmutation.complete.yellow",
     on_cast_$: {
@@ -61,37 +72,39 @@ db.ashardalons_stride = {
       poison: 100,
       thunder: 130
     }
-  },
-  sounds: {
-    chant: "modules/feanor/sounds/school-chants/transmutation.wav",
-    on_cast_$: {
-      acid: "",
-      cold: "modules/feanor/sounds/inflict-cold.wav",
-      fire: "modules/feanor/sounds/inflict-fire.wav",
-      lightning: "modules/feanor/sounds/inflict-lightning.wav",
-      poison: "",
-      thunder: "modules/soundfxlibrary/Nature/Single/Thunder/thunder-7.mp3"
-    }
   }
 };
 
 db.boots_of_speed = {
-  effects: {
-    transmute: "jb2a.energy_strands.complete.blue.01"
-  },
   sounds: {
     transmute: "modules/feanor/sounds/transmute.wav"
+  },
+  effects: {
+    transmute: "jb2a.energy_strands.complete.blue.01"
   }
 };
 
 db.disintegrate = {
+  sounds: {
+    projectile: "modules/feanor/sounds/disintegrate.ogg"
+  },
   effects: {
     projectile: "jb2a.disintegrate.green",
     impact: "jb2a.impact.004.blue",
     pile_of_dust: "modules/feanor/images/pile-of-dust.webp"
-  },
+  }
+};
+
+db.summon_draconic_spirit = {
   sounds: {
-    projectile: "modules/feanor/sounds/disintegrate.ogg"
+    chant: "modules/feanor/sounds/school-chants/conjuration.wav",
+    summon: "modules/feanor/sounds/conjure.wav",
+    dismiss: "modules/dnd5e-animations/assets/sounds/Spells/Disappear/spell-teleport-long-1.mp3"
+  },
+  effects: {
+    magic_circle: "jb2a.magic_signs.circle.02.conjuration.complete.yellow",
+    rune: "jb2a.particle_burst.01.rune.bluepurple",
+    impact: "jb2a.impact.004.blue"
   }
 };
 

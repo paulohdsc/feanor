@@ -1,12 +1,4 @@
-/* eslint-disable jsdoc/require-jsdoc */
-
-import {db as database} from "./database.js";
-console.log(database);
-
-// const main = () => { // Use with core 'macro.execute()' or Midi OnUseMacro invoking macros
-// function main({actor, token, item, args}) { // Use with Midi OnUseMacro invoking global functions
-// }
-// main();
+/* eslint-disable jsdoc/require-jsdoc, jsdoc/require-param, quote-props */
 
 /* Hypnotic Pattern
 new Sequence({moduleName: "Fëanor", softFail: true})
@@ -25,3 +17,21 @@ new Sequence({moduleName: "Fëanor", softFail: true})
 /* Web Spell
 actor.rollAbilityTest("str", {targetValue: 18})
  */
+
+// import {db as database} from "./database.js";
+// const main = async () => { // Use with Midi OnUseMacro + world macro or with Core macro.execute()
+function main({actor, token, item, args}) { // Use with Midi OnUseMacro + global function
+
+  // Created inside main's scope in order to take advantage of the closure
+  function createDialog() {
+  }
+
+}
+
+// Create outside main's scope in order to be exported
+function dismissDraconicSpirit() {
+}
+
+// export const summonDraconicSpirit = {main, dismissDraconicSpirit};
+// main();
+// return main();

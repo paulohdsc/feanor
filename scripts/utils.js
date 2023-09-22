@@ -1,7 +1,7 @@
 /* eslint-disable jsdoc/require-jsdoc */
 
-export function filterDatabase(database, damageType) {
-  const filtered = deepClone(database);
+export function filterDatabase(database, damageType="fire") {
+  const filtered = foundry.utils.deepClone(database);
   for ( const [k1, v1] of Object.entries(database) ) {
     for ( const [k2, v2] of Object.entries(v1) ) {
       if ( k2.endsWith("$") ) {
@@ -38,7 +38,7 @@ export function getSpellDamageRoll(item, spellLevel, critical) {
   }
 
   // Add damage bonus formula
-  const actorBonus = getProperty(item.actor.system, `bonuses.${item.system.actionType}`) || {};
+  const actorBonus = foundry.utils.getProperty(item.actor.system, `bonuses.${item.system.actionType}`) || {};
   if ( actorBonus.damage && (parseInt(actorBonus.damage) !== 0) ) {
     parts.push(actorBonus.damage);
   }
@@ -63,13 +63,25 @@ export function getContext(args) {
 }
 
 export function preload(database) {
-  const flatObj = flattenObject(database);
+  const flatObj = foundry.utils.flattenObject(database);
   for ( const [k, v] of Object.entries(flatObj) ) {
     if ( Array.isArray(v) ) flatObj[k] = {...v};
   }
   const flatArray = Object.values(flattenObject(flatObj));
   const srcArray = flatArray.filter(value => typeof value === "string" && value);
   return Sequencer.Preloader.preloadForClients(srcArray);
+}
+
+export function getClientSettings(key) {
+  const value = globalThis.localStorage.getItem(key);
+  return value && JSON.parse(value); // Avoid SyntaxError exception if value is ""
+}
+
+// Deleting an existing property: updateClientSettings(key, {"-=k1": null});
+export function updateClientSettings(key, update) {
+  const value = feanor.utils.getClientSettings(key) || {};
+  foundry.utils.mergeObject(value, update, {performDeletions: true});
+  globalThis.localStorage.setItem(key, JSON.stringify(value));
 }
 
 export function wait(ms) {

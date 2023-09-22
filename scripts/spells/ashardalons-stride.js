@@ -1,19 +1,28 @@
-/* eslint-disable jsdoc/require-param */
 /* eslint-disable jsdoc/require-jsdoc */
+/* eslint-disable jsdoc/require-param */
 
 /**
  * Ashardalon's Stride | 3rd-level transmutation | FTD pg. 19
- * Modules: DAE, Effect Macro, JB2A, Midi QoL ("preItemRoll" and "preDamageRoll"),
- *          Sequencer, SoundFx Library and Times Up
+ * Modules: DAE, Effect Macro, JB2A, Midi QoL, Sequencer, SoundFx Library, Times Up
  * Usage: For the 'trail sequence' to play, the character must be selected under User Configuration
  */
 function main({actor, token, item, args}) {
   /**
-   * To do: Improve macro with Drag Ruler?
+   * TODO: Improve macro with Drag Ruler?
    *        const size = Math.floor(Math.random() * (2 - 1.5 + 1) + 1.5);
    * Issues: SnowflakeBurst missing in the JB2A database
    *         Insert optional chaining: event?.findSplice (foundry.js: 657)
+   * See: https://github.com/foundryvtt/foundryvtt/issues/10001 on v12: BaseGrid#getDirectPath(waypoints)
+   *      See Sequencer .addOverride() and .setMustache() methods
    */
+
+  /**
+   * TODO
+   * scope?.args?.[0].toObject()
+   * let [deletedEffect, options, user] = args;
+   * const {spellLevel} = args[0];
+   */
+
   if ( args[0]?.macroPass === "preItemRoll" ) {
     if ( args[0].targets.length > 1 || args[0].targets[0].id !== args[0].tokenId ) {
       ui.notifications.warn("You must target only the caster's token.");
@@ -49,6 +58,18 @@ function main({actor, token, item, args}) {
         }
       }
     });
+
+    // TODO: update module to work with local storage
+    feanor.utils.updateClientSettings("feanor.macroData", {
+      activeHooks: {
+        ashardalonsStride: {
+          preUpdateToken: {
+            fn: "feanor.spells.ashardalonsStride.playTrailSequence",
+            once: false
+          }
+        }
+      }
+    });
   }
   // Clear damaged targets "onTurnEnd" to allow for readied move damage as a reaction
   if ( args === "onTurnEnd" || args === "onTurnStart" || args === "onEnable" ) {
@@ -64,6 +85,9 @@ function main({actor, token, item, args}) {
         "flags.world.-=ashardalonsStride": null
       });
     }
+
+    // TODO: update module to work with local storage
+    feanor.utils.updateClientSettings("feanor.macroData", {"activeHooks.-=ashardalonsStride": null});
   }
 }
 
@@ -109,6 +133,10 @@ async function playCastingSequence(source, damageType) {
     .play();
 }
 
+// Callback functions hooked to "preUpdateToken" event
+// "preUpdateDocument" only fires for the client who is initiating the update request
+
+// TODO: change "updateToken"? Reason: fires for all clients after the update has been processed
 async function playTrailSequence(tokenDoc, change) {
   if ( !("x" in change) && !("y" in change) ) return;
   const actor = tokenDoc.actor;

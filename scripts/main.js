@@ -6,13 +6,19 @@ import {bootsOfSpeed} from "./items/boots-of-speed.js";
 import {ashardalonsStride} from "./spells/ashardalons-stride.js";
 import {chainLightning} from "./spells/chain-lightning.js";
 import {disintegrate} from "./spells/disintegrate.js";
+import {summonDraconicSpirit} from "./spells/summon-draconic-spirit.js";
 import * as utils from "./utils.js";
 
 const features = {flexibleCasting, transmutedSpell, twinnedSpell};
 const items = {bootsOfSpeed};
-const spells = {ashardalonsStride, chainLightning, disintegrate};
+const spells = {ashardalonsStride, chainLightning, disintegrate, summonDraconicSpirit};
+const consts = {
+  actorName: "Fëanor Dragorion",
+  userName: "PH"
+};
 
 globalThis.feanor = {
+  consts,
   database,
   features,
   items,
@@ -23,28 +29,18 @@ globalThis.feanor = {
 // import {draft} from "./draft.js";
 // globalThis.feanor.draft = draft;
 
-Hooks.once("init", () => {
-  // Allow controller user to be changed midgame with game.settings.set()
-  game.settings.register("feanor", "userName", {
-    name: "Fëanor Dragorion's User Name",
-    scope: "world",
-    default: "PH",
-    type: String
-  });
-});
-
+// TODO: implement socket interface for registering Hooks to other clients
 Hooks.once("ready", () => {
-  const userName = game.settings.get("feanor", "userName");
-  if ( game.user.name !== userName ) return;
-  const actor = game.user.character;
-  if ( !actor?.flags.world ) return;
-  const flags = Object.values(actor.flags.world).filter(f => "events" in f);
-  for ( const f of flags ) {
-    for (let i = 0; i < f.events.length; i++) {
-      const fn = getProperty(feanor, `${f.events[i].fn}`);
-      const hook = f.events[i].hook;
-      const trigger = f.events[i].once ? "once" : "on";
-      Hooks[trigger](hook, fn);
+  const activeHooks = feanor.utils.getClientSettings("feanor.macroData")?.activeHooks;
+  if ( game.user.name !== consts.userName || !activeHooks ) return;
+  for ( const feature in activeHooks ) {
+    const hooks = Object.entries(activeHooks[feature]);
+    for ( const hook of hooks ) {
+      const event = hook[0];
+      const fn = foundry.utils.getProperty(globalThis, hook[1].fn);
+      const trigger = hook[1].once ? "once" : "on";
+      if ( !fn ) continue;
+      Hooks[trigger](event, fn);
     }
   }
 });
