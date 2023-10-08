@@ -1,6 +1,6 @@
 /* eslint-disable jsdoc/require-jsdoc, jsdoc/require-param, quote-props */
 
-/* Hypnotic Pattern
+/* Hypnotic Pattern | 3rd-Level Illusion | PHB pg. 252
 new Sequence({moduleName: "Fëanor", softFail: true})
   .effect()
     .file("upload-player/feanor/hypnotic-pattern.webp")
@@ -14,24 +14,21 @@ new Sequence({moduleName: "Fëanor", softFail: true})
   .play({remote: true});
  */
 
-/* Web Spell
+/* Web | 2nd-Level Conjuration | PHB pg. 287
 actor.rollAbilityTest("str", {targetValue: 18})
  */
 
 // import {db as database} from "./database.js";
-// const main = async () => { // Use with Midi OnUseMacro + world macro or with Core macro.execute()
-function main({actor, token, item, args}) { // Use with Midi OnUseMacro + global function
+const main = async () => { // Use with Midi OnUseMacro + world macro or with Core macro.execute()
+// function main({actor, token, item, args}) { // Use with Midi OnUseMacro + global function
 
   // Created inside main's scope in order to take advantage of the closure
-  function createDialog() {
-  }
-
-}
+  function createDialog() {}
+};
 
 // Create outside main's scope in order to be exported
-function dismissDraconicSpirit() {
-}
+function dismissDraconicSpirit() {}
 
 // export const summonDraconicSpirit = {main, dismissDraconicSpirit};
-// main();
+main();
 // return main();

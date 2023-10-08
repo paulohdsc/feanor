@@ -7,12 +7,12 @@ export const db = {};
 
 db.ashardalons_stride = {
   sounds: {
-    chant: "modules/feanor/sounds/school-chants/transmutation.wav",
+    chant: "modules/feanor/audios/school-chants/transmutation.wav",
     on_cast_$: {
       acid: "",
-      cold: "modules/feanor/sounds/inflict-cold.wav",
-      fire: "modules/feanor/sounds/inflict-fire.wav",
-      lightning: "modules/feanor/sounds/inflict-lightning.wav",
+      cold: "modules/feanor/audios/inflict-cold.wav",
+      fire: "modules/feanor/audios/inflict-fire.wav",
+      lightning: "modules/feanor/audios/inflict-lightning.wav",
       poison: "",
       thunder: "modules/soundfxlibrary/Nature/Single/Thunder/thunder-7.mp3"
     }
@@ -22,6 +22,8 @@ db.ashardalons_stride = {
     on_cast_$: {
       acid: "",
       // cold: "modules/JB2A_DnD5e/Library/Generic/Ice/SnowflakeBurst_01_Regular_BlueWhite_Loop_600x600.webm",
+      // cold: "jb2a.template_line.ice.01.blue",
+      // cold: "modules/jb2a_patreon/Library/Generic/Cast/CastIce01_01_Regular_Blue_400x400.webm" // Patreon only
       cold: "jb2a.impact.frost.white.01",
       fire: "jb2a.eruption.orange.01",
       lightning: "jb2a.impact.011.blue",
@@ -77,7 +79,7 @@ db.ashardalons_stride = {
 
 db.boots_of_speed = {
   sounds: {
-    transmute: "modules/feanor/sounds/transmute.wav"
+    transmute: "modules/feanor/audios/transmute.wav"
   },
   effects: {
     transmute: "jb2a.energy_strands.complete.blue.01"
@@ -86,7 +88,7 @@ db.boots_of_speed = {
 
 db.disintegrate = {
   sounds: {
-    projectile: "modules/feanor/sounds/disintegrate.ogg"
+    projectile: "modules/feanor/audios/disintegrate.ogg"
   },
   effects: {
     projectile: "jb2a.disintegrate.green",
@@ -97,8 +99,8 @@ db.disintegrate = {
 
 db.summon_draconic_spirit = {
   sounds: {
-    chant: "modules/feanor/sounds/school-chants/conjuration.wav",
-    summon: "modules/feanor/sounds/conjure.wav",
+    chant: "modules/feanor/audios/school-chants/conjuration.wav",
+    summon: "modules/feanor/audios/conjure.wav",
     dismiss: "modules/dnd5e-animations/assets/sounds/Spells/Disappear/spell-teleport-long-1.mp3"
   },
   effects: {

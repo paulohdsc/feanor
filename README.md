@@ -1,4 +1,4 @@
-# Fëanor Dragorion - D&D 5e Character Automation
+# Fëanor Dragorion Automation
 A Foundry Virtual Tabletop module created to provide automation for some features of the character Fëanor Dragorion, a D&D 5e draconic bloodline sorcerer currently at level 14.
 
 ## Instructions
@@ -11,15 +11,13 @@ Use Midi QoL to call the respective methods on item use. See function comments f
 ## Required Modules
 - DAE
 - Effect Macro
+- JB2A
 - Midi QoL
 - Sequencer
 - Token Magic FX
 - Warp Gate
 
 ## Recommended Modules
-- Automated Animations
-- Build-a-Bonus
-- JB2A
-- Simple Calendar
+- D&D5e Animations
 - SoundFx Library
 - Times Up

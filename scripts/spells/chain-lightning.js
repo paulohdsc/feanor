@@ -1,5 +1,5 @@
 /**
- * Chain Lightning | 6th-level evocation | PHB pg. 221
+ * Chain Lightning | 6th-Level Evocation | PHB pg. 221
  * Modules: Item Macro, JB2A, Midi Qol ("preambleComplete"), Sequencer
  * Usage: await feanor.spells.chainLightning(args)
  * @param {object} args     Workflow data provided by Midi QoL

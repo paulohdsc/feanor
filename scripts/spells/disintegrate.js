@@ -1,12 +1,12 @@
+/* eslint-disable jsdoc/require-param */
+
 /**
- * Disintegrate | 6th-level transmutation | PHB pg. 233
+ * Disintegrate | 6th-Level Transmutation | PHB pg. 233
  * Modules: JB2A, Midi QoL ("postActiveEffects"), Sequencer
  * Usage: function.feanor.spells.disintegrate
- * @param {object} [midiHelpers]        Helper variables provided by Midi QoL
- * @param {Token} [midiHelpers.token]   The actor's token on the scene
  */
 export async function disintegrate({token}) {
-  const {disintegrate} = feanor.database;
+  const disintegrate = feanor.utils.filterDatabase(feanor.database.disintegrate);
   await feanor.utils.preload(disintegrate);
   const sequence = new Sequence({moduleName: "Fëanor", softFail: true}).sound(disintegrate.sounds.projectile);
   for ( const target of this.targets ) {

@@ -2,7 +2,7 @@
 /* eslint-disable jsdoc/require-param */
 
 /**
- * Ashardalon's Stride | 3rd-level transmutation | FTD pg. 19
+ * Ashardalon's Stride | 3rd-Level Transmutation | FTD pg. 19
  * Modules: DAE, Effect Macro, JB2A, Midi QoL, Sequencer, SoundFx Library, Times Up
  * Usage: For the 'trail sequence' to play, the character must be selected under User Configuration
  */

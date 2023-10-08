@@ -38,9 +38,9 @@ Hooks.once("ready", () => {
     for ( const hook of hooks ) {
       const event = hook[0];
       const fn = foundry.utils.getProperty(globalThis, hook[1].fn);
-      const trigger = hook[1].once ? "once" : "on";
+      const option = hook[1].once ? "once" : "on";
       if ( !fn ) continue;
-      Hooks[trigger](event, fn);
+      Hooks[option](event, fn);
     }
   }
 });
