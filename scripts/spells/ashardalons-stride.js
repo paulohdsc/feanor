@@ -179,6 +179,7 @@ async function playTrailSequence(tokenDoc, change) {
   const bounds = new PIXI.Rectangle(destination.x, destination.y, source.w, source.h);
   const hitArea = bounds.pad(gridSize / 2);
   let damagedTargets = flag.damagedTargets;
+  // See canvas.tokens.targetObjects()
   const targets = canvas.tokens.placeables.filter(t =>
     t.bounds.intersects(hitArea)
     && t !== source

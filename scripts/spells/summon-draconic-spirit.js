@@ -4,6 +4,7 @@
  * Summon Draconic Spirit | 5th-Level Conjuration | FTD pg. 21
  * Modules: D&D5e Animations, JB2A, Midi QoL, Sequencer, Warp Gate
  * TODO: Dialog to choose Breath Weapon's damage type and A-A animation (check for JB2A Patreon activation)
+ *       Change 'isSelected' to 'selected'; change 'selected' to 'chosen' or 'choices'
  */
 async function main({actor: casterActor, token: casterToken, item: spell, args}) {
   const dsName = "Draconic Spirit";

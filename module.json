@@ -1,7 +1,7 @@
 {
   "id": "feanor",
   "title": "Fëanor Dragorion Automation",
-  "description": "Provides automation for features of the character Fëanor Dragorion, a D&D 5e Draconic Bloodline sorcerer currently at level 14.",
+  "description": "Provides automation for some features of the character Fëanor Dragorion, a D&D 5e Draconic Bloodline Sorcerer currently at level 14.",
   "authors": [
     {
       "name": "Paulo Henrique",
@@ -13,9 +13,7 @@
     "minimum": "11",
     "verified": "11"
   },
-  "esmodules": [
-    "scripts/main.js"
-  ],
+  "esmodules": ["scripts/main.js"],
   "packs": [
     {
       "type": "Actor",
@@ -23,8 +21,7 @@
       "label": "Fëanor Actors",
       "path": "packs/actors.db",
       "system": "dnd5e",
-      "private": false,
-      "banner": "modules/feanor/images/actors/feanor-thumb.webp"
+      "banner": "modules/feanor/images/actors/feanor-thumb-2.webp"
     },
     {
       "type": "Item",
@@ -32,8 +29,7 @@
       "label": "Fëanor Items",
       "path": "packs/items.db",
       "system": "dnd5e",
-      "private": false,
-      "banner": "modules/feanor/images/actors/feanor-thumb.webp"
+      "banner": "modules/feanor/images/actors/feanor-thumb-2.webp"
     }
   ],
   "packFolders": [
@@ -61,11 +57,42 @@
         "type": "module"
       },
       {
+        "id": "effectmacro",
+        "type": "module"
+      },
+      {
         "id": "midi-qol",
+        "type": "module"
+      },
+      {
+        "id": "sequencer",
+        "type": "module"
+      },
+      {
+        "id": "tokenmagic",
+        "type": "module"
+      },
+      {
+        "id": "warpgate",
         "type": "module"
       }
     ],
     "recommends": [
+      {
+        "id": "dnd5e-animations",
+        "type": "module",
+        "reason": "Provides sound assets used to play audio effects."
+      },
+      {
+        "id": "JB2A_DnD5e",
+        "type": "module",
+        "reason": "Provides animated assets used to play visual effects."
+      },
+      {
+        "id": "soundfxlibrary",
+        "type": "module",
+        "reason": "Provides sound assets used to play audio effects."
+      },
       {
         "id": "times-up",
         "type": "module",
@@ -76,8 +103,8 @@
   "media": [
     {
       "type": "setup",
-      "caption": "Fëanor Dragorion thumbnail",
-      "thumbnail": "modules/feanor/images/actors/feanor-thumb.webp"
+      "caption": "Fëanor Dragorion",
+      "thumbnail": "modules/feanor/images/actors/feanor-thumb-1.webp"
     }
   ],
   "license": "https://github.com/paulohdsc/feanor/blob/main/LICENSE",

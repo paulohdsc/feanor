@@ -11,7 +11,6 @@ Use Midi QoL to call the respective methods on item use. See function comments f
 ## Required Modules
 - DAE
 - Effect Macro
-- JB2A
 - Midi QoL
 - Sequencer
 - Token Magic FX
@@ -19,5 +18,6 @@ Use Midi QoL to call the respective methods on item use. See function comments f
 
 ## Recommended Modules
 - D&D5e Animations
+- JB2A
 - SoundFx Library
 - Times Up
