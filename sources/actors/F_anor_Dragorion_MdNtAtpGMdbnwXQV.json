@@ -1,7 +1,7 @@
 {
   "name": "Fëanor Dragorion",
   "type": "character",
-  "_id": "BLbTDy2RI96ybiMB",
+  "_id": "MdNtAtpGMdbnwXQV",
   "img": "modules/feanor/images/actors/feanor-avatar.webp",
   "system": {
     "abilities": {
@@ -67,7 +67,7 @@
         "formula": ""
       },
       "hp": {
-        "value": 98,
+        "value": 113,
         "max": null,
         "temp": null,
         "tempmax": null,
@@ -110,7 +110,7 @@
     },
     "details": {
       "biography": {
-        "value": "<h2>Anotações</h2><p><strong>Waterdeep</strong>: adiantamento de 10.000 PO para a compra de um Bloodwell Vial +2</p><h2>História do Personagem</h2><p>Comparados aos demais filhos de Corellon, os Elfos do Sol são incomuns em Faerûn, sendo conhecidos em todo o continente como os mais civilizados e arrogantes dentre os elfos. Os também chamados Elfos Dourados (ou Ar’Tel’Quesir) clamam para si o título de “Altos Elfos”, e preferem se manter afastados da humanidade e das demais raças inumanas. Por óbvio, foi com mistura de surpresa e decepção que Arador Númanar — nobre e orgulhoso membro dos Anciões da Colina de Evereska — recebeu a notícia de que sua idolatrada filha Míriel dera à luz um meio-elfo, fruto de seu romance com o humano Dragor, capitão dos Cavaleiros do Dragão Púrpura de Cormyr.</p><p>Em razão do desaparecimento de Míriel e Dragor, que lutavam lado a lado contra a investida de Netheril na Terra dos Vales, Fëanor Dragorion foi levado ainda pequeno por seu avô para a oculta cidade élfica das Colinas do Manto Cinzento, após seus pais terem sido dados como mortos. Em Evereska, criado em meio à nobreza, Fëanor teve de aprender a se adaptar ao menosprezo dos Altos Elfos, que, embora o tenham acolhido, jamais o viram como um semelhante. Mas é bem verdade que a atitude soberba dos Elfos do Sol muitas vezes ofusca outra característica que muitos deles compartilham: a compassividade. E tendo herdado essa qualidade de seus ancestrais, ao invés de despertar o sentimento de rancor, Fëanor transformou a adversidade em um profundo desejo de mostrar seu valor aos seus irmãos de sangue e provar de uma vez por todas quão tola é sua arrogância.</p><p>Compreendendo o sentimento de não pertencer ao seu mundo, Fëanor desenvolveu grande empatia por aqueles que não compartilham de sua origem nobre. Enxergando na nobreza não uma dádiva, mas uma responsabilidade, jurou proteger e cuidar daqueles que se encontram subordinados. Tais características, aliadas à força de sua personalidade, fazem com que Fëanor frequentemente desperte amor e admiração por parte das pessoas comuns. Mas apesar de sua atitude generosa, nada que faça é capaz de apagar a mácula que causou na linhagem pura dos Elfos Dourados. Somada a isso, sua insistência em se relacionar com os incivilizados e plebeus constantemente causa vergonha à sua família.</p><p>Mas a história muda de curso com a notícia da segunda queda de Myth Drannor — a lendária cidade élfica da floresta de Cormanthor —, destruída no cataclisma causado pela colisão da capital voadora de Netheril. Tal tragédia levou alguns dos poucos Eladrin sobreviventes a se exilarem em Evereska, com os quais Fëanor pôde obter novas informações sobre o conflito que vitimou seus genitores. Determinado a extirpar de uma vez por todas a ameaça netherese e nutrido pelo desejo de compreender o misterioso desaparecimento dos pais, Fëanor decide se lançar em aventura, usando como ferramenta seu talento nato para as artes arcanas. Tendo aprendido que conhecimento é poder, seu primeiro alvo é A Grande Livraria de Forte da Vela, onde almeja obter mais informações sobre o inimigo. Enquanto ruma para a Costa da Espada, Fëanor sente em seu íntimo que é chegada a hora de encarar seu destino e finalmente ganhar a aprovação de sua família.</p><h2>Aliados e Organizações</h2><p>Membro da Casa Númanar, uma tradicional família nobre da cidade de Evereska, localizada nas Colinas do Manto Cinzento.</p><p>Neto de Arador Númanar, Elfo do Sol integrante dos Anciões da Colina.</p><p>Os Anciões da Colina são um conselho formado pelos mais sábios eladrin de Evereska, incluindo guerreiros ferozes, magos do alto escalão e nobres nascidos de famílias que já eram antigas quando os humanos ainda brandiam ossos como armas.</p><ul><li style=\"text-align:left\"><span style=\"font-style:normal;text-align:center\">Lema da Casa: </span><em style=\"text-align:center\"><strong>Aurë entuluva </strong></em><span style=\"font-style:normal;text-align:center\">(A luz do Sol retornará)</span></li><li style=\"text-align:left\">Saudação: <em><strong>Nai anar kaluva tielyanna</strong></em> (Que o Sol brilhe sobre seu caminho)</li><li>Mote: \"Eu sou um filho das Colinas do Manto Cinzento, e suas brumas se impregnam pela minha alma tão certo quanto o sangue élfico corre por minhas veias.\"</li></ul>",
+        "value": "<h2>História do Personagem</h2><p>Comparados aos demais filhos de Corellon, os Elfos do Sol são incomuns em Faerûn, sendo conhecidos em todo o continente como os mais civilizados e arrogantes dentre os elfos. Os também chamados Elfos Dourados (ou Ar’Tel’Quesir) clamam para si o título de “Altos Elfos”, e preferem se manter afastados da humanidade e das demais raças inumanas. Por óbvio, foi com mistura de surpresa e decepção que Arador Númanar — nobre e orgulhoso membro dos Anciões da Colina de Evereska — recebeu a notícia de que sua idolatrada filha Míriel dera à luz um meio-elfo, fruto de seu romance com o humano Dragor, capitão dos Cavaleiros do Dragão Púrpura de Cormyr.</p><p>Em razão do desaparecimento de Míriel e Dragor, que lutavam lado a lado contra a investida de Netheril na Terra dos Vales, Fëanor Dragorion foi levado ainda pequeno por seu avô para a oculta cidade élfica das Colinas do Manto Cinzento, após seus pais terem sido dados como mortos. Em Evereska, criado em meio à nobreza, Fëanor teve de aprender a se adaptar ao menosprezo dos Altos Elfos, que, embora o tenham acolhido, jamais o viram como um semelhante. Mas é bem verdade que a atitude soberba dos Elfos do Sol muitas vezes ofusca outra característica que muitos deles compartilham: a compassividade. E tendo herdado essa qualidade de seus ancestrais, ao invés de despertar o sentimento de rancor, Fëanor transformou a adversidade em um profundo desejo de mostrar seu valor aos seus irmãos de sangue e provar de uma vez por todas quão tola é sua arrogância.</p><p>Compreendendo o sentimento de não pertencer ao seu mundo, Fëanor desenvolveu grande empatia por aqueles que não compartilham de sua origem nobre. Enxergando na nobreza não uma dádiva, mas uma responsabilidade, jurou proteger e cuidar daqueles que se encontram subordinados. Tais características, aliadas à força de sua personalidade, fazem com que Fëanor frequentemente desperte amor e admiração por parte das pessoas comuns. Mas apesar de sua atitude generosa, nada que faça é capaz de apagar a mácula que causou na linhagem pura dos Elfos Dourados. Somada a isso, sua insistência em se relacionar com os incivilizados e plebeus constantemente causa vergonha à sua família.</p><p>Mas a história muda de curso com a notícia da segunda queda de Myth Drannor — a lendária cidade élfica da floresta de Cormanthor —, destruída no cataclisma causado pela colisão da capital voadora de Netheril. Tal tragédia levou alguns dos poucos Eladrin sobreviventes a se exilarem em Evereska, com os quais Fëanor pôde obter novas informações sobre o conflito que vitimou seus genitores. Determinado a extirpar de uma vez por todas a ameaça netherese e nutrido pelo desejo de compreender o misterioso desaparecimento dos pais, Fëanor decide se lançar em aventura, usando como ferramenta seu talento nato para as artes arcanas. Tendo aprendido que conhecimento é poder, seu primeiro alvo é A Grande Livraria de Forte da Vela, onde almeja obter mais informações sobre o inimigo. Enquanto ruma para a Costa da Espada, Fëanor sente em seu íntimo que é chegada a hora de encarar seu destino e finalmente ganhar a aprovação de sua família.</p><h2>Aliados e Organizações</h2><p>Membro da Casa Númanar, uma tradicional família nobre da cidade de Evereska, localizada nas Colinas do Manto Cinzento.</p><p>Neto de Arador Númanar, Elfo do Sol integrante dos Anciões da Colina.</p><p>Os Anciões da Colina são um conselho formado pelos mais sábios eladrin de Evereska, incluindo guerreiros ferozes, magos do alto escalão e nobres nascidos de famílias que já eram antigas quando os humanos ainda brandiam ossos como armas.</p><ul><li style=\"text-align:left\"><span style=\"font-style:normal;text-align:center\">Lema da Casa: </span><em style=\"text-align:center\"><strong>Aurë entuluva </strong></em><span style=\"font-style:normal;text-align:center\">(A luz do Sol retornará)</span></li><li style=\"text-align:left\">Saudação: <em><strong>Nai anar kaluva tielyanna</strong></em> (Que o Sol brilhe sobre seu caminho)</li><li>Mote: \"Eu sou um filho das Colinas do Manto Cinzento, e suas brumas se impregnam pela minha alma tão certo quanto o sangue élfico corre por minhas veias.\"</li></ul>",
         "public": ""
       },
       "alignment": "Chaotic good",
@@ -118,7 +118,7 @@
       "background": "",
       "originalClass": "5FeJwtOtARstNAH4",
       "xp": {
-        "value": 161774
+        "value": 164424
       },
       "appearance": "Idade: 33 anos;\nAltura: 1,8 m;\nPeso: 80 kg;\nOlhos: dourados;\nPele: bronze;\nCabelos: negros.",
       "trait": "As pessoas comuns me amam por minha bondade e generosidade.\n\nApesar da minha origem nobre, eu não estou acima dos outros. O sangue é um só.",
@@ -177,7 +177,7 @@
       }
     },
     "currency": {
-      "pp": 0,
+      "pp": 160,
       "gp": 4,
       "ep": 0,
       "sp": 2,
@@ -340,7 +340,7 @@
     },
     "spells": {
       "spell1": {
-        "value": 2,
+        "value": 4,
         "override": null
       },
       "spell2": {
@@ -348,23 +348,23 @@
         "override": null
       },
       "spell3": {
-        "value": 0,
+        "value": 1,
         "override": null
       },
       "spell4": {
-        "value": 1,
+        "value": 3,
         "override": null
       },
       "spell5": {
-        "value": 1,
+        "value": 2,
         "override": null
       },
       "spell6": {
-        "value": 0,
+        "value": 1,
         "override": null
       },
       "spell7": {
-        "value": 0,
+        "value": 1,
         "override": null
       },
       "spell8": {
@@ -523,7 +523,7 @@
         "identifier": "sorcerer",
         "levels": 14,
         "hitDice": "d6",
-        "hitDiceUsed": 8,
+        "hitDiceUsed": 4,
         "advancement": [
           {
             "_id": "uuxthec7dohzb4wn",
@@ -681,12 +681,12 @@
       "_stats": {
         "systemId": "dnd5e",
         "systemVersion": "2.3.1",
-        "coreVersion": "10.303",
+        "coreVersion": "11.313",
         "createdTime": 1661787234275,
-        "modifiedTime": 1693100737361,
-        "lastModifiedBy": "1VOK90B3fElXpLfM"
+        "modifiedTime": 1698443350749,
+        "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.5FeJwtOtARstNAH4"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.5FeJwtOtARstNAH4"
     },
     {
       "_id": "tf1j34O1eXgSfthe",
@@ -782,7 +782,7 @@
         "modifiedTime": 1679440381727,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.tf1j34O1eXgSfthe"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.tf1j34O1eXgSfthe"
     },
     {
       "name": "Draconic Bloodline",
@@ -919,7 +919,7 @@
         "modifiedTime": 1692149967559,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.pSMpzK3lCcqfjlQX"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.pSMpzK3lCcqfjlQX"
     },
     {
       "_id": "bsqM2s1xxxHNHOGa",
@@ -1008,7 +1008,7 @@
         {
           "name": "2x PB in Cha checks with dragons",
           "icon": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.bsqM2s1xxxHNHOGa",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.bsqM2s1xxxHNHOGa",
           "duration": {
             "rounds": null,
             "startTime": null,
@@ -1039,7 +1039,7 @@
           "flags": {},
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.bsqM2s1xxxHNHOGa.Uet4cvXzmbnGNyY4"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.bsqM2s1xxxHNHOGa.Uet4cvXzmbnGNyY4"
         }
       ],
       "folder": null,
@@ -1052,7 +1052,7 @@
         "modifiedTime": 1693099720798,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.bsqM2s1xxxHNHOGa"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.bsqM2s1xxxHNHOGa"
     },
     {
       "_id": "jVcmVF1tsGL06ZHa",
@@ -1148,7 +1148,7 @@
         "modifiedTime": 1679438108133,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.jVcmVF1tsGL06ZHa"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.jVcmVF1tsGL06ZHa"
     },
     {
       "_id": "xCGjyof2fmVQY1Bw",
@@ -1244,7 +1244,7 @@
         "modifiedTime": 1679440101960,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.xCGjyof2fmVQY1Bw"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.xCGjyof2fmVQY1Bw"
     },
     {
       "_id": "entrJ0PwJEDWbU7n",
@@ -1333,7 +1333,7 @@
         {
           "name": "Resistance to fire damage",
           "icon": "icons/equipment/shield/heater-stone-orange.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.entrJ0PwJEDWbU7n",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.entrJ0PwJEDWbU7n",
           "duration": {
             "rounds": null,
             "startTime": null,
@@ -1362,12 +1362,12 @@
           },
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.entrJ0PwJEDWbU7n.zJ6auApbNb7yXDWJ"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.entrJ0PwJEDWbU7n.zJ6auApbNb7yXDWJ"
         },
         {
           "name": "Bonus to fire damage",
           "icon": "icons/magic/fire/flame-burning-fist-strike.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.entrJ0PwJEDWbU7n",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.entrJ0PwJEDWbU7n",
           "duration": {
             "rounds": null,
             "startTime": null,
@@ -1402,13 +1402,13 @@
           "tint": null,
           "transfer": true,
           "flags": {
-            "core": {
-              "statusId": "Elemental Affinity: Fire damage bonus"
+            "dae": {
+              "showIcon": true
             }
           },
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.entrJ0PwJEDWbU7n.y8Xr0YiKgeuE6NoS"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.entrJ0PwJEDWbU7n.y8Xr0YiKgeuE6NoS"
         }
       ],
       "folder": null,
@@ -1421,7 +1421,7 @@
         "modifiedTime": 1679439922918,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.entrJ0PwJEDWbU7n"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.entrJ0PwJEDWbU7n"
     },
     {
       "_id": "KOIFmonDLiC6e4V0",
@@ -1549,7 +1549,7 @@
         "modifiedTime": 1691884888612,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.KOIFmonDLiC6e4V0"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.KOIFmonDLiC6e4V0"
     },
     {
       "_id": "niGD1JsBwRvtyxnG",
@@ -1596,7 +1596,7 @@
           "units": ""
         },
         "uses": {
-          "value": 46,
+          "value": 91,
           "max": "100",
           "per": "lr",
           "recovery": ""
@@ -1648,12 +1648,12 @@
         {
           "name": "2x walking speed",
           "icon": "icons/equipment/feet/boots-leather-red.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.niGD1JsBwRvtyxnG",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.niGD1JsBwRvtyxnG",
           "duration": {
             "seconds": null,
             "startTime": null,
             "combat": null,
-            "rounds": null,
+            "rounds": 91,
             "turns": null,
             "startRound": null,
             "startTurn": null
@@ -1672,10 +1672,17 @@
           "transfer": false,
           "flags": {
             "dae": {
+              "stackable": "none",
               "specialDuration": [
-                "combatEnd"
+                "None"
               ],
-              "stackable": "none"
+              "disableIncapacitated": false,
+              "selfTarget": false,
+              "selfTargetAlways": false,
+              "dontApply": true,
+              "showIcon": false,
+              "durationExpression": "",
+              "macroRepeat": "none"
             },
             "effectmacro": {
               "onTurnStart": {
@@ -1686,17 +1693,20 @@
               },
               "onDelete": {
                 "script": "feanor.items.bootsOfSpeed({token, trigger: \"onDelete\"});"
+              },
+              "onCombatEnd": {
+                "script": "feanor.items.bootsOfSpeed({trigger: \"onCombatEnd\", actor, item: origin, token});"
               }
             }
           },
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.niGD1JsBwRvtyxnG.SZ6RKb8L5cz7Pr46"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.niGD1JsBwRvtyxnG.SZ6RKb8L5cz7Pr46"
         },
         {
           "name": "Grants disadvantage on OAs",
           "icon": "icons/equipment/feet/boots-leather-red.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.niGD1JsBwRvtyxnG",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.niGD1JsBwRvtyxnG",
           "duration": {
             "seconds": null,
             "startTime": null,
@@ -1720,15 +1730,21 @@
           "transfer": false,
           "flags": {
             "dae": {
+              "stackable": "none",
               "specialDuration": [
-                "combatEnd"
+                "None"
               ],
-              "stackable": "none"
+              "disableIncapacitated": false,
+              "selfTarget": false,
+              "selfTargetAlways": false,
+              "dontApply": true,
+              "showIcon": false,
+              "durationExpression": ""
             }
           },
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.niGD1JsBwRvtyxnG.Ujmy8bwB5AXtQYPl"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.niGD1JsBwRvtyxnG.Ujmy8bwB5AXtQYPl"
         }
       ],
       "folder": null,
@@ -1747,18 +1763,35 @@
                 "option": "preItemRoll"
               }
             }
-          }
+          },
+          "effectActivation": false
+        },
+        "midiProperties": {
+          "nodam": false,
+          "fulldam": false,
+          "halfdam": false,
+          "autoFailFriendly": false,
+          "autoSaveFriendly": false,
+          "rollOther": false,
+          "critOther": false,
+          "offHandWeapon": false,
+          "magicdam": false,
+          "magiceffect": false,
+          "concentration": false,
+          "noConcentrationCheck": false,
+          "toggleEffect": false,
+          "ignoreTotalCover": false
         }
       },
       "_stats": {
         "systemId": "dnd5e",
         "systemVersion": "2.3.1",
-        "coreVersion": "10.303",
+        "coreVersion": "11.313",
         "createdTime": 1661787233624,
-        "modifiedTime": 1694908889023,
-        "lastModifiedBy": "1VOK90B3fElXpLfM"
+        "modifiedTime": 1699045912996,
+        "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.niGD1JsBwRvtyxnG"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.niGD1JsBwRvtyxnG"
     },
     {
       "_id": "50ML47cctdUWHPiZ",
@@ -1869,7 +1902,7 @@
         "modifiedTime": 1692233970558,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.50ML47cctdUWHPiZ"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.50ML47cctdUWHPiZ"
     },
     {
       "_id": "6WhE0q8aSEJ5uahZ",
@@ -1952,7 +1985,7 @@
         {
           "name": "Advantage on saves against poison",
           "icon": "icons/consumables/potions/bottle-round-corked-pink.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.6WhE0q8aSEJ5uahZ",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.6WhE0q8aSEJ5uahZ",
           "duration": {
             "seconds": 3600,
             "startTime": null,
@@ -1977,7 +2010,7 @@
           "flags": {},
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.6WhE0q8aSEJ5uahZ.YdkWP1KRLlb3p6QZ"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.6WhE0q8aSEJ5uahZ.YdkWP1KRLlb3p6QZ"
         }
       ],
       "folder": null,
@@ -2200,7 +2233,7 @@
         "modifiedTime": 1693094153903,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.6WhE0q8aSEJ5uahZ"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.6WhE0q8aSEJ5uahZ"
     },
     {
       "_id": "aAkQCwV5jrfDmpPO",
@@ -2492,7 +2525,7 @@
         "modifiedTime": 1694908935945,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.aAkQCwV5jrfDmpPO"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.aAkQCwV5jrfDmpPO"
     },
     {
       "_id": "m86IrPmCJrrRt5sK",
@@ -2575,7 +2608,7 @@
         {
           "name": "Invisible",
           "icon": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.m86IrPmCJrrRt5sK",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.m86IrPmCJrrRt5sK",
           "duration": {
             "seconds": 3600,
             "startTime": null,
@@ -2616,7 +2649,7 @@
           },
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.m86IrPmCJrrRt5sK.tAoEDS1yjL8maT22"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.m86IrPmCJrrRt5sK.tAoEDS1yjL8maT22"
         }
       ],
       "folder": null,
@@ -2826,7 +2859,7 @@
         "modifiedTime": 1693443553098,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.m86IrPmCJrrRt5sK"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.m86IrPmCJrrRt5sK"
     },
     {
       "_id": "dYQjJf94NYjeOmuN",
@@ -3126,7 +3159,7 @@
         "modifiedTime": 1692388977749,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.dYQjJf94NYjeOmuN"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.dYQjJf94NYjeOmuN"
     },
     {
       "_id": "DxHoIGUWDwPs6hOY",
@@ -3173,7 +3206,7 @@
         "modifiedTime": 1692237143164,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.DxHoIGUWDwPs6hOY"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.DxHoIGUWDwPs6hOY"
     },
     {
       "_id": "327FfW9dXbvPZKc7",
@@ -3226,7 +3259,7 @@
         "modifiedTime": 1679853016871,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.327FfW9dXbvPZKc7"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.327FfW9dXbvPZKc7"
     },
     {
       "_id": "FrbwMeRz1zCgUrLy",
@@ -3279,7 +3312,7 @@
         "modifiedTime": 1679853020901,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.FrbwMeRz1zCgUrLy"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.FrbwMeRz1zCgUrLy"
     },
     {
       "_id": "clYT0mutA3HX2LZq",
@@ -3320,7 +3353,7 @@
         "modifiedTime": 1692237267911,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.clYT0mutA3HX2LZq"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.clYT0mutA3HX2LZq"
     },
     {
       "_id": "3O6n1KnbNm5oGcZr",
@@ -3361,7 +3394,7 @@
         "modifiedTime": 1679272922400,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.3O6n1KnbNm5oGcZr"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.3O6n1KnbNm5oGcZr"
     },
     {
       "_id": "mdRkyPcchD2hXzqf",
@@ -3414,7 +3447,7 @@
         "modifiedTime": 1692380474485,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.mdRkyPcchD2hXzqf"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.mdRkyPcchD2hXzqf"
     },
     {
       "name": "Spell Scroll 1: Disguise Self",
@@ -3714,7 +3747,7 @@
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
       "_id": "m9HSHte5JNHkpGdS",
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.m9HSHte5JNHkpGdS"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.m9HSHte5JNHkpGdS"
     },
     {
       "name": "Spell Scroll 1: Feather Fall",
@@ -4014,7 +4047,7 @@
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
       "_id": "8kM0M5BHumN2nXt3",
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.8kM0M5BHumN2nXt3"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.8kM0M5BHumN2nXt3"
     },
     {
       "name": "Spell Scroll 1: Fog Cloud",
@@ -4314,7 +4347,7 @@
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
       "_id": "0oUrmie8z3HSFopt",
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.0oUrmie8z3HSFopt"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.0oUrmie8z3HSFopt"
     },
     {
       "name": "Spell Scroll 2: Alter Self",
@@ -4614,7 +4647,7 @@
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
       "_id": "0MW29i1GFQi0aKTb",
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.0MW29i1GFQi0aKTb"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.0MW29i1GFQi0aKTb"
     },
     {
       "name": "Spell Scroll 2: Enhance Ability",
@@ -4914,7 +4947,7 @@
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
       "_id": "uh2JoAHfNohmMs9f",
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.uh2JoAHfNohmMs9f"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.uh2JoAHfNohmMs9f"
     },
     {
       "name": "Spell Scroll 2: Invisibility",
@@ -5214,7 +5247,7 @@
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
       "_id": "9TRlgnDsGcvhyvhI",
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.9TRlgnDsGcvhyvhI"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.9TRlgnDsGcvhyvhI"
     },
     {
       "name": "Spell Scroll 2: Knock",
@@ -5514,7 +5547,7 @@
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
       "_id": "dgfvh5mKvcXLZhtk",
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.dgfvh5mKvcXLZhtk"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.dgfvh5mKvcXLZhtk"
     },
     {
       "name": "Spell Scroll 2: Mirror Image",
@@ -5814,7 +5847,7 @@
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
       "_id": "cw7coQC1pU49vdTe",
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.cw7coQC1pU49vdTe"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.cw7coQC1pU49vdTe"
     },
     {
       "name": "Spell Scroll 2: See Invisibility",
@@ -6114,7 +6147,7 @@
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
       "_id": "v33cj0mY0B4MgkWY",
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.v33cj0mY0B4MgkWY"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.v33cj0mY0B4MgkWY"
     },
     {
       "name": "Spell Scroll 3: Ashardalon's Stride",
@@ -6414,7 +6447,7 @@
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
       "_id": "vULchHXUjF6vnELv",
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.vULchHXUjF6vnELv"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.vULchHXUjF6vnELv"
     },
     {
       "name": "Spell Scroll 3: Blink",
@@ -6427,7 +6460,7 @@
           "unidentified": ""
         },
         "source": "DMG pg. 200",
-        "quantity": 1,
+        "quantity": 2,
         "weight": 0,
         "price": {
           "value": 200,
@@ -6708,13 +6741,13 @@
       "_stats": {
         "systemId": "dnd5e",
         "systemVersion": "2.3.1",
-        "coreVersion": "10.303",
+        "coreVersion": "11.313",
         "createdTime": 1661787233817,
-        "modifiedTime": 1694909026213,
-        "lastModifiedBy": "1VOK90B3fElXpLfM"
+        "modifiedTime": 1699048127046,
+        "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "Zm8QDerxD08lH9wb",
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.Zm8QDerxD08lH9wb"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.Zm8QDerxD08lH9wb"
     },
     {
       "name": "Spell Scroll 3: Clairvoyance",
@@ -7014,7 +7047,7 @@
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
       "_id": "Om7iqexHtSVcRMqy",
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.Om7iqexHtSVcRMqy"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.Om7iqexHtSVcRMqy"
     },
     {
       "_id": "x89ETt0uP8bUc14x",
@@ -7105,7 +7138,7 @@
         "modifiedTime": 1679440020370,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.x89ETt0uP8bUc14x"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.x89ETt0uP8bUc14x"
     },
     {
       "_id": "19BvM9ZtCWvZ0nXM",
@@ -7208,7 +7241,7 @@
         "modifiedTime": 1693705813856,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.19BvM9ZtCWvZ0nXM"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.19BvM9ZtCWvZ0nXM"
     },
     {
       "_id": "Ap7BnkXQSYOkw7G7",
@@ -7292,7 +7325,7 @@
         {
           "name": "Advantage on saves against charm",
           "icon": "icons/magic/nature/leaf-glow-maple-orange.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.Ap7BnkXQSYOkw7G7",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.Ap7BnkXQSYOkw7G7",
           "duration": {
             "startTime": null,
             "seconds": null,
@@ -7317,12 +7350,12 @@
           "flags": {},
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.Ap7BnkXQSYOkw7G7.efhLsPQh2Vbzh91m"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.Ap7BnkXQSYOkw7G7.efhLsPQh2Vbzh91m"
         },
         {
           "name": "Immunity to magical sleep",
           "icon": "icons/magic/nature/leaf-glow-maple-orange.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.Ap7BnkXQSYOkw7G7",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.Ap7BnkXQSYOkw7G7",
           "duration": {
             "startTime": null,
             "seconds": null,
@@ -7340,7 +7373,7 @@
           "flags": {},
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.Ap7BnkXQSYOkw7G7.hmhuPyO80Y1dcYzF"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.Ap7BnkXQSYOkw7G7.hmhuPyO80Y1dcYzF"
         }
       ],
       "folder": null,
@@ -7353,7 +7386,7 @@
         "modifiedTime": 1679852382646,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.Ap7BnkXQSYOkw7G7"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.Ap7BnkXQSYOkw7G7"
     },
     {
       "_id": "z5ebSAfJqFwaNlM8",
@@ -7458,7 +7491,7 @@
         "modifiedTime": 1692924938159,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.z5ebSAfJqFwaNlM8"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.z5ebSAfJqFwaNlM8"
     },
     {
       "_id": "tm8IwE16DKOEXG16",
@@ -7576,6 +7609,34 @@
               "lastModifiedBy": null
             }
           }
+        },
+        "core": {
+          "sourceId": "Actor.MdNtAtpGMdbnwXQV.Item.tm8IwE16DKOEXG16"
+        },
+        "dae": {
+          "macro": {
+            "name": "3: Blink",
+            "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+            "type": "script",
+            "scope": "global",
+            "command": "// return ui.notifications.warn(\"ItemMacro blocked until revision.\");\n\n/**\n * Blink automation macro for DnD5e\n * MIT License Copyright (c) 2022 Paulo Henrique (PH#2526)\n * Required modules: DAE, Item Macro, JB2A, Midi QoL, Sequencer, Token Magic Fx\n * Usage: Run as ItemMacro via Midi's On Use Macro on the item sheet\n * To do: Use Perfect Vision to restrict vision to 60 ft. and create a \"shades of gray\" effect\n *        Improve teleport to account for Large+ tokens\n */\nconst soundFile = \"modules/feanor/audios/misty-step.wav\";\nconst videoFiles = {\n\tvanish: \"jb2a.misty_step.01.blue\",\n\tappear: \"jb2a.misty_step.02.blue\",\n\trange: \"jb2a.extras.tmfx.border.circle.simple.01\"\n};\nawait Sequencer.Preloader.preloadForClients([soundFile, ...Object.values(videoFiles)]);\n\nif ( args[0] === \"each\" || args[0] === \"off\" ) {\n\t// const lastArg = args[args.length - 1];\n\tconst lastArg = lastArgValue;\n\tconst sourceActor = MidiQOL.MQfromActorUuid(lastArg.actorUuid);\n\tconst sourceToken = MidiQOL.MQfromUuid(lastArg.tokenUuid).object;\n\tconst effect = sourceActor.effects.get(lastArg.effectId);\n\n\tif ( args[0] === \"each\" && lastArg.efData.flags.dae.macroRepeat === \"endEveryTurn\" ) {\n\t\tconst itemData = lastArg.efData.flags.dae.itemData;\n\t\tconst roll = await new Roll(\"d20\").evaluate({async: true});\n\t\troll.toMessage({\n\t\t\tspeaker: ChatMessage.getSpeaker({actor: sourceActor}),\n\t\t\tflavor: `<div class=\"dnd5e chat-card\"><header class=\"card-header\" style=\"display:flex\">\n\t\t\t\t<img src=${itemData.img} width=\"36\" height=\"36\"><h3>${itemData.name} roll</h3>\n\t\t\t</header></div>`\n\t\t});\n\t\tif ( roll.total >= 11 ) {\n\t\t\tawait effect.setFlag(\"dae\", \"macroRepeat\", \"startEveryTurn\");\n\t\t\tvanish(sourceToken);\n\t\t\treturn;\n\t\t}\n\t}\n\n\tif ( lastArg.efData.flags.dae.macroRepeat === \"startEveryTurn\" ) {\n\t\tif ( effect ) await effect.setFlag(\"dae\", \"macroRepeat\", \"endEveryTurn\");\n\t\twhile ( sourceToken.document.alpha < 1 ) {\n\t\t\tui.notifications.info(\"Waiting for the vanish function to finish.\");\n\t\t\tawait Sequencer.Helpers.wait(3000);\n\t\t}\n\t\tchooseDestination(sourceToken);\n\t}\n}\n\nfunction vanish(token) {\n\tnew Sequence()\n\t\t.sound()\n\t\t\t.file(soundFile)\n\t\t.wait(2000)\n\t\t.effect()\n\t\t\t.file(videoFiles.vanish)\n\t\t\t.atLocation(token)\n\t\t\t.size(token.document.width * 2, {gridUnits: true})\n\t\t\t.randomRotation()\n\t\t.wait(1000)\n\t\t.animation()\n\t\t\t.on(token)\n\t\t\t.opacity(0)\n\t\t.thenDo(() => {TokenMagic.addFilters(token, \"spectral-body\")})\n\t\t.wait(10000)\n\t\t.animation()\n\t\t\t.on(token)\n\t\t\t.fadeIn(5000)\n\t\t.play();\n}\n\nfunction chooseDestination(token) {\n\tnew Sequence()\n\t\t.animation()\n\t\t\t.on(token)\n\t\t\t.fadeOut(2000)\n\t\t.effect()\n\t\t\t.file(videoFiles.range)\n\t\t\t.size(token.document.width + 4.3, {gridUnits: true})\n\t\t\t.atLocation(token)\n\t\t\t.belowTokens()\n\t\t\t.fadeIn(2000)\n\t\t\t.fadeOut(2000)\n\t\t\t.persist(true)\n\t\t\t.name(\"range-template\")\n\t\t.wait(2000)\n\t\t.thenDo(() => {TokenMagic.deleteFilters(token)})\n\t\t.play();\n\n\tcanvas.app.stage.addListener(\"pointerdown\", event => {\n\t\tconsole.log(event);\n\t\tconsole.log(arguments);\n\t\tconst position = event.data.getLocalPosition(canvas.app.stage);\n\t\tconst topLeft = canvas.grid.getTopLeft(position.x, position.y);\n\t\tconst fakeToken = {document: {x: topLeft[0], y: topLeft[1], width: 1, height: 1, elevation: token.document.elevation}};\n\t\tconst distance = MidiQOL.getDistance(token, fakeToken);\n\t\tif ( event.data.button === 0 ) { // Left click\n\t\t\tif ( distance > 10 ) {\n\t\t\t\treturn ui.notifications.error(\"The selected spot is out of range. Choose again or middle click to cancel.\");\n\t\t\t}\n\t\t\tSequencer.EffectManager.endEffects({name: \"range-template\"});\n\t\t\tcanvas.app.stage.removeListener(\"pointerdown\");\n\t\t\tappear(token, topLeft);\n\t\t} else if ( event.data.button === 1 ) { // Middle click\n\t\t\tSequencer.EffectManager.endEffects({name: \"range-template\"});\n\t\t\tcanvas.app.stage.removeListener(\"pointerdown\");\n\t\t\tappear(token);\n\t\t}\n\t});\n}\n\n// Teleport animation relative to the top left corner of the token\nfunction appear(token, destination=[]) {\n\tnew Sequence()\n\t\t.sound()\n\t\t\t.file(soundFile)\n\t\t.animation()\n\t\t\t.on(token)\n\t\t\t.teleportTo({x: destination[0], y: destination[1]})\n\t\t\t.playIf(destination.length)\n\t\t.wait(1500)\n\t\t.effect()\n\t\t\t.file(videoFiles.appear)\n\t\t\t.atLocation(token)\n\t\t\t.size(token.document.width * 2, {gridUnits: true})\n\t\t\t.randomRotation()\n\t\t.wait(1500)\n\t\t.animation()\n\t\t\t.on(token)\n\t\t\t.opacity(1)\n\t\t.play();\n}",
+            "author": "YGKnOmFfMM1H7piE",
+            "ownership": {
+              "default": 3
+            },
+            "_id": null,
+            "folder": null,
+            "sort": 0,
+            "flags": {},
+            "_stats": {
+              "systemId": null,
+              "systemVersion": null,
+              "coreVersion": null,
+              "createdTime": null,
+              "modifiedTime": null,
+              "lastModifiedBy": null
+            }
+          }
         }
       },
       "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
@@ -7583,7 +7644,7 @@
         {
           "name": "Blink",
           "icon": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.tm8IwE16DKOEXG16",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.tm8IwE16DKOEXG16",
           "duration": {
             "seconds": null,
             "startTime": null,
@@ -7612,19 +7673,19 @@
           },
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.tm8IwE16DKOEXG16.67LXObjFpqfhfiKa"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.tm8IwE16DKOEXG16.67LXObjFpqfhfiKa"
         }
       ],
       "folder": null,
       "_stats": {
         "systemId": "dnd5e",
         "systemVersion": "2.3.1",
-        "coreVersion": "10.303",
+        "coreVersion": "11.313",
         "createdTime": 1661787234105,
-        "modifiedTime": 1693770725344,
-        "lastModifiedBy": "1VOK90B3fElXpLfM"
+        "modifiedTime": 1699050726416,
+        "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.tm8IwE16DKOEXG16"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.tm8IwE16DKOEXG16"
     },
     {
       "_id": "C39LO58RxJk2Lu3e",
@@ -7729,7 +7790,7 @@
         "modifiedTime": 1693773103091,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.C39LO58RxJk2Lu3e"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.C39LO58RxJk2Lu3e"
     },
     {
       "_id": "X7p4K62BOA9HUjMb",
@@ -7865,7 +7926,7 @@
         {
           "name": "Illusory disguise",
           "icon": "icons/creatures/eyes/human-single-brown.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.X7p4K62BOA9HUjMb",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.X7p4K62BOA9HUjMb",
           "duration": {
             "seconds": 3600,
             "startTime": null,
@@ -7890,7 +7951,7 @@
           "flags": {},
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.X7p4K62BOA9HUjMb.mLEhtmHxKwFwCy4w"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.X7p4K62BOA9HUjMb.mLEhtmHxKwFwCy4w"
         }
       ],
       "folder": null,
@@ -7902,7 +7963,7 @@
         "modifiedTime": 1692924900137,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.X7p4K62BOA9HUjMb"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.X7p4K62BOA9HUjMb"
     },
     {
       "_id": "xtaMG1CmHsjmiuIw",
@@ -8001,7 +8062,7 @@
         {
           "name": "Advantage on Cha checks",
           "icon": "icons/magic/control/buff-strength-muscle-damage-red.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.xtaMG1CmHsjmiuIw",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.xtaMG1CmHsjmiuIw",
           "duration": {
             "seconds": 3600,
             "startTime": null,
@@ -8026,7 +8087,7 @@
           "flags": {},
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.xtaMG1CmHsjmiuIw.zTZR1QvqZX0wNVTz"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.xtaMG1CmHsjmiuIw.zTZR1QvqZX0wNVTz"
         }
       ],
       "folder": null,
@@ -8038,7 +8099,7 @@
         "modifiedTime": 1693774349064,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.xtaMG1CmHsjmiuIw"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.xtaMG1CmHsjmiuIw"
     },
     {
       "_id": "1alOhetjK5dVIaoO",
@@ -8143,7 +8204,7 @@
         "modifiedTime": 1692924903275,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.1alOhetjK5dVIaoO"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.1alOhetjK5dVIaoO"
     },
     {
       "_id": "imPS84LEl8fExTka",
@@ -8419,7 +8480,7 @@
         "modifiedTime": 1693767187714,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.imPS84LEl8fExTka"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.imPS84LEl8fExTka"
     },
     {
       "_id": "HOqu6ddF7E7usSa0",
@@ -8518,7 +8579,7 @@
         {
           "name": "Invisible",
           "icon": "icons/creatures/reptiles/chameleon-camouflage-green-brown.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.HOqu6ddF7E7usSa0",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.HOqu6ddF7E7usSa0",
           "duration": {
             "seconds": 3600,
             "startTime": null,
@@ -8559,7 +8620,7 @@
           },
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.HOqu6ddF7E7usSa0.5LSWVHf7y9PsdU2I"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.HOqu6ddF7E7usSa0.5LSWVHf7y9PsdU2I"
         }
       ],
       "folder": null,
@@ -8571,7 +8632,7 @@
         "modifiedTime": 1693767996049,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.HOqu6ddF7E7usSa0"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.HOqu6ddF7E7usSa0"
     },
     {
       "_id": "g5Yu87jyF2JKleJB",
@@ -8881,7 +8942,7 @@
         "modifiedTime": 1693773266661,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.g5Yu87jyF2JKleJB"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.g5Yu87jyF2JKleJB"
     },
     {
       "_id": "3MlUccz4zUmh3JZ1",
@@ -8974,7 +9035,7 @@
         {
           "name": "Illusory duplicates",
           "icon": "icons/sundries/gaming/chess-pawn-white-glass.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.3MlUccz4zUmh3JZ1",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.3MlUccz4zUmh3JZ1",
           "duration": {
             "seconds": null,
             "startTime": null,
@@ -8999,7 +9060,7 @@
           "flags": {},
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.3MlUccz4zUmh3JZ1.1Ufmx1hXnmlmG1aM"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.3MlUccz4zUmh3JZ1.1Ufmx1hXnmlmG1aM"
         }
       ],
       "folder": null,
@@ -9017,7 +9078,7 @@
         "modifiedTime": 1693770768872,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.3MlUccz4zUmh3JZ1"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.3MlUccz4zUmh3JZ1"
     },
     {
       "_id": "XECRITPMBTwW3tUN",
@@ -9116,7 +9177,7 @@
         {
           "name": "See Invisibility",
           "icon": "icons/magic/control/silhouette-aura-energy.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.XECRITPMBTwW3tUN",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.XECRITPMBTwW3tUN",
           "duration": {
             "seconds": 3600,
             "startTime": null,
@@ -9134,7 +9195,7 @@
           "flags": {},
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.XECRITPMBTwW3tUN.L4jcB00BFakp20mk"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.XECRITPMBTwW3tUN.L4jcB00BFakp20mk"
         }
       ],
       "folder": null,
@@ -9146,7 +9207,7 @@
         "modifiedTime": 1693773168012,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.XECRITPMBTwW3tUN"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.XECRITPMBTwW3tUN"
     },
     {
       "_id": "La9JyZvadKRXpPhZ",
@@ -9457,7 +9518,7 @@
         "modifiedTime": 1692998046709,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.La9JyZvadKRXpPhZ"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.La9JyZvadKRXpPhZ"
     },
     {
       "_id": "Onh8t5VqilBbKR0M",
@@ -9761,7 +9822,7 @@
         "modifiedTime": 1680296652680,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.Onh8t5VqilBbKR0M"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.Onh8t5VqilBbKR0M"
     },
     {
       "_id": "3f4ue2xyv5Z5fJEA",
@@ -9903,7 +9964,7 @@
         "modifiedTime": 1692998048714,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.3f4ue2xyv5Z5fJEA"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.3f4ue2xyv5Z5fJEA"
     },
     {
       "_id": "356UoEldngZibK4I",
@@ -10214,7 +10275,7 @@
         "modifiedTime": 1692998051408,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.356UoEldngZibK4I"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.356UoEldngZibK4I"
     },
     {
       "_id": "HVxH6w5br6vusQnS",
@@ -10528,7 +10589,7 @@
         {
           "name": "Can't take reactions",
           "icon": "icons/magic/unholy/hand-fire-skeleton-pink.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.HVxH6w5br6vusQnS",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.HVxH6w5br6vusQnS",
           "duration": {
             "rounds": 1,
             "startTime": null,
@@ -10559,7 +10620,7 @@
           },
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.HVxH6w5br6vusQnS.YKR2zU0fob91c3u9"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.HVxH6w5br6vusQnS.YKR2zU0fob91c3u9"
         }
       ],
       "folder": null,
@@ -10571,7 +10632,7 @@
         "modifiedTime": 1693704597729,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.HVxH6w5br6vusQnS"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.HVxH6w5br6vusQnS"
     },
     {
       "_id": "5N0VLIfBsZUhul8c",
@@ -10665,7 +10726,7 @@
           "_id": "6pbotGIvqQkraPva",
           "name": "+5 to AC and immunity to Magic Missile",
           "icon": "icons/magic/defensive/shield-barrier-deflect-teal.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.5N0VLIfBsZUhul8c",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.5N0VLIfBsZUhul8c",
           "flags": {
             "dae": {
               "specialDuration": [
@@ -10695,7 +10756,7 @@
           "transfer": false,
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.5N0VLIfBsZUhul8c.6pbotGIvqQkraPva"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.5N0VLIfBsZUhul8c.6pbotGIvqQkraPva"
         }
       ],
       "folder": null,
@@ -10923,7 +10984,7 @@
         "modifiedTime": 1693773000281,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.5N0VLIfBsZUhul8c"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.5N0VLIfBsZUhul8c"
     },
     {
       "_id": "guSoGDyVWW8HOLij",
@@ -11127,7 +11188,7 @@
         "modifiedTime": 1693003543702,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.guSoGDyVWW8HOLij"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.guSoGDyVWW8HOLij"
     },
     {
       "_id": "Q3tnssrHLxTgyszQ",
@@ -11470,7 +11531,7 @@
         "modifiedTime": 1692998065974,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.Q3tnssrHLxTgyszQ"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.Q3tnssrHLxTgyszQ"
     },
     {
       "_id": "SaEU4xqz5h28NFAv",
@@ -11610,7 +11671,7 @@
         {
           "name": "Illusory pattern",
           "icon": "icons/magic/air/air-burst-spiral-pink.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.SaEU4xqz5h28NFAv",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.SaEU4xqz5h28NFAv",
           "duration": {
             "seconds": null,
             "startTime": null,
@@ -11639,12 +11700,12 @@
           },
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.SaEU4xqz5h28NFAv.5Ngek5yCgmtyGDmX"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.SaEU4xqz5h28NFAv.5Ngek5yCgmtyGDmX"
         },
         {
           "name": "Charmed",
           "icon": "icons/magic/air/air-burst-spiral-pink.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.SaEU4xqz5h28NFAv",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.SaEU4xqz5h28NFAv",
           "duration": {
             "seconds": null,
             "startTime": null,
@@ -11668,15 +11729,15 @@
           "transfer": false,
           "flags": {
             "dae": {
+              "stackable": "none",
               "specialDuration": [
                 "isDamaged"
-              ],
-              "stackable": "none"
+              ]
             }
           },
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.SaEU4xqz5h28NFAv.8GPgFiVFefA56ELX"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.SaEU4xqz5h28NFAv.8GPgFiVFefA56ELX"
         }
       ],
       "folder": null,
@@ -11688,15 +11749,15 @@
         "modifiedTime": 1693773500250,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.SaEU4xqz5h28NFAv"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.SaEU4xqz5h28NFAv"
     },
     {
       "_id": "fnfwPZhrZZ5vVF85",
-      "name": "Bloodwell Vial +1",
+      "name": "Bloodwell Vial +2",
       "type": "equipment",
       "system": {
         "description": {
-          "value": "<p><em>Wondrous item, uncommon (requires attunement by a sorcerer)</em></p><p>To attune to this vial, you must place a few drops of your blood into it. The vial can't be opened while your attunement to it lasts. If your attunement to the vial ends, the contained blood turns to ash. You can use the vial as a spellcasting focus for your spells while wearing or holding it, and you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your sorcerer spells.</p><p>In addition, when you roll any Hit Dice to recover hit points while you are carrying the vial, you can regain 5 sorcery points. This property of the vial can't be used again until the next dawn.</p>",
+          "value": "<p><em>Wondrous item, uncommon (requires attunement by a sorcerer)</em></p><p>To attune to this vial, you must place a few drops of your blood into it. The vial can't be opened while your attunement to it lasts. If your attunement to the vial ends, the contained blood turns to ash. You can use the vial as a spellcasting focus for your spells while wearing or holding it, and you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your sorcerer spells.</p><p>In addition, when you roll any Hit Dice to recover hit points while you are carrying the vial, you can regain 5 sorcery points. This property of the vial can't be used again until the next dawn.</p>",
           "chat": "",
           "unidentified": ""
         },
@@ -11704,12 +11765,12 @@
         "quantity": 1,
         "weight": 0.1,
         "price": {
-          "value": 12000,
+          "value": 16000,
           "denomination": "gp"
         },
         "attunement": 2,
         "equipped": true,
-        "rarity": "uncommon",
+        "rarity": "rare",
         "identified": true,
         "activation": {
           "type": "special",
@@ -11785,9 +11846,9 @@
       "img": "icons/equipment/neck/pendant-faceted-red.webp",
       "effects": [
         {
-          "name": "+1 to spell attacks and save DC",
+          "name": "+2 to spell attacks and save DC",
           "icon": "icons/equipment/neck/pendant-faceted-red.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.fnfwPZhrZZ5vVF85",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.fnfwPZhrZZ5vVF85",
           "duration": {
             "startTime": null,
             "seconds": null,
@@ -11803,26 +11864,22 @@
             {
               "key": "system.bonuses.spell.attack",
               "mode": 2,
-              "value": "1",
+              "value": "2",
               "priority": 20
             },
             {
               "key": "system.bonuses.spell.dc",
               "mode": 2,
-              "value": "+1",
+              "value": "+2",
               "priority": 20
             }
           ],
           "tint": null,
           "transfer": true,
-          "flags": {
-            "dae": {
-              "stackable": "none"
-            }
-          },
+          "flags": {},
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.fnfwPZhrZZ5vVF85.TnXmHnjfb0QaIsbB"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.fnfwPZhrZZ5vVF85.TnXmHnjfb0QaIsbB"
         }
       ],
       "folder": null,
@@ -11835,12 +11892,12 @@
       "_stats": {
         "systemId": "dnd5e",
         "systemVersion": "2.3.1",
-        "coreVersion": "10.303",
+        "coreVersion": "11.313",
         "createdTime": 1672454949512,
-        "modifiedTime": 1693101266762,
-        "lastModifiedBy": "1VOK90B3fElXpLfM"
+        "modifiedTime": 1698444810792,
+        "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.fnfwPZhrZZ5vVF85"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.fnfwPZhrZZ5vVF85"
     },
     {
       "_id": "G5AeE0qSqY8Erab4",
@@ -11951,7 +12008,7 @@
         "modifiedTime": 1692658054358,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.G5AeE0qSqY8Erab4"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.G5AeE0qSqY8Erab4"
     },
     {
       "name": "Wand of Magic Missiles",
@@ -11996,7 +12053,7 @@
           "units": "ft"
         },
         "uses": {
-          "value": 1,
+          "value": 7,
           "max": "7",
           "per": "charges",
           "recovery": "1d6 + 1"
@@ -12094,12 +12151,12 @@
       "_stats": {
         "systemId": "dnd5e",
         "systemVersion": "2.3.1",
-        "coreVersion": "10.303",
+        "coreVersion": "11.313",
         "createdTime": 1672455095509,
-        "modifiedTime": 1694909173011,
-        "lastModifiedBy": "1VOK90B3fElXpLfM"
+        "modifiedTime": 1697156043025,
+        "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.XmXq94F8jWVJ6RdA"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.XmXq94F8jWVJ6RdA"
     },
     {
       "name": "Glass Eye",
@@ -12140,7 +12197,7 @@
         "modifiedTime": 1693444007848,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.Ob5YavbHzTUSwagz"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.Ob5YavbHzTUSwagz"
     },
     {
       "name": "Jeweled Horn",
@@ -12181,7 +12238,7 @@
         "modifiedTime": 1693444026016,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.ceUaGwUgLn71EDEY"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.ceUaGwUgLn71EDEY"
     },
     {
       "name": "Object with the image of a dragon engraved on it",
@@ -12222,7 +12279,7 @@
         "modifiedTime": 1692380295099,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.QAGDrw846v03k21r"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.QAGDrw846v03k21r"
     },
     {
       "name": "Scroll of Pedigree",
@@ -12468,7 +12525,7 @@
         "modifiedTime": 1679270340994,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.5h1VbrSm2Xs1oYn2"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.5h1VbrSm2Xs1oYn2"
     },
     {
       "name": "Signet Ring",
@@ -12509,7 +12566,7 @@
         "modifiedTime": 1672695663334,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.KEjKzPmfY6RoXvPB"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.KEjKzPmfY6RoXvPB"
     },
     {
       "name": "Flexible Casting",
@@ -12607,12 +12664,12 @@
       "_stats": {
         "systemId": "dnd5e",
         "systemVersion": "2.3.1",
-        "coreVersion": "10.303",
+        "coreVersion": "11.313",
         "createdTime": 1672457195058,
-        "modifiedTime": 1693705001607,
-        "lastModifiedBy": "1VOK90B3fElXpLfM"
+        "modifiedTime": 1697318439912,
+        "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.dp6foxUyHRnjnS0M"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.dp6foxUyHRnjnS0M"
     },
     {
       "name": "Magical Guidance",
@@ -12703,7 +12760,7 @@
         "modifiedTime": 1679439958748,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.oHjpthQhFKufs9a0"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.oHjpthQhFKufs9a0"
     },
     {
       "name": "Metamagic: Transmuted Spell",
@@ -12806,7 +12863,7 @@
         "modifiedTime": 1693705468832,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.ZXEJc6JYQAokZyDw"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.ZXEJc6JYQAokZyDw"
     },
     {
       "name": "Sorcery Points",
@@ -12841,7 +12898,7 @@
           "units": ""
         },
         "uses": {
-          "value": 4,
+          "value": 14,
           "max": "@classes.sorcerer.levels",
           "per": "lr",
           "recovery": ""
@@ -12892,12 +12949,12 @@
       "_stats": {
         "systemId": "dnd5e",
         "systemVersion": "2.3.1",
-        "coreVersion": "10.303",
+        "coreVersion": "11.313",
         "createdTime": 1672457286535,
-        "modifiedTime": 1695216867805,
-        "lastModifiedBy": "1VOK90B3fElXpLfM"
+        "modifiedTime": 1697329136494,
+        "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.OlPzhisxQ0TpOzbc"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.OlPzhisxQ0TpOzbc"
     },
     {
       "name": "Darkvision",
@@ -12988,7 +13045,7 @@
         "modifiedTime": 1679440063875,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.v3rejy9uP5Mv047i"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.v3rejy9uP5Mv047i"
     },
     {
       "name": "Sorcerous Versatility",
@@ -13079,7 +13136,7 @@
         "modifiedTime": 1679440370050,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.VbW7va18ZlvZ6yic"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.VbW7va18ZlvZ6yic"
     },
     {
       "name": "Noble",
@@ -13137,7 +13194,7 @@
       "folder": null,
       "sort": 0,
       "_id": "jworzfvuLxGiOLCy",
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.jworzfvuLxGiOLCy"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.jworzfvuLxGiOLCy"
     },
     {
       "name": "Position of Privilege",
@@ -13233,7 +13290,7 @@
       "folder": null,
       "sort": 221875,
       "_id": "0YuFEZqbbvdgPaOj",
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.0YuFEZqbbvdgPaOj"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.0YuFEZqbbvdgPaOj"
     },
     {
       "_id": "dc2Kan9n2xIRx9BC",
@@ -13326,7 +13383,7 @@
         {
           "name": "Control Flames effect",
           "icon": "icons/magic/fire/flame-burning-yellow-orange.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.dc2Kan9n2xIRx9BC",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.dc2Kan9n2xIRx9BC",
           "duration": {
             "seconds": 3600,
             "startTime": null,
@@ -13348,7 +13405,7 @@
           },
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.dc2Kan9n2xIRx9BC.dEjshQfsqkK1eegH"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.dc2Kan9n2xIRx9BC.dEjshQfsqkK1eegH"
         }
       ],
       "folder": null,
@@ -13366,7 +13423,7 @@
         "modifiedTime": 1678572036219,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.dc2Kan9n2xIRx9BC"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.dc2Kan9n2xIRx9BC"
     },
     {
       "_id": "7zDlQHypAONPja8x",
@@ -13464,7 +13521,7 @@
         {
           "name": "Mind Sliver",
           "icon": "icons/magic/earth/projectile-stone-bullet-pink.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.7zDlQHypAONPja8x",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.7zDlQHypAONPja8x",
           "duration": {
             "rounds": 1,
             "startTime": null,
@@ -13525,7 +13582,7 @@
           },
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.7zDlQHypAONPja8x.TvUaJgWW3MHuCVBh"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.7zDlQHypAONPja8x.TvUaJgWW3MHuCVBh"
         }
       ],
       "folder": null,
@@ -13757,7 +13814,7 @@
         "modifiedTime": 1689820416046,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.7zDlQHypAONPja8x"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.7zDlQHypAONPja8x"
     },
     {
       "_id": "Jp2WSf6Oce13J39w",
@@ -13850,7 +13907,7 @@
         {
           "name": "Absorb Elements Damage",
           "icon": "icons/magic/symbols/elements-air-earth-fire-water.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.Jp2WSf6Oce13J39w",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.Jp2WSf6Oce13J39w",
           "duration": {
             "rounds": 1,
             "startTime": null,
@@ -13875,12 +13932,12 @@
           },
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.Jp2WSf6Oce13J39w.2vQMNMQcba7AgALP"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.Jp2WSf6Oce13J39w.2vQMNMQcba7AgALP"
         },
         {
           "name": "Absorb Elements Resistance",
           "icon": "icons/magic/symbols/elements-air-earth-fire-water.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.Jp2WSf6Oce13J39w",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.Jp2WSf6Oce13J39w",
           "duration": {
             "rounds": 1,
             "startTime": null,
@@ -13904,7 +13961,7 @@
           },
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.Jp2WSf6Oce13J39w.ETnVqsc7iQeL6q0t"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.Jp2WSf6Oce13J39w.ETnVqsc7iQeL6q0t"
         }
       ],
       "folder": null,
@@ -13953,13 +14010,13 @@
       },
       "_stats": {
         "systemId": "dnd5e",
-        "systemVersion": "2.3.0",
-        "coreVersion": "10.303",
+        "systemVersion": "2.3.1",
+        "coreVersion": "11.313",
         "createdTime": 1678584695540,
-        "modifiedTime": 1692922783251,
-        "lastModifiedBy": "1VOK90B3fElXpLfM"
+        "modifiedTime": 1697328773270,
+        "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.Jp2WSf6Oce13J39w"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.Jp2WSf6Oce13J39w"
     },
     {
       "name": "Ashardalon's Stride",
@@ -14057,7 +14114,7 @@
         {
           "name": "Ashardalon's Stride",
           "icon": "icons/skills/movement/feet-bladed-boots-fire.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.YpZqDkMioucPj5Kw",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.YpZqDkMioucPj5Kw",
           "duration": {
             "seconds": null,
             "startTime": null,
@@ -14093,7 +14150,7 @@
           },
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.YpZqDkMioucPj5Kw.pg6uzWZvoA3Dzzxp"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.YpZqDkMioucPj5Kw.pg6uzWZvoA3Dzzxp"
         }
       ],
       "folder": null,
@@ -14127,7 +14184,7 @@
         "modifiedTime": 1693447911013,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.YpZqDkMioucPj5Kw"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.YpZqDkMioucPj5Kw"
     },
     {
       "name": "Summon Draconic Spirit",
@@ -14220,7 +14277,7 @@
         {
           "name": "Shared Resistance",
           "icon": "icons/creatures/abilities/wing-batlike-purple-blue.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.ZJG5serkY1FpdSEb",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.ZJG5serkY1FpdSEb",
           "duration": {
             "seconds": 3600,
             "startTime": null,
@@ -14245,7 +14302,7 @@
           },
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.ZJG5serkY1FpdSEb.YvGKWfFrM85wNmXo"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.ZJG5serkY1FpdSEb.YvGKWfFrM85wNmXo"
         }
       ],
       "folder": null,
@@ -14279,7 +14336,7 @@
         "modifiedTime": 1695346796708,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.ZJG5serkY1FpdSEb"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.ZJG5serkY1FpdSEb"
     },
     {
       "_id": "orrYnbtHt6GyhhJp",
@@ -14571,7 +14628,7 @@
         "modifiedTime": 1693772344779,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.orrYnbtHt6GyhhJp"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.orrYnbtHt6GyhhJp"
     },
     {
       "_id": "S2eRIAdXPQ0BUjbU",
@@ -14896,7 +14953,7 @@
         "modifiedTime": 1695427164303,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.S2eRIAdXPQ0BUjbU"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.S2eRIAdXPQ0BUjbU"
     },
     {
       "name": "Metamagic Adept",
@@ -14987,7 +15044,7 @@
         "modifiedTime": 1685899191845,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.p5Fdd6MM28UyqVOU"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.p5Fdd6MM28UyqVOU"
     },
     {
       "name": "Metamagic: Distant Spell",
@@ -15078,7 +15135,7 @@
         "modifiedTime": 1686780303695,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.IuR45nYmnNlGrIMg"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.IuR45nYmnNlGrIMg"
     },
     {
       "_id": "HygmVnV5RJTEMukD",
@@ -15157,7 +15214,7 @@
         {
           "name": "Disadvantage on saving throws",
           "icon": "icons/magic/fire/explosion-flame-blue.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.HygmVnV5RJTEMukD",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.HygmVnV5RJTEMukD",
           "duration": {
             "rounds": null,
             "startTime": null,
@@ -15181,17 +15238,15 @@
           "transfer": false,
           "flags": {
             "dae": {
+              "showIcon": true,
               "specialDuration": [
                 "isSave"
               ]
-            },
-            "core": {
-              "statusId": "Metamagic: Heightened Spell"
             }
           },
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.HygmVnV5RJTEMukD.Tzfn9Op2N8NG11YG"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.HygmVnV5RJTEMukD.Tzfn9Op2N8NG11YG"
         }
       ],
       "folder": null,
@@ -15209,7 +15264,7 @@
         "modifiedTime": 1679440010935,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.HygmVnV5RJTEMukD"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.HygmVnV5RJTEMukD"
     },
     {
       "name": "Banishment",
@@ -15314,7 +15369,7 @@
         "modifiedTime": 1693773574126,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.sMr8gT6Mdgmc7XRl"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.sMr8gT6Mdgmc7XRl"
     },
     {
       "_id": "5trSJWdg5xlIlLXP",
@@ -15407,7 +15462,7 @@
         {
           "name": "Restrained",
           "icon": "icons/creatures/webs/web-spider-pink.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.5trSJWdg5xlIlLXP",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.5trSJWdg5xlIlLXP",
           "duration": {
             "rounds": null,
             "startTime": null,
@@ -15456,12 +15511,12 @@
           "flags": {},
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.5trSJWdg5xlIlLXP.0icXHBedUMEkQson"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.5trSJWdg5xlIlLXP.0icXHBedUMEkQson"
         },
         {
           "name": "Lightly obscured",
           "icon": "icons/creatures/webs/web-spider-pink.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.5trSJWdg5xlIlLXP",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.5trSJWdg5xlIlLXP",
           "duration": {
             "rounds": null,
             "startTime": null,
@@ -15486,7 +15541,7 @@
           "flags": {},
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.5trSJWdg5xlIlLXP.Jrg7RGrq74xOBaqc"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.5trSJWdg5xlIlLXP.Jrg7RGrq74xOBaqc"
         }
       ],
       "folder": null,
@@ -15499,12 +15554,12 @@
       "_stats": {
         "systemId": "dnd5e",
         "systemVersion": "2.3.1",
-        "coreVersion": "10.303",
+        "coreVersion": "11.313",
         "createdTime": 1661787234147,
-        "modifiedTime": 1693778749837,
-        "lastModifiedBy": "1VOK90B3fElXpLfM"
+        "modifiedTime": 1697328144001,
+        "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.5trSJWdg5xlIlLXP"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.5trSJWdg5xlIlLXP"
     },
     {
       "_id": "zPNK6FFmYNs3cMqp",
@@ -15615,7 +15670,7 @@
         "modifiedTime": 1692648348938,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.zPNK6FFmYNs3cMqp"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.zPNK6FFmYNs3cMqp"
     },
     {
       "name": "Potion of Advantage",
@@ -15698,7 +15753,7 @@
         {
           "name": "Advantage on one d20 Test",
           "icon": "icons/consumables/potions/bottle-conical-corked-tied-blue.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.t3S3RgNctx1xc531",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.t3S3RgNctx1xc531",
           "duration": {
             "seconds": 3600,
             "startTime": null,
@@ -15723,7 +15778,7 @@
           "flags": {},
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.t3S3RgNctx1xc531.zW4QUEeXuWLEL6Ta"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.t3S3RgNctx1xc531.zW4QUEeXuWLEL6Ta"
         }
       ],
       "folder": null,
@@ -15741,7 +15796,7 @@
         "modifiedTime": 1692397126166,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.t3S3RgNctx1xc531"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.t3S3RgNctx1xc531"
     },
     {
       "name": "Spell Scroll 2: Misty Step",
@@ -15754,7 +15809,7 @@
           "unidentified": ""
         },
         "source": "DMG pg. 200",
-        "quantity": 3,
+        "quantity": 2,
         "weight": 0,
         "price": {
           "value": 120,
@@ -16035,13 +16090,13 @@
       "_stats": {
         "systemId": "dnd5e",
         "systemVersion": "2.3.1",
-        "coreVersion": "10.303",
+        "coreVersion": "11.313",
         "createdTime": 1661787233703,
-        "modifiedTime": 1693101502923,
-        "lastModifiedBy": "1VOK90B3fElXpLfM"
+        "modifiedTime": 1698445279304,
+        "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "6BE6whijZQjP4yXO",
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.6BE6whijZQjP4yXO"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.6BE6whijZQjP4yXO"
     },
     {
       "name": "Topaz",
@@ -16082,7 +16137,7 @@
         "modifiedTime": 1693000971901,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.DyDVTnm7tc88LRZ0"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.DyDVTnm7tc88LRZ0"
     },
     {
       "name": "Crown of Stars",
@@ -16187,7 +16242,7 @@
         "modifiedTime": 1692577746320,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.iSleUpenI5o9t0lf"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.iSleUpenI5o9t0lf"
     },
     {
       "name": "Crown of Stars (mote)",
@@ -16297,7 +16352,7 @@
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
       "_id": "yZCEwBrbljLxNlLI",
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.yZCEwBrbljLxNlLI"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.yZCEwBrbljLxNlLI"
     },
     {
       "_id": "3RqIASBs6PUwFWNb",
@@ -16386,7 +16441,7 @@
         {
           "name": "Dragon Wings",
           "icon": "icons/creatures/abilities/wing-batlike-white-blue.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.3RqIASBs6PUwFWNb",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.3RqIASBs6PUwFWNb",
           "duration": {
             "startTime": null,
             "seconds": null,
@@ -16411,7 +16466,7 @@
           "flags": {},
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.3RqIASBs6PUwFWNb.aGTvke2uEpYeH7oi"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.3RqIASBs6PUwFWNb.aGTvke2uEpYeH7oi"
         }
       ],
       "folder": null,
@@ -16424,7 +16479,7 @@
         "modifiedTime": 1692151030463,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.3RqIASBs6PUwFWNb"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.3RqIASBs6PUwFWNb"
     },
     {
       "name": "(BoH) Exotic Saddle",
@@ -16535,7 +16590,7 @@
         "modifiedTime": 1692232513699,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.wgsG9DM5Dx9wEkLi"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.wgsG9DM5Dx9wEkLi"
     },
     {
       "_id": "XGccsIVMdwBb8ne9",
@@ -16646,7 +16701,7 @@
         "modifiedTime": 1693442887726,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.XGccsIVMdwBb8ne9"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.XGccsIVMdwBb8ne9"
     },
     {
       "_id": "44X5J29YlU2CXWXH",
@@ -16776,7 +16831,7 @@
           "tint": null,
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.44X5J29YlU2CXWXH.q1wbe9ru251bfnhg"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.44X5J29YlU2CXWXH.q1wbe9ru251bfnhg"
         }
       ],
       "folder": null,
@@ -16794,7 +16849,7 @@
         "modifiedTime": 1692235218729,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.44X5J29YlU2CXWXH"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.44X5J29YlU2CXWXH"
     },
     {
       "_id": "T8KsS6gtqxnU35Oq",
@@ -16889,7 +16944,7 @@
         "modifiedTime": 1693443424060,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.T8KsS6gtqxnU35Oq"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.T8KsS6gtqxnU35Oq"
     },
     {
       "_id": "9V17snHJf3buEifz",
@@ -16989,7 +17044,7 @@
         "modifiedTime": 1692655294814,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.9V17snHJf3buEifz"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.9V17snHJf3buEifz"
     },
     {
       "_id": "BfeeaGcSh2lrWtmW",
@@ -17072,7 +17127,7 @@
         {
           "name": "Resistance to lightning damage",
           "icon": "icons/consumables/potions/bottle-round-corked-yellow.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.BfeeaGcSh2lrWtmW",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.BfeeaGcSh2lrWtmW",
           "duration": {
             "startTime": null,
             "seconds": 3600,
@@ -17097,7 +17152,7 @@
           "flags": {},
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.BfeeaGcSh2lrWtmW.JV8pYubnrzA2UQ21"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.BfeeaGcSh2lrWtmW.JV8pYubnrzA2UQ21"
         }
       ],
       "folder": null,
@@ -17115,7 +17170,7 @@
         "modifiedTime": 1692378462422,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.BfeeaGcSh2lrWtmW"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.BfeeaGcSh2lrWtmW"
     },
     {
       "_id": "IgSEo260sBclEqH2",
@@ -17198,7 +17253,7 @@
         {
           "name": "Underwater breathing",
           "icon": "icons/consumables/potions/potion-bottle-corked-labeled-green.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.IgSEo260sBclEqH2",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.IgSEo260sBclEqH2",
           "duration": {
             "seconds": 3600,
             "startTime": null,
@@ -17216,7 +17271,7 @@
           "flags": {},
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.IgSEo260sBclEqH2.9sJdDcdpfAoIhaK8"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.IgSEo260sBclEqH2.9sJdDcdpfAoIhaK8"
         }
       ],
       "folder": null,
@@ -17234,7 +17289,7 @@
         "modifiedTime": 1692378462422,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.IgSEo260sBclEqH2"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.IgSEo260sBclEqH2"
     },
     {
       "name": "Potion of Cold Resistance",
@@ -17316,7 +17371,7 @@
         {
           "name": "Resistance to cold damage",
           "icon": "icons/consumables/potions/bottle-bulb-corked-labeled-blue.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.FI7US0otzafgmlhy",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.FI7US0otzafgmlhy",
           "duration": {
             "seconds": 3600,
             "startTime": null,
@@ -17341,7 +17396,7 @@
           "flags": {},
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.NAmUpAXz24muCAv6.lATTzxQzzF01hRt3"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.NAmUpAXz24muCAv6.lATTzxQzzF01hRt3"
         }
       ],
       "folder": "LtF6XhA4HlYZmD8I",
@@ -17360,7 +17415,7 @@
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
       "_id": "NAmUpAXz24muCAv6",
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.NAmUpAXz24muCAv6"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.NAmUpAXz24muCAv6"
     },
     {
       "name": "Spell Scroll 3: Counterspell",
@@ -17660,7 +17715,7 @@
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
       "_id": "nLMRpH8IjdOK33xJ",
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.nLMRpH8IjdOK33xJ"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.nLMRpH8IjdOK33xJ"
     },
     {
       "_id": "Q3WTeCA5scFUbMXu",
@@ -17978,7 +18033,7 @@
         "modifiedTime": 1692924792452,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.Q3WTeCA5scFUbMXu"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.Q3WTeCA5scFUbMXu"
     },
     {
       "name": "Spell Scroll 4: Greater Invisibility",
@@ -18278,7 +18333,7 @@
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
       "_id": "QQQFqf4ysxsYNtNy",
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.QQQFqf4ysxsYNtNy"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.QQQFqf4ysxsYNtNy"
     },
     {
       "name": "Spell Scroll 3: Haste",
@@ -18578,7 +18633,7 @@
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
       "_id": "6UFOs7gEMPoBB2jV",
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.6UFOs7gEMPoBB2jV"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.6UFOs7gEMPoBB2jV"
     },
     {
       "name": "Spell Scroll 5: Hold Monster",
@@ -18878,7 +18933,7 @@
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
       "_id": "y1GnQBgQry5FEj0K",
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.y1GnQBgQry5FEj0K"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.y1GnQBgQry5FEj0K"
     },
     {
       "name": "Spell Scroll 4: Wall of Fire",
@@ -19178,7 +19233,7 @@
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
       "_id": "dbZCoj9aFnx8bpFx",
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.dbZCoj9aFnx8bpFx"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.dbZCoj9aFnx8bpFx"
     },
     {
       "name": "Spell Scroll 3: Lightning Bolt",
@@ -19478,7 +19533,7 @@
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
       "_id": "4sHWmgsSUqehn9bd",
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.4sHWmgsSUqehn9bd"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.4sHWmgsSUqehn9bd"
     },
     {
       "_id": "7DORcaMe3jyAab62",
@@ -19561,7 +19616,7 @@
         {
           "name": "Hooded Lantern",
           "icon": "icons/sundries/lights/lantern-iron-yellow.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.7DORcaMe3jyAab62",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.7DORcaMe3jyAab62",
           "duration": {
             "seconds": 21600,
             "startTime": null,
@@ -19579,7 +19634,7 @@
           "flags": {},
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.7DORcaMe3jyAab62.c0xlzUZy6FEaV4Yd"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.7DORcaMe3jyAab62.c0xlzUZy6FEaV4Yd"
         }
       ],
       "folder": null,
@@ -19597,7 +19652,7 @@
         "modifiedTime": 1692395523148,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.7DORcaMe3jyAab62"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.7DORcaMe3jyAab62"
     },
     {
       "name": "Platinum-plated dragon scale",
@@ -19638,7 +19693,7 @@
         "modifiedTime": 1692396119701,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.XOZcBn4IVDwWVFOQ"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.XOZcBn4IVDwWVFOQ"
     },
     {
       "_id": "CpWWk9a0jey9BwxK",
@@ -19749,7 +19804,7 @@
         "modifiedTime": 1692752276866,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.CpWWk9a0jey9BwxK"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.CpWWk9a0jey9BwxK"
     },
     {
       "_id": "HxLqsdjj3HV0XUnr",
@@ -19832,7 +19887,7 @@
         {
           "name": "On the Ethereal Plane",
           "icon": "icons/consumables/potions/bottle-conical-corked-labeled-shell-cyan.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.HxLqsdjj3HV0XUnr",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.HxLqsdjj3HV0XUnr",
           "duration": {
             "seconds": 3600,
             "startTime": null,
@@ -19850,7 +19905,7 @@
           "flags": {},
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.HxLqsdjj3HV0XUnr.U1qyGrU4zHhdIEk1"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.HxLqsdjj3HV0XUnr.U1qyGrU4zHhdIEk1"
         }
       ],
       "folder": null,
@@ -19868,7 +19923,7 @@
         "modifiedTime": 1693443368633,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.HxLqsdjj3HV0XUnr"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.HxLqsdjj3HV0XUnr"
     },
     {
       "_id": "8WjBhewFsTY4SX95",
@@ -19968,7 +20023,7 @@
         "modifiedTime": 1692921339785,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.8WjBhewFsTY4SX95"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.8WjBhewFsTY4SX95"
     },
     {
       "name": "Star Sapphire",
@@ -20009,7 +20064,7 @@
         "modifiedTime": 1692658511584,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.GGwbeJg7XgSTNv4T"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.GGwbeJg7XgSTNv4T"
     },
     {
       "name": "Bottled Breath",
@@ -20092,7 +20147,7 @@
         {
           "name": "Don't need to breathe",
           "icon": "icons/consumables/potions/bottle-corked-empty.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.CKRhYdz1u1IgKZOi",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.CKRhYdz1u1IgKZOi",
           "duration": {
             "seconds": 3600,
             "startTime": null,
@@ -20110,7 +20165,7 @@
           "flags": {},
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.CKRhYdz1u1IgKZOi.ERKQyTikSUsSiLhr"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.CKRhYdz1u1IgKZOi.ERKQyTikSUsSiLhr"
         }
       ],
       "folder": null,
@@ -20128,7 +20183,7 @@
         "modifiedTime": 1693443289117,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.CKRhYdz1u1IgKZOi"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.CKRhYdz1u1IgKZOi"
     },
     {
       "_id": "MOrsgmbGupzIMaJZ",
@@ -20446,7 +20501,7 @@
         "modifiedTime": 1692924554088,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.MOrsgmbGupzIMaJZ"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.MOrsgmbGupzIMaJZ"
     },
     {
       "_id": "A3mPWps88gPC8ml7",
@@ -20545,7 +20600,7 @@
         {
           "name": "Advantage on attack",
           "icon": "icons/skills/ranged/target-bullseye-archer-orange.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.A3mPWps88gPC8ml7",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.A3mPWps88gPC8ml7",
           "duration": {
             "rounds": 1,
             "startTime": null,
@@ -20576,7 +20631,7 @@
           },
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.A3mPWps88gPC8ml7.lfm1kLbjKSEwMYDz"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.A3mPWps88gPC8ml7.lfm1kLbjKSEwMYDz"
         }
       ],
       "folder": null,
@@ -20588,7 +20643,7 @@
         "modifiedTime": 1692927150557,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.A3mPWps88gPC8ml7"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.A3mPWps88gPC8ml7"
     },
     {
       "_id": "J67KFARm98mNfvQT",
@@ -20687,7 +20742,7 @@
         {
           "name": "Haste",
           "icon": "icons/skills/movement/feet-winged-boots-brown.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.J67KFARm98mNfvQT",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.J67KFARm98mNfvQT",
           "duration": {
             "seconds": 60,
             "startTime": null,
@@ -20724,7 +20779,7 @@
           "flags": {},
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.J67KFARm98mNfvQT.30VNCMgXd5ZscusP"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.J67KFARm98mNfvQT.30VNCMgXd5ZscusP"
         }
       ],
       "folder": null,
@@ -20736,7 +20791,7 @@
         "modifiedTime": 1692930001107,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.J67KFARm98mNfvQT"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.J67KFARm98mNfvQT"
     },
     {
       "name": "4: Greater Invisibility",
@@ -20834,7 +20889,7 @@
         {
           "name": "Invisible",
           "icon": "icons/creatures/magical/spirit-fear-energy-pink.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.JiKecq4Q315BIxxO",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.JiKecq4Q315BIxxO",
           "duration": {
             "seconds": 60,
             "startTime": null,
@@ -20872,7 +20927,7 @@
           },
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.EOWXqLMBA2bdLicU.CR0b8iuml9Z3rJh4"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.EOWXqLMBA2bdLicU.CR0b8iuml9Z3rJh4"
         }
       ],
       "folder": "jqotayuT6K4EaBP8",
@@ -20885,7 +20940,7 @@
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
       "_id": "EOWXqLMBA2bdLicU",
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.EOWXqLMBA2bdLicU"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.EOWXqLMBA2bdLicU"
     },
     {
       "_id": "sse2HjDheHNi6krB",
@@ -20995,7 +21050,7 @@
         "modifiedTime": 1692998921519,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.sse2HjDheHNi6krB"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.sse2HjDheHNi6krB"
     },
     {
       "_id": "B71c5TeancFn9guL",
@@ -21094,7 +21149,7 @@
         {
           "name": "Paralyzed",
           "icon": "icons/sundries/misc/pet-collar-spiked-brown.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.B71c5TeancFn9guL",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.B71c5TeancFn9guL",
           "duration": {
             "seconds": 60,
             "startTime": null,
@@ -21119,7 +21174,7 @@
           "flags": {},
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.B71c5TeancFn9guL.97LV9K0BAFADAi98"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.B71c5TeancFn9guL.97LV9K0BAFADAi98"
         }
       ],
       "folder": null,
@@ -21131,7 +21186,7 @@
         "modifiedTime": 1693771525153,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.B71c5TeancFn9guL"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.B71c5TeancFn9guL"
     },
     {
       "_id": "ade9t3kiBcCefME0",
@@ -21241,7 +21296,7 @@
         "modifiedTime": 1693774230717,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.ade9t3kiBcCefME0"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.ade9t3kiBcCefME0"
     },
     {
       "_id": "5U3XGuelBWUWC0jy",
@@ -21324,7 +21379,7 @@
         {
           "name": "Misty cloud form",
           "icon": "icons/consumables/potions/potion-flask-corked-cyan.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.5U3XGuelBWUWC0jy",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.5U3XGuelBWUWC0jy",
           "duration": {
             "seconds": 3600,
             "startTime": null,
@@ -21409,7 +21464,7 @@
           },
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.5U3XGuelBWUWC0jy.kZmuEDYe3cw91oRm"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.5U3XGuelBWUWC0jy.kZmuEDYe3cw91oRm"
         }
       ],
       "folder": null,
@@ -21427,7 +21482,7 @@
         "modifiedTime": 1693443496435,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.5U3XGuelBWUWC0jy"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.5U3XGuelBWUWC0jy"
     },
     {
       "_id": "nDz43FUB8sNyK7Xe",
@@ -21532,7 +21587,7 @@
         "modifiedTime": 1693773924605,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.nDz43FUB8sNyK7Xe"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.nDz43FUB8sNyK7Xe"
     },
     {
       "name": "Raulothim's Psychic Lance",
@@ -21630,7 +21685,7 @@
         {
           "name": "Incapacitated",
           "icon": "icons/magic/lightning/bolt-strike-beam-yellow.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.7ZjJipVD72uqPDEl",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.7ZjJipVD72uqPDEl",
           "duration": {
             "rounds": 1,
             "startTime": null,
@@ -21655,7 +21710,7 @@
           "flags": {},
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.7ZjJipVD72uqPDEl.H8HebfL5a5wr70vA"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.7ZjJipVD72uqPDEl.H8HebfL5a5wr70vA"
         }
       ],
       "folder": null,
@@ -21673,7 +21728,7 @@
         "modifiedTime": 1693441497295,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.7ZjJipVD72uqPDEl"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.7ZjJipVD72uqPDEl"
     },
     {
       "name": "Potion of Invulnerability",
@@ -21756,7 +21811,7 @@
         {
           "name": "Resistance to all damage",
           "icon": "icons/consumables/potions/bottle-ornate-bat-teal.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.hiBBqcj0yZCILy4h",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.hiBBqcj0yZCILy4h",
           "duration": {
             "seconds": 60,
             "startTime": null,
@@ -21781,7 +21836,7 @@
           "flags": {},
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.hiBBqcj0yZCILy4h.BmvDPidSidNehsy7"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.hiBBqcj0yZCILy4h.BmvDPidSidNehsy7"
         }
       ],
       "folder": null,
@@ -21799,7 +21854,7 @@
         "modifiedTime": 1693442299183,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.hiBBqcj0yZCILy4h"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.hiBBqcj0yZCILy4h"
     },
     {
       "name": "Blue Sapphire",
@@ -21840,7 +21895,7 @@
         "modifiedTime": 1693702848626,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.42YwvQKgF1x4whdG"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.42YwvQKgF1x4whdG"
     },
     {
       "name": "Pearl",
@@ -21882,7 +21937,7 @@
         "7HItjeooBSTfAudP": 3,
         "1VOK90B3fElXpLfM": 3
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.JHak16d53DU3kpJk"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.JHak16d53DU3kpJk"
     },
     {
       "name": "Spell Scroll 3: Fly",
@@ -22182,7 +22237,7 @@
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
       "_id": "AF1iU9Js2OhuVWPJ",
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.AF1iU9Js2OhuVWPJ"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.AF1iU9Js2OhuVWPJ"
     },
     {
       "name": "3: Fly",
@@ -22280,7 +22335,7 @@
         {
           "name": "Flying speed",
           "icon": "icons/creatures/abilities/wings-birdlike-blue.webp",
-          "origin": "Actor.BLbTDy2RI96ybiMB.Item.8GzbMernH5CGztO8",
+          "origin": "Actor.MdNtAtpGMdbnwXQV.Item.8GzbMernH5CGztO8",
           "duration": {
             "seconds": 600,
             "startTime": null,
@@ -22305,7 +22360,7 @@
           "flags": {},
           "description": "",
           "statuses": [],
-          "_key": "!actors.items.effects!BLbTDy2RI96ybiMB.8GzbMernH5CGztO8.Vqm2JeixDAAOUMZx"
+          "_key": "!actors.items.effects!MdNtAtpGMdbnwXQV.8GzbMernH5CGztO8.Vqm2JeixDAAOUMZx"
         }
       ],
       "folder": "jqotayuT6K4EaBP8",
@@ -22318,7 +22373,7 @@
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
       "_id": "8GzbMernH5CGztO8",
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.8GzbMernH5CGztO8"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.8GzbMernH5CGztO8"
     },
     {
       "_id": "l8M3WuhQ63dtqRyP",
@@ -22628,272 +22683,231 @@
         "modifiedTime": 1694913842312,
         "lastModifiedBy": "1VOK90B3fElXpLfM"
       },
-      "_key": "!actors.items!BLbTDy2RI96ybiMB.l8M3WuhQ63dtqRyP"
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.l8M3WuhQ63dtqRyP"
     }
   ],
   "effects": [
     {
-      "name": "Immunity to magical sleep",
-      "icon": "icons/magic/nature/leaf-glow-maple-orange.webp",
-      "origin": "Actor.BLbTDy2RI96ybiMB.Item.Ap7BnkXQSYOkw7G7",
-      "duration": {
-        "startTime": 348,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
-      },
-      "disabled": false,
-      "_id": "DpAFJChzsHYOfJYV",
-      "changes": [],
-      "tint": null,
-      "transfer": false,
-      "flags": {
-        "dae": {
-          "transfer": true
-        },
-        "times-up": {
-          "isPassive": true
-        }
-      },
-      "description": "",
-      "statuses": [],
-      "_key": "!actors.effects!BLbTDy2RI96ybiMB.DpAFJChzsHYOfJYV"
-    },
-    {
-      "_id": "7qhFbIo0zTm2uxh2",
-      "name": "+1 to spell attacks and save DC",
-      "icon": "icons/equipment/neck/pendant-faceted-red.webp",
-      "origin": "Actor.BLbTDy2RI96ybiMB.Item.fnfwPZhrZZ5vVF85",
-      "changes": [
-        {
-          "key": "system.bonuses.spell.attack",
-          "value": "1",
-          "mode": 2,
-          "priority": 20
-        },
-        {
-          "key": "system.bonuses.spell.dc",
-          "value": "+1",
-          "mode": 2,
-          "priority": 20
-        }
-      ],
-      "disabled": false,
-      "duration": {
-        "startTime": 1680912397,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
-      },
-      "tint": null,
-      "transfer": false,
-      "flags": {
-        "dae": {
-          "stackable": "none",
-          "transfer": true
-        },
-        "times-up": {
-          "isPassive": true
-        }
-      },
-      "description": "",
-      "statuses": [],
-      "_key": "!actors.effects!BLbTDy2RI96ybiMB.7qhFbIo0zTm2uxh2"
-    },
-    {
-      "_id": "vMSTnwKUIHVRAJDy",
-      "name": "+1 to AC and saves",
-      "icon": "icons/equipment/finger/ring-cabochon-silver-gold-red.webp",
-      "origin": "Actor.BLbTDy2RI96ybiMB.Item.44X5J29YlU2CXWXH",
-      "changes": [
-        {
-          "key": "system.attributes.ac.bonus",
-          "value": "+1",
-          "mode": 2,
-          "priority": 20
-        },
-        {
-          "key": "system.bonuses.abilities.save",
-          "value": "+1",
-          "mode": 2,
-          "priority": 20
-        }
-      ],
-      "disabled": false,
-      "duration": {
-        "startTime": 1680912679,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": 30,
-        "startTurn": 1
-      },
-      "tint": null,
-      "transfer": false,
-      "flags": {
-        "dae": {
-          "transfer": true
-        },
-        "times-up": {
-          "isPassive": true
-        }
-      },
-      "description": "",
-      "statuses": [],
-      "_key": "!actors.effects!BLbTDy2RI96ybiMB.vMSTnwKUIHVRAJDy"
-    },
-    {
       "name": "2x PB in Cha checks with dragons",
       "icon": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
-      "origin": "Actor.BLbTDy2RI96ybiMB.Item.bsqM2s1xxxHNHOGa",
+      "origin": "Actor.MdNtAtpGMdbnwXQV.Item.bsqM2s1xxxHNHOGa",
       "duration": {
         "rounds": null,
-        "startTime": 1680912679,
+        "startTime": 0,
         "seconds": null,
         "combat": null,
         "turns": null,
-        "startRound": 30,
-        "startTurn": 1
+        "startRound": null,
+        "startTurn": null
       },
       "disabled": true,
-      "_id": "njbON3jteT4JAwxE",
+      "_id": "p1BIejUi83ZvpQdM",
       "changes": [
         {
           "key": "system.skills.dec.value",
-          "value": "2",
           "mode": 5,
+          "value": "2",
           "priority": 20
         },
         {
           "key": "system.skills.per.value",
-          "value": "2",
           "mode": 5,
+          "value": "2",
           "priority": 20
         }
       ],
       "tint": null,
       "transfer": false,
-      "flags": {
-        "dae": {
-          "transfer": true
-        },
-        "times-up": {
-          "isPassive": true
-        }
-      },
+      "flags": {},
       "description": "",
       "statuses": [],
-      "_key": "!actors.effects!BLbTDy2RI96ybiMB.njbON3jteT4JAwxE"
+      "_key": "!actors.effects!MdNtAtpGMdbnwXQV.p1BIejUi83ZvpQdM"
+    },
+    {
+      "name": "Immunity to magical sleep",
+      "icon": "icons/magic/nature/leaf-glow-maple-orange.webp",
+      "origin": "Actor.MdNtAtpGMdbnwXQV.Item.Ap7BnkXQSYOkw7G7",
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "HaQfviy0A4PIEN2A",
+      "changes": [],
+      "tint": null,
+      "transfer": false,
+      "flags": {},
+      "description": "",
+      "statuses": [],
+      "_key": "!actors.effects!MdNtAtpGMdbnwXQV.HaQfviy0A4PIEN2A"
     },
     {
       "name": "Advantage on saves against charm",
       "icon": "icons/magic/nature/leaf-glow-maple-orange.webp",
-      "origin": "Actor.BLbTDy2RI96ybiMB.Item.Ap7BnkXQSYOkw7G7",
+      "origin": "Actor.MdNtAtpGMdbnwXQV.Item.Ap7BnkXQSYOkw7G7",
       "duration": {
-        "startTime": 1680912679,
+        "startTime": 0,
         "seconds": null,
         "combat": null,
         "rounds": null,
         "turns": null,
-        "startRound": 30,
-        "startTurn": 1
+        "startRound": null,
+        "startTurn": null
       },
       "disabled": true,
-      "_id": "V4gpAQM0CR0QkDWf",
+      "_id": "pC8pOE6ZrcvIHElu",
       "changes": [
         {
           "key": "flags.midi-qol.advantage.ability.save.all",
-          "value": "1",
           "mode": 2,
+          "value": "1",
           "priority": 20
         }
       ],
       "tint": null,
       "transfer": false,
-      "flags": {
-        "times-up": {
-          "isPassive": true
-        }
-      },
+      "flags": {},
       "description": "",
       "statuses": [],
-      "_key": "!actors.effects!BLbTDy2RI96ybiMB.V4gpAQM0CR0QkDWf"
+      "_key": "!actors.effects!MdNtAtpGMdbnwXQV.pC8pOE6ZrcvIHElu"
     },
     {
       "name": "Bonus to fire damage",
       "icon": "icons/magic/fire/flame-burning-fist-strike.webp",
-      "origin": "Actor.BLbTDy2RI96ybiMB.Item.entrJ0PwJEDWbU7n",
+      "origin": "Actor.MdNtAtpGMdbnwXQV.Item.entrJ0PwJEDWbU7n",
       "duration": {
         "rounds": null,
-        "startTime": 1680912679,
+        "startTime": 0,
         "seconds": null,
         "combat": null,
         "turns": null,
-        "startRound": 30,
-        "startTurn": 1
+        "startRound": null,
+        "startTurn": null
       },
       "disabled": true,
-      "_id": "JTR4K4o86SIfD9kv",
+      "_id": "OB7WOEhcWy1uXkhR",
       "changes": [
         {
           "key": "system.bonuses.spell.damage",
-          "value": "@abilities.cha.mod",
           "mode": 2,
+          "value": "@abilities.cha.mod",
           "priority": 20
         },
         {
           "key": "system.bonuses.save.damage",
-          "value": "@abilities.cha.mod",
           "mode": 2,
+          "value": "@abilities.cha.mod",
           "priority": 20
         },
         {
           "key": "system.bonuses.util.damage",
-          "value": "@abilities.cha.mod",
           "mode": 2,
+          "value": "@abilities.cha.mod",
           "priority": 20
         }
       ],
       "tint": null,
       "transfer": false,
       "flags": {
-        "core": {
-          "statusId": "Elemental Affinity: Fire damage bonus"
-        },
         "dae": {
-          "transfer": true
-        },
-        "times-up": {
-          "isPassive": true
+          "showIcon": true
         }
       },
       "description": "",
       "statuses": [],
-      "_key": "!actors.effects!BLbTDy2RI96ybiMB.JTR4K4o86SIfD9kv"
+      "_key": "!actors.effects!MdNtAtpGMdbnwXQV.OB7WOEhcWy1uXkhR"
+    },
+    {
+      "name": "+2 to spell attacks and save DC",
+      "icon": "icons/equipment/neck/pendant-faceted-red.webp",
+      "origin": "Actor.MdNtAtpGMdbnwXQV.Item.fnfwPZhrZZ5vVF85",
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "Xh9CEVYcJi2bslxD",
+      "changes": [
+        {
+          "key": "system.bonuses.spell.attack",
+          "mode": 2,
+          "value": "2",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.spell.dc",
+          "mode": 2,
+          "value": "+2",
+          "priority": 20
+        }
+      ],
+      "tint": null,
+      "transfer": false,
+      "flags": {},
+      "description": "",
+      "statuses": [],
+      "_key": "!actors.effects!MdNtAtpGMdbnwXQV.Xh9CEVYcJi2bslxD"
+    },
+    {
+      "_id": "OvcB6Ns7OpTgVDdb",
+      "name": "+1 to AC and saves",
+      "icon": "icons/equipment/finger/ring-cabochon-silver-gold-red.webp",
+      "origin": "Actor.MdNtAtpGMdbnwXQV.Item.44X5J29YlU2CXWXH",
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "+1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.abilities.save",
+          "mode": 2,
+          "value": "+1",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "transfer": false,
+      "flags": {},
+      "tint": null,
+      "description": "",
+      "statuses": [],
+      "_key": "!actors.effects!MdNtAtpGMdbnwXQV.OvcB6Ns7OpTgVDdb"
     }
   ],
   "folder": null,
   "flags": {
-    "core": {
-      "sheetClass": "dnd5e.ActorSheet5eCharacter"
-    },
     "midi-qol": {
       "concentration-damage": 0
-    }
+    },
+    "core": {}
   },
   "_stats": {
     "systemId": "dnd5e",
     "systemVersion": "2.3.1",
     "coreVersion": "11.313",
-    "createdTime": 1672435669462,
-    "modifiedTime": 1696889106448,
+    "createdTime": 1661787233624,
+    "modifiedTime": 1699051758485,
     "lastModifiedBy": "YGKnOmFfMM1H7piE"
   },
   "sort": 0,
@@ -22901,5 +22915,5 @@
     "default": 0,
     "YGKnOmFfMM1H7piE": 3
   },
-  "_key": "!actors!BLbTDy2RI96ybiMB"
+  "_key": "!actors!MdNtAtpGMdbnwXQV"
 }

@@ -1271,9 +1271,6 @@
   "effects": [],
   "folder": null,
   "flags": {
-    "core": {
-      "sheetClass": "dnd5e.ActorSheet5eNPC"
-    },
     "midi-qol": {
       "concentration-damage": 0
     }
@@ -1283,7 +1280,7 @@
     "systemVersion": "2.3.1",
     "coreVersion": "11.313",
     "createdTime": 1686015495615,
-    "modifiedTime": 1696889106448,
+    "modifiedTime": 1699051758485,
     "lastModifiedBy": "YGKnOmFfMM1H7piE"
   },
   "sort": 0,

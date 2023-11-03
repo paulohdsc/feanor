@@ -29,8 +29,15 @@ globalThis.feanor = {
 // import {draft} from "./draft.js";
 // globalThis.feanor.draft = draft;
 
-// TODO: implement socket interface for registering Hooks to other clients
+// TODO: implement socket interface for registering Hooks to other clients?
 Hooks.once("ready", () => {
+  activateHooks();
+  preventIllandrilsSorter();
+  updateDefaultSheets();
+});
+
+// Register Hook callback handlers for the active features
+function activateHooks() {
   const activeHooks = feanor.utils.getClientSettings("feanor.macroData")?.activeHooks;
   if ( game.user.name !== consts.userName || !activeHooks ) return;
   for ( const feature in activeHooks ) {
@@ -43,4 +50,38 @@ Hooks.once("ready", () => {
       Hooks[option](event, fn);
     }
   }
-});
+}
+
+// Usage: Wrap Illandril's Inventory Sorter module.js code inside this 'if' statement
+// if ( !JSON.parse(globalThis.localStorage.getItem("feanor.preventIllandrilsSorter")) ) {/* code */}
+function preventIllandrilsSorter() {
+  if ( game.user.name !== consts.userName ) return;
+  const key = "feanor.preventIllandrilsSorter";
+  const value = feanor.utils.getClientSettings(key);
+  if ( value === null ) globalThis.localStorage.setItem(key, "true");
+}
+
+// Update the current default Sheets using user sheet preferences
+function updateDefaultSheets() {
+  const sheetChoices = {
+    Actor: {
+      character: "dnd5e.ActorSheet5eCharacter",
+      npc: "dnd5e.ActorSheet5eNPC",
+      vehicle: "dnd5e.ActorSheet5eVehicle"
+    },
+    Item: {
+      weapon: "dnd5e.ItemSheet5e",
+      equipment: "dnd5e.ItemSheet5e",
+      consumable: "dnd5e.ItemSheet5e",
+      tool: "dnd5e.ItemSheet5e",
+      loot: "dnd5e.ItemSheet5e",
+      background: "dnd5e.ItemSheet5e",
+      class: "dnd5e.ItemSheet5e",
+      subclass: "dnd5e.ItemSheet5e",
+      spell: "dnd5e.ItemSheet5e",
+      feat: "dnd5e.ItemSheet5e",
+      backpack: "dnd5e.ItemSheet5e"
+    }
+  };
+  DocumentSheetConfig.updateDefaultSheets(sheetChoices);
+}
