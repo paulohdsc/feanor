@@ -255,7 +255,7 @@ async function dismissDraconicSpirit(document, data) {
   const macroData = feanor.utils.getClientSettings("feanor.macroData");
   const dsTokenUuid = macroData?.summonDraconicSpirit?.dsTokenUuid;
   const spellUuid = macroData?.summonDraconicSpirit?.spellUuid;
-  if ( document.uuid !== dsTokenUuid && document.origin !== spellUuid ) return;
+  if ( document.token?.uuid !== dsTokenUuid && document.origin !== spellUuid ) return; // TOFIX: document.token?.uuid
   if ( document.documentName === "Actor" ) {
     const hp = foundry.utils.getProperty(data, "system.attributes.hp.value");
     if ( hp !== 0 ) return;

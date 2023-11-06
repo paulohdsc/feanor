@@ -6,7 +6,7 @@
  * Modules: DAE, Effect Macro, JB2A, Midi QoL, Sequencer, SoundFx Library, Times Up
  * Usage: For the 'trail sequence' to play, the character must be selected under User Configuration
  */
-function main({actor, token, item, args}) {
+function main({actor, token, item, args, workflow}) {
   /**
    * TODO: Improve macro with Drag Ruler?
    *        const size = Math.floor(Math.random() * (2 - 1.5 + 1) + 1.5);
@@ -22,9 +22,10 @@ function main({actor, token, item, args}) {
    * let [deletedEffect, options, user] = args;
    * const {spellLevel} = args[0];
    */
-
+  console.log(arguments);
   if ( args[0]?.macroPass === "preItemRoll" ) {
-    if ( args[0].targets.length > 1 || args[0].targets[0].id !== args[0].tokenId ) {
+    // if ( args[0].targets.length > 1 || args[0].targets[0].id !== args[0].tokenId ) {
+    if ( args[0].targets.length !== 1 || args[0].targets[0].id !== args[0].tokenId ) {
       ui.notifications.warn("You must target only the caster's token.");
       return false;
     } else {
@@ -34,10 +35,10 @@ function main({actor, token, item, args}) {
   if ( args[0]?.macroPass === "preDamageRoll" ) {
     const damageType = item.system.damage.parts[0][1];
     if ( token ) playCastingSequence(token, damageType);
-    Hooks.once(`midi-qol.preDamageRoll.${args[0].uuid}`, () => false); // OR this.systemCard = true;
-    Hooks.off("preUpdateToken", playTrailSequence);
+    Hooks.once(`midi-qol.preDamageRoll.${args[0].uuid}`, () => false); // OR workflow.systemCard = true;
+    // Hooks.off("preUpdateToken", playTrailSequence); // Issue: findSplice
     Hooks.on("preUpdateToken", playTrailSequence);
-    this.next(15); // Apply dynamic effects
+    workflow.next(15); // Apply dynamic effects
     actor.update({
       "system.attributes.movement": getNewMovement(actor, args[0].spellLevel),
       flags: {
