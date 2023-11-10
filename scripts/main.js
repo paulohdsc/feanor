@@ -31,15 +31,16 @@ globalThis.feanor = {
 
 // TODO: implement socket interface for registering Hooks to other clients?
 Hooks.once("ready", () => {
-  activateHooks();
-  preventIllandrilsSorter();
-  updateDefaultSheets();
+  if ( game.user.name === consts.userName ) {
+    activateOwnerClientHooks();
+    preventIllandrilsSorter();
+    updateDefaultSheets();
+  }
 });
 
 // Register Hook callback handlers for the active features
-function activateHooks() {
+function activateOwnerClientHooks() {
   const activeHooks = feanor.utils.getClientSettings("feanor.macroData")?.activeHooks;
-  if ( game.user.name !== consts.userName || !activeHooks ) return;
   for ( const feature in activeHooks ) {
     const hooks = Object.entries(activeHooks[feature]);
     for ( const hook of hooks ) {
@@ -55,7 +56,6 @@ function activateHooks() {
 // Usage: Wrap Illandril's Inventory Sorter module.js code inside this 'if' statement
 // if ( !JSON.parse(globalThis.localStorage.getItem("feanor.preventIllandrilsSorter")) ) {/* code */}
 function preventIllandrilsSorter() {
-  if ( game.user.name !== consts.userName ) return;
   const key = "feanor.preventIllandrilsSorter";
   const value = feanor.utils.getClientSettings(key);
   if ( value === null ) globalThis.localStorage.setItem(key, "true");

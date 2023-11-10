@@ -22,7 +22,9 @@ function main({actor, token, item, args, workflow}) {
    * let [deletedEffect, options, user] = args;
    * const {spellLevel} = args[0];
    */
-  console.log(arguments);
+
+  // console.log(arguments); // DELETE
+
   if ( args[0]?.macroPass === "preItemRoll" ) {
     // if ( args[0].targets.length > 1 || args[0].targets[0].id !== args[0].tokenId ) {
     if ( args[0].targets.length !== 1 || args[0].targets[0].id !== args[0].tokenId ) {
