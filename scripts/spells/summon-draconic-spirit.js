@@ -82,10 +82,10 @@ async function main({actor: casterActor, token: casterToken, item: spell, args})
   function createDialogContent(family="chromatic") {
     const familyOptions = dsFamilies.reduce((acc, cur) => {
       const isSelected = cur === family ? " selected" : "";
-      return acc += `<option value="${cur}"${isSelected}>${cur.charAt(0).toUpperCase() + cur.slice(1)}</option>`;
+      return acc += `<option value="${cur}"${isSelected}>${cur.capitalize()}</option>`;
     }, "");
     const resistanceOptions = dsResistances[family].reduce((acc, cur) => {
-      return acc += `<option value="${cur}">${cur.charAt(0).toUpperCase() + cur.slice(1)}</option>`;
+      return acc += `<option value="${cur}">${cur.capitalize()}</option>`;
     }, "");
     return `
       <form>

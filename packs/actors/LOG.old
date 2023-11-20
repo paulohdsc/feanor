@@ -1,8 +1,15 @@
-2023/11/05-15:31:03.267 1880 Recovering log #181
-2023/11/05-15:31:03.529 1880 Delete type=0 #181
-2023/11/05-15:31:03.531 1880 Delete type=3 #179
-2023/11/05-15:58:31.285 2e88 Level-0 table #186: started
-2023/11/05-15:58:31.285 2e88 Level-0 table #186: 0 bytes OK
-2023/11/05-15:58:31.318 2e88 Delete type=0 #184
-2023/11/05-15:58:31.319 2e88 Manual compaction at level-0 from '!actors!MdNtAtpGMdbnwXQV' @ 72057594037927935 : 1 .. '!actors.items.effects!MdNtAtpGMdbnwXQV.xtaMG1CmHsjmiuIw.zTZR1QvqZX0wNVTz' @ 0 : 0; will stop at (end)
-2023/11/05-15:58:31.319 2e88 Manual compaction at level-1 from '!actors!MdNtAtpGMdbnwXQV' @ 72057594037927935 : 1 .. '!actors.items.effects!MdNtAtpGMdbnwXQV.xtaMG1CmHsjmiuIw.zTZR1QvqZX0wNVTz' @ 0 : 0; will stop at (end)
+2023/11/20-17:54:17.099 25a0 Recovering log #281
+2023/11/20-17:54:17.229 25a0 Delete type=0 #281
+2023/11/20-17:54:17.229 25a0 Delete type=3 #279
+2023/11/20-19:50:50.199 3b34 Level-0 table #288: started
+2023/11/20-19:50:50.261 3b34 Level-0 table #288: 211671 bytes OK
+2023/11/20-19:50:50.299 3b34 Delete type=0 #286
+2023/11/20-19:50:50.300 3b34 Manual compaction at level-0 from '!actors!MdNtAtpGMdbnwXQV' @ 72057594037927935 : 1 .. '!actors.items.effects!MdNtAtpGMdbnwXQV.ygHN6cbgHpmpKVg1.dlK5tGa1I1RwFIuS' @ 0 : 0; will stop at (end)
+2023/11/20-19:50:50.300 3b34 Manual compaction at level-1 from '!actors!MdNtAtpGMdbnwXQV' @ 72057594037927935 : 1 .. '!actors.items.effects!MdNtAtpGMdbnwXQV.ygHN6cbgHpmpKVg1.dlK5tGa1I1RwFIuS' @ 0 : 0; will stop at '!actors.items.effects!MdNtAtpGMdbnwXQV.ygHN6cbgHpmpKVg1.dlK5tGa1I1RwFIuS' @ 1866 : 0
+2023/11/20-19:50:50.300 3b34 Compacting 1@1 + 1@2 files
+2023/11/20-19:50:50.452 3b34 Generated table #289@1: 199 keys, 207386 bytes
+2023/11/20-19:50:50.452 3b34 Compacted 1@1 + 1@2 files => 207386 bytes
+2023/11/20-19:50:50.490 3b34 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/11/20-19:50:50.491 3b34 Delete type=2 #284
+2023/11/20-19:50:50.491 3b34 Delete type=2 #288
+2023/11/20-19:50:50.641 3b34 Manual compaction at level-1 from '!actors.items.effects!MdNtAtpGMdbnwXQV.ygHN6cbgHpmpKVg1.dlK5tGa1I1RwFIuS' @ 1866 : 0 .. '!actors.items.effects!MdNtAtpGMdbnwXQV.ygHN6cbgHpmpKVg1.dlK5tGa1I1RwFIuS' @ 0 : 0; will stop at (end)

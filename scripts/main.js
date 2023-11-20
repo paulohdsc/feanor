@@ -26,17 +26,7 @@ globalThis.feanor = {
   utils
 };
 
-// import {draft} from "./draft.js";
-// globalThis.feanor.draft = draft;
-
-// TODO: implement socket interface for registering Hooks to other clients?
-Hooks.once("ready", () => {
-  if ( game.user.name === consts.userName ) {
-    activateOwnerClientHooks();
-    preventIllandrilsSorter();
-    updateDefaultSheets();
-  }
-});
+// import {draft} from "./draft.js"; globalThis.feanor.draft = draft;
 
 // Register Hook callback handlers for the active features
 function activateOwnerClientHooks() {
@@ -53,7 +43,7 @@ function activateOwnerClientHooks() {
   }
 }
 
-// Usage: Wrap Illandril's Inventory Sorter module.js code inside this 'if' statement
+// Usage: Wrap Illandril's Inventory Sorter module.js code in the 'if' statement below
 // if ( !JSON.parse(globalThis.localStorage.getItem("feanor.preventIllandrilsSorter")) ) {/* code */}
 function preventIllandrilsSorter() {
   const key = "feanor.preventIllandrilsSorter";
@@ -61,9 +51,9 @@ function preventIllandrilsSorter() {
   if ( value === null ) globalThis.localStorage.setItem(key, "true");
 }
 
-// Update the current default Sheets using user sheet preferences
+// Update the current default sheets using user preferences
 function updateDefaultSheets() {
-  const sheetChoices = {
+  const newDefaultSheets = {
     Actor: {
       character: "dnd5e.ActorSheet5eCharacter",
       npc: "dnd5e.ActorSheet5eNPC",
@@ -83,5 +73,19 @@ function updateDefaultSheets() {
       backpack: "dnd5e.ItemSheet5e"
     }
   };
-  DocumentSheetConfig.updateDefaultSheets(sheetChoices);
+  DocumentSheetConfig.updateDefaultSheets(newDefaultSheets);
 }
+
+Hooks.once("ready", () => {
+  if ( game.user.name === consts.userName ) {
+    activateOwnerClientHooks();
+    preventIllandrilsSorter();
+  }
+});
+
+Hooks.once("canvasReady", () => {
+  if ( game.user.name === consts.userName ) {
+    // Move to the "ready" hook after ToD campaign
+    updateDefaultSheets();
+  }
+});

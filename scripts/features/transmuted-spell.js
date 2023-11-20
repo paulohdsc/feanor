@@ -44,7 +44,7 @@ export async function transmutedSpell({actor, item, workflow}) {
   function createDialogContent() {
     const damageTypes = ["acid", "cold", "fire", "lightning", "poison", "thunder"];
     const damageOptions = damageTypes.reduce((acc, cur) => {
-      return acc += `<option value="${cur}" style="text-align:center">${cur.charAt(0).toUpperCase() + cur.slice(1)}</option>`;
+      return acc += `<option value="${cur}" style="text-align:center">${cur.capitalize()}</option>`;
     }, "");
     const damageSpells = actor.items.filter(i =>
       i.type === "spell"

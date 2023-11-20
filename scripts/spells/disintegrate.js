@@ -5,11 +5,11 @@
  * Modules: JB2A, Midi QoL ("postActiveEffects"), Sequencer
  * Usage: function.feanor.spells.disintegrate
  */
-export async function disintegrate({token}) {
+export async function disintegrate({token, workflow}) {
   const disintegrate = feanor.utils.filterDatabase(feanor.database.disintegrate);
   await feanor.utils.preload(disintegrate);
   const sequence = new Sequence({moduleName: "Fëanor", softFail: true}).sound(disintegrate.sounds.projectile);
-  for ( const target of this.targets ) {
+  for ( const target of workflow.targets ) {
     sequence
       .effect()
         .file(disintegrate.effects.projectile)
