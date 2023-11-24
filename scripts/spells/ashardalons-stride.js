@@ -21,6 +21,8 @@ function main({actor, token, item, args, workflow}) {
    * scope?.args?.[0].toObject()
    * let [deletedEffect, options, user] = args;
    * const {spellLevel} = args[0];
+   *
+   * BUG: Concentration is being applied on every damage roll
    */
 
   // console.log(arguments); // DELETE
