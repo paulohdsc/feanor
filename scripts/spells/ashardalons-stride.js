@@ -22,6 +22,7 @@ function main({actor, token, item, args, workflow}) {
    * let [deletedEffect, options, user] = args;
    * const {spellLevel} = args[0];
    *
+   * Use Midi to calculate distance (to take elevation into consideration)
    * BUG: Concentration is being applied on every damage roll
    */
 

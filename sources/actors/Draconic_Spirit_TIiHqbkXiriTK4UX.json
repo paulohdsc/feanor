@@ -778,6 +778,27 @@
           "isCustomized": true,
           "fromAmmo": false,
           "version": 5
+        },
+        "midi-qol": {
+          "fumbleThreshold": null,
+          "effectActivation": false
+        },
+        "midiProperties": {
+          "confirmTargets": false,
+          "nodam": false,
+          "fulldam": false,
+          "halfdam": false,
+          "autoFailFriendly": false,
+          "autoSaveFriendly": false,
+          "rollOther": false,
+          "critOther": false,
+          "offHandWeapon": false,
+          "magicdam": false,
+          "magiceffect": false,
+          "concentration": false,
+          "noConcentrationCheck": false,
+          "toggleEffect": false,
+          "ignoreTotalCover": false
         }
       },
       "system": {
@@ -896,11 +917,11 @@
       },
       "_stats": {
         "systemId": "dnd5e",
-        "systemVersion": "2.3.1",
-        "coreVersion": "10.303",
+        "systemVersion": "2.4.0",
+        "coreVersion": "11.315",
         "createdTime": null,
-        "modifiedTime": 1693536166018,
-        "lastModifiedBy": "1VOK90B3fElXpLfM"
+        "modifiedTime": 1700954041473,
+        "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!TIiHqbkXiriTK4UX.rGIOBuYrPJfXSnaO"
     },
@@ -1302,7 +1323,7 @@
     "systemVersion": "2.4.0",
     "coreVersion": "11.315",
     "createdTime": 1686015495615,
-    "modifiedTime": 1700866519154,
+    "modifiedTime": 1701471448200,
     "lastModifiedBy": "YGKnOmFfMM1H7piE"
   },
   "sort": 0,

@@ -67,13 +67,13 @@
         "formula": ""
       },
       "hp": {
-        "value": 100,
+        "value": 115,
         "max": null,
         "temp": null,
         "tempmax": null,
         "bonuses": {
           "level": "+1",
-          "overall": "+5"
+          "overall": "+10"
         }
       },
       "init": {
@@ -118,7 +118,7 @@
       "background": "jworzfvuLxGiOLCy",
       "originalClass": "5FeJwtOtARstNAH4",
       "xp": {
-        "value": 174547
+        "value": 193421
       },
       "appearance": "Idade: 33 anos;\nAltura: 1,8 m;\nPeso: 80 kg;\nOlhos: dourados;\nPele: bronze;\nCabelos: negros.",
       "trait": "As pessoas comuns me amam por minha bondade e generosidade.\n\nApesar da minha origem nobre, eu não estou acima dos outros. O sangue é um só.",
@@ -356,7 +356,7 @@
         "override": null
       },
       "spell5": {
-        "value": 0,
+        "value": 1,
         "override": null
       },
       "spell6": {
@@ -525,7 +525,7 @@
         "identifier": "sorcerer",
         "levels": 15,
         "hitDice": "d6",
-        "hitDiceUsed": 0,
+        "hitDiceUsed": 4,
         "advancement": [
           {
             "_id": "uuxthec7dohzb4wn",
@@ -715,10 +715,10 @@
       },
       "_stats": {
         "systemId": "dnd5e",
-        "systemVersion": "2.3.1",
+        "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787234275,
-        "modifiedTime": 1700173073559,
+        "modifiedTime": 1701050015297,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.5FeJwtOtARstNAH4"
@@ -1664,7 +1664,7 @@
           "units": ""
         },
         "uses": {
-          "value": 78,
+          "value": 84,
           "max": "100",
           "per": "lr",
           "recovery": "",
@@ -1816,7 +1816,30 @@
                 "option": "preItemRoll"
               }
             }
-          }
+          },
+          "effectActivation": false
+        },
+        "midiProperties": {
+          "confirmTargets": false,
+          "nodam": false,
+          "fulldam": false,
+          "halfdam": false,
+          "autoFailFriendly": false,
+          "autoSaveFriendly": false,
+          "rollOther": false,
+          "critOther": false,
+          "offHandWeapon": false,
+          "magicdam": false,
+          "magiceffect": false,
+          "concentration": false,
+          "noConcentrationCheck": false,
+          "toggleEffect": false,
+          "ignoreTotalCover": false
+        },
+        "autoanimations": {
+          "menu": "melee",
+          "isEnabled": false,
+          "version": 5
         }
       },
       "_stats": {
@@ -1824,7 +1847,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233624,
-        "modifiedTime": 1700866351890,
+        "modifiedTime": 1701304664586,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.niGD1JsBwRvtyxnG"
@@ -2088,7 +2111,7 @@
           "unidentified": ""
         },
         "source": {},
-        "quantity": 38,
+        "quantity": 33,
         "weight": 0.1,
         "price": {
           "value": 50,
@@ -2168,13 +2191,34 @@
         "default": 0,
         "1VOK90B3fElXpLfM": 3
       },
-      "flags": {},
+      "flags": {
+        "midi-qol": {
+          "effectActivation": false
+        },
+        "midiProperties": {
+          "confirmTargets": false,
+          "nodam": false,
+          "fulldam": false,
+          "halfdam": false,
+          "autoFailFriendly": false,
+          "autoSaveFriendly": false,
+          "rollOther": false,
+          "critOther": false,
+          "offHandWeapon": false,
+          "magicdam": false,
+          "magiceffect": false,
+          "concentration": false,
+          "noConcentrationCheck": false,
+          "toggleEffect": false,
+          "ignoreTotalCover": false
+        }
+      },
       "_stats": {
         "systemId": "dnd5e",
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233972,
-        "modifiedTime": 1700853729979,
+        "modifiedTime": 1701304923979,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.aAkQCwV5jrfDmpPO"
@@ -2745,7 +2789,7 @@
           "unidentified": ""
         },
         "source": {},
-        "quantity": 2,
+        "quantity": 4,
         "weight": 0,
         "price": {
           "value": 60,
@@ -2826,7 +2870,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233496,
-        "modifiedTime": 1700853919133,
+        "modifiedTime": 1701050441448,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "8kM0M5BHumN2nXt3",
@@ -3043,7 +3087,7 @@
           "unidentified": ""
         },
         "source": {},
-        "quantity": 3,
+        "quantity": 2,
         "weight": 0,
         "price": {
           "value": 120,
@@ -3124,7 +3168,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233703,
-        "modifiedTime": 1700853729979,
+        "modifiedTime": 1701050497877,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "cw7coQC1pU49vdTe",
@@ -3239,7 +3283,7 @@
           "unidentified": ""
         },
         "source": {},
-        "quantity": 6,
+        "quantity": 5,
         "weight": 0,
         "price": {
           "value": 200,
@@ -3320,7 +3364,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233817,
-        "modifiedTime": 1700859340176,
+        "modifiedTime": 1701050851040,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "vULchHXUjF6vnELv",
@@ -3916,7 +3960,7 @@
         "range": {
           "value": null,
           "long": null,
-          "units": ""
+          "units": "self"
         },
         "uses": {
           "value": null,
@@ -4024,6 +4068,9 @@
               "lastModifiedBy": null
             }
           }
+        },
+        "core": {
+          "sourceId": "Actor.MdNtAtpGMdbnwXQV.Item.tm8IwE16DKOEXG16"
         }
       },
       "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
@@ -4043,19 +4090,34 @@
           },
           "disabled": false,
           "_id": "67LXObjFpqfhfiKa",
-          "changes": [
-            {
-              "key": "macro.itemMacro",
-              "mode": 0,
-              "value": "",
-              "priority": 20
-            }
-          ],
+          "changes": [],
           "tint": null,
           "transfer": false,
           "flags": {
             "dae": {
-              "macroRepeat": "endEveryTurn"
+              "macroRepeat": "none",
+              "disableIncapacitated": false,
+              "selfTarget": false,
+              "selfTargetAlways": false,
+              "dontApply": false,
+              "stackable": "noneName",
+              "showIcon": false,
+              "durationExpression": "",
+              "specialDuration": []
+            },
+            "effectmacro": {
+              "onDelete": {
+                "script": "feanor.spells.blink({trigger: \"onEffectDeletion\", actor, effect, token});"
+              },
+              "onTurnStart": {
+                "script": "feanor.spells.blink({trigger: \"onTurnStart\", actor, effect, token});"
+              },
+              "onTurnEnd": {
+                "script": "feanor.spells.blink({trigger: \"onTurnEnd\", actor, effect, token});"
+              },
+              "onCombatEnd": {
+                "script": "feanor.spells.blink({trigger: \"onCombatEnding\", actor, effect, token});"
+              }
             }
           },
           "description": "",
@@ -4069,7 +4131,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787234105,
-        "modifiedTime": 1700866121992,
+        "modifiedTime": 1701471212322,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.tm8IwE16DKOEXG16"
@@ -6668,11 +6730,11 @@
             "sound": {
               "enable": true,
               "delay": 0,
-              "file": "upload-player/feanor/shield.wav",
+              "file": "modules/feanor/audios/shield.wav",
               "repeat": 1,
               "repeatDelay": 250,
               "startTime": 0,
-              "volume": 0.75
+              "volume": 1
             },
             "options": {
               "addTokenWidth": false,
@@ -6840,11 +6902,11 @@
       },
       "_stats": {
         "systemId": "dnd5e",
-        "systemVersion": "2.3.1",
-        "coreVersion": "10.303",
+        "systemVersion": "2.4.0",
+        "coreVersion": "11.315",
         "createdTime": 1661787234244,
-        "modifiedTime": 1693773000281,
-        "lastModifiedBy": "1VOK90B3fElXpLfM"
+        "modifiedTime": 1701308368048,
+        "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.5N0VLIfBsZUhul8c"
     },
@@ -7163,7 +7225,8 @@
                 "option": "preambleComplete"
               }
             }
-          }
+          },
+          "effectActivation": false
         },
         "itemacro": {
           "macro": {
@@ -7390,6 +7453,23 @@
           "isCustomized": true,
           "fromAmmo": false,
           "version": 5
+        },
+        "midiProperties": {
+          "confirmTargets": false,
+          "nodam": false,
+          "fulldam": false,
+          "halfdam": false,
+          "autoFailFriendly": false,
+          "autoSaveFriendly": false,
+          "rollOther": false,
+          "critOther": false,
+          "offHandWeapon": false,
+          "magicdam": false,
+          "magiceffect": false,
+          "concentration": false,
+          "noConcentrationCheck": false,
+          "toggleEffect": false,
+          "ignoreTotalCover": false
         }
       },
       "img": "icons/magic/air/wind-vortex-swirl-blue.webp",
@@ -7397,11 +7477,11 @@
       "folder": null,
       "_stats": {
         "systemId": "dnd5e",
-        "systemVersion": "2.3.1",
-        "coreVersion": "10.303",
+        "systemVersion": "2.4.0",
+        "coreVersion": "11.315",
         "createdTime": 1661787234102,
-        "modifiedTime": 1692998065974,
-        "lastModifiedBy": "1VOK90B3fElXpLfM"
+        "modifiedTime": 1701305903977,
+        "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.Q3tnssrHLxTgyszQ"
     },
@@ -7415,9 +7495,7 @@
           "chat": "",
           "unidentified": ""
         },
-        "source": {
-          "custom": "TCE pg. 122"
-        },
+        "source": {},
         "quantity": 1,
         "weight": 0,
         "price": {
@@ -7452,7 +7530,7 @@
           "units": ""
         },
         "uses": {
-          "value": 1,
+          "value": 0,
           "max": "1",
           "per": "day",
           "recovery": "",
@@ -7552,10 +7630,10 @@
       "flags": {},
       "_stats": {
         "systemId": "dnd5e",
-        "systemVersion": "2.3.1",
+        "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1672454949512,
-        "modifiedTime": 1700271030674,
+        "modifiedTime": 1701307072150,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.fnfwPZhrZZ5vVF85"
@@ -7722,7 +7800,7 @@
         "uses": {
           "value": 1,
           "max": "7",
-          "per": "charges",
+          "per": "dawn",
           "recovery": "1d6 + 1",
           "prompt": true
         },
@@ -7789,7 +7867,8 @@
                 "option": "preItemRoll"
               }
             }
-          }
+          },
+          "effectActivation": false
         },
         "itemacro": {
           "macro": {
@@ -7815,6 +7894,28 @@
               "lastModifiedBy": null
             }
           }
+        },
+        "midiProperties": {
+          "confirmTargets": false,
+          "nodam": false,
+          "fulldam": false,
+          "halfdam": false,
+          "autoFailFriendly": false,
+          "autoSaveFriendly": false,
+          "rollOther": false,
+          "critOther": false,
+          "offHandWeapon": false,
+          "magicdam": false,
+          "magiceffect": false,
+          "concentration": false,
+          "noConcentrationCheck": false,
+          "toggleEffect": false,
+          "ignoreTotalCover": false
+        },
+        "autoanimations": {
+          "menu": "melee",
+          "isEnabled": false,
+          "version": 5
         }
       },
       "_stats": {
@@ -7822,7 +7923,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1672455095509,
-        "modifiedTime": 1700704938292,
+        "modifiedTime": 1701306440366,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.XmXq94F8jWVJ6RdA"
@@ -8408,7 +8509,7 @@
           "units": ""
         },
         "uses": {
-          "value": 14,
+          "value": 12,
           "max": "@classes.sorcerer.levels",
           "per": "lr",
           "recovery": "",
@@ -8463,7 +8564,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1672457286535,
-        "modifiedTime": 1700704979557,
+        "modifiedTime": 1701050995711,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.OlPzhisxQ0TpOzbc"
@@ -9566,7 +9667,8 @@
           "concentration": false,
           "noConcentrationCheck": false,
           "toggleEffect": false,
-          "ignoreTotalCover": false
+          "ignoreTotalCover": false,
+          "confirmTargets": false
         }
       },
       "_stats": {
@@ -9574,13 +9676,13 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1678584695540,
-        "modifiedTime": 1700853698140,
+        "modifiedTime": 1701305834809,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.Jp2WSf6Oce13J39w"
     },
     {
-      "name": "Ashardalon's Stride (no conc.)",
+      "name": "Ashardalon's Stride (no conc)",
       "type": "spell",
       "system": {
         "description": {
@@ -9657,7 +9759,7 @@
           "somatic": true,
           "material": false,
           "ritual": false,
-          "concentration": false
+          "concentration": true
         },
         "materials": {
           "value": "",
@@ -9756,7 +9858,13 @@
           "concentration": false,
           "noConcentrationCheck": false,
           "toggleEffect": false,
-          "ignoreTotalCover": false
+          "ignoreTotalCover": false,
+          "confirmTargets": false
+        },
+        "autoanimations": {
+          "isEnabled": false,
+          "menu": "melee",
+          "version": 5
         }
       },
       "_stats": {
@@ -9764,7 +9872,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1678752640634,
-        "modifiedTime": 1700864378213,
+        "modifiedTime": 1701305888709,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.YpZqDkMioucPj5Kw"
@@ -9913,16 +10021,39 @@
                 "option": "preActiveEffects"
               }
             }
-          }
+          },
+          "effectActivation": false
+        },
+        "midiProperties": {
+          "confirmTargets": false,
+          "nodam": false,
+          "fulldam": false,
+          "halfdam": false,
+          "autoFailFriendly": false,
+          "autoSaveFriendly": false,
+          "rollOther": false,
+          "critOther": false,
+          "offHandWeapon": false,
+          "magicdam": false,
+          "magiceffect": false,
+          "concentration": false,
+          "noConcentrationCheck": false,
+          "toggleEffect": false,
+          "ignoreTotalCover": false
+        },
+        "autoanimations": {
+          "isEnabled": false,
+          "menu": "melee",
+          "version": 5
         }
       },
       "_stats": {
         "systemId": "dnd5e",
-        "systemVersion": "2.3.1",
-        "coreVersion": "10.303",
+        "systemVersion": "2.4.0",
+        "coreVersion": "11.315",
         "createdTime": 1678831076246,
-        "modifiedTime": 1695346796708,
-        "lastModifiedBy": "1VOK90B3fElXpLfM"
+        "modifiedTime": 1701305940513,
+        "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.ZJG5serkY1FpdSEb"
     },
@@ -10339,7 +10470,8 @@
           "concentration": false,
           "noConcentrationCheck": false,
           "toggleEffect": false,
-          "ignoreTotalCover": false
+          "ignoreTotalCover": false,
+          "confirmTargets": false
         },
         "midi-qol": {
           "onUseMacroName": "[postActiveEffects]function.feanor.spells.disintegrate",
@@ -10354,7 +10486,7 @@
           "effectActivation": false
         },
         "autoanimations": {
-          "menu": "range",
+          "menu": "melee",
           "isEnabled": false,
           "version": 5
         }
@@ -10367,7 +10499,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787234106,
-        "modifiedTime": 1700788043794,
+        "modifiedTime": 1701305971270,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.S2eRIAdXPQ0BUjbU"
@@ -10813,15 +10945,16 @@
           "concentration": false,
           "noConcentrationCheck": false,
           "toggleEffect": false,
-          "ignoreTotalCover": false
+          "ignoreTotalCover": false,
+          "confirmTargets": false
         }
       },
       "_stats": {
         "systemId": "dnd5e",
-        "systemVersion": "2.3.1",
+        "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1679278911318,
-        "modifiedTime": 1700514237181,
+        "modifiedTime": 1701305910127,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.sMr8gT6Mdgmc7XRl"
@@ -11028,7 +11161,8 @@
           "concentration": false,
           "noConcentrationCheck": false,
           "toggleEffect": false,
-          "ignoreTotalCover": false
+          "ignoreTotalCover": false,
+          "confirmTargets": false
         }
       },
       "_stats": {
@@ -11036,7 +11170,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787234147,
-        "modifiedTime": 1700795200846,
+        "modifiedTime": 1701305819689,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.5trSJWdg5xlIlLXP"
@@ -11166,9 +11300,7 @@
           "chat": "",
           "unidentified": ""
         },
-        "source": {
-          "custom": "WBtW pg. 212"
-        },
+        "source": {},
         "quantity": 2,
         "weight": 0.1,
         "price": {
@@ -11283,7 +11415,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1688686155555,
-        "modifiedTime": 1700853729979,
+        "modifiedTime": 1701052902944,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.t3S3RgNctx1xc531"
@@ -11532,7 +11664,7 @@
           "units": "ft"
         },
         "uses": {
-          "value": 3,
+          "value": 0,
           "max": "7",
           "per": "charges",
           "recovery": "",
@@ -11618,7 +11750,8 @@
           "concentration": false,
           "noConcentrationCheck": false,
           "toggleEffect": false,
-          "ignoreTotalCover": false
+          "ignoreTotalCover": false,
+          "confirmTargets": false
         }
       },
       "_stats": {
@@ -11626,7 +11759,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1689214465142,
-        "modifiedTime": 1700795194286,
+        "modifiedTime": 1701051516460,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "yZCEwBrbljLxNlLI",
@@ -12260,10 +12393,8 @@
           "chat": "",
           "unidentified": ""
         },
-        "source": {
-          "custom": "DMG pg. 187"
-        },
-        "quantity": 10,
+        "source": {},
+        "quantity": 14,
         "weight": 0.1,
         "price": {
           "value": 150,
@@ -12343,13 +12474,34 @@
         "default": 0,
         "1VOK90B3fElXpLfM": 3
       },
-      "flags": {},
+      "flags": {
+        "midi-qol": {
+          "effectActivation": false
+        },
+        "midiProperties": {
+          "confirmTargets": false,
+          "nodam": false,
+          "fulldam": false,
+          "halfdam": false,
+          "autoFailFriendly": false,
+          "autoSaveFriendly": false,
+          "rollOther": false,
+          "critOther": false,
+          "offHandWeapon": false,
+          "magicdam": false,
+          "magiceffect": false,
+          "concentration": false,
+          "noConcentrationCheck": false,
+          "toggleEffect": false,
+          "ignoreTotalCover": false
+        }
+      },
       "_stats": {
         "systemId": "dnd5e",
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233614,
-        "modifiedTime": 1700853729979,
+        "modifiedTime": 1701304918660,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.9V17snHJf3buEifz"
@@ -13657,7 +13809,7 @@
         "uses": {
           "value": 3,
           "max": "3",
-          "per": "charges",
+          "per": "dawn",
           "recovery": "1d3",
           "prompt": true
         },
@@ -13776,7 +13928,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233451,
-        "modifiedTime": 1700713401987,
+        "modifiedTime": 1701306356541,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.CpWWk9a0jey9BwxK"
@@ -14845,7 +14997,8 @@
           "concentration": false,
           "noConcentrationCheck": false,
           "toggleEffect": false,
-          "ignoreTotalCover": false
+          "ignoreTotalCover": false,
+          "confirmTargets": false
         }
       },
       "img": "icons/magic/lightning/bolt-blue.webp",
@@ -14856,7 +15009,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787234110,
-        "modifiedTime": 1700795369314,
+        "modifiedTime": 1701305386931,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.sse2HjDheHNi6krB"
@@ -15024,7 +15177,7 @@
     },
     {
       "_id": "ade9t3kiBcCefME0",
-      "name": "4. Wall of Fire",
+      "name": "4. Wall of Fire (line)",
       "ownership": {
         "default": 0,
         "1VOK90B3fElXpLfM": 3
@@ -15141,7 +15294,196 @@
           "concentration": false,
           "noConcentrationCheck": false,
           "toggleEffect": false,
-          "ignoreTotalCover": false
+          "ignoreTotalCover": false,
+          "confirmTargets": true
+        },
+        "autoanimations": {
+          "id": "aae6f737-be91-4728-b9ef-db541b62aa5b",
+          "label": "4. Wall of Fire (line)",
+          "macro": {
+            "enable": false,
+            "playWhen": "0"
+          },
+          "menu": "templatefx",
+          "primary": {
+            "video": {
+              "dbSection": "templatefx",
+              "menuType": "ray",
+              "animation": "breathweapon",
+              "variant": "fire",
+              "color": "orange",
+              "enableCustom": true,
+              "customPath": "jb2a.wall_of_fire.300x100.yellow"
+            },
+            "sound": {
+              "enable": true,
+              "delay": 0,
+              "file": "modules/feanor/audios/inflict-fire.wav",
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "isMasked": false,
+              "isWait": false,
+              "occlusionAlpha": 0.5,
+              "occlusionMode": "3",
+              "opacity": 1,
+              "persistent": true,
+              "persistType": "sequencerground",
+              "playbackRate": 1,
+              "removeTemplate": true,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "rotate": 0,
+              "saturate": 0,
+              "scale": "1",
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1,
+              "aboveTemplate": false
+            }
+          },
+          "secondary": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": true,
+              "isWait": false,
+              "opacity": 1,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1.5,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1
+            }
+          },
+          "soundOnly": {
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            }
+          },
+          "source": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": false,
+              "isWait": true,
+              "opacity": 1,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1
+            }
+          },
+          "target": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": false,
+              "opacity": 1,
+              "persistent": false,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "unbindAlpha": false,
+              "unbindVisibility": false,
+              "zIndex": 1
+            }
+          },
+          "isEnabled": true,
+          "isCustomized": true,
+          "fromAmmo": false,
+          "version": 5
         }
       },
       "img": "icons/magic/fire/barrier-wall-flame-ring-yellow.webp",
@@ -15152,7 +15494,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787234155,
-        "modifiedTime": 1700795383925,
+        "modifiedTime": 1701315035868,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.ade9t3kiBcCefME0"
@@ -15444,17 +15786,38 @@
         }
       },
       "sort": 0,
-      "flags": {},
+      "flags": {
+        "midi-qol": {
+          "effectActivation": false
+        },
+        "midiProperties": {
+          "confirmTargets": false,
+          "nodam": false,
+          "fulldam": false,
+          "halfdam": false,
+          "autoFailFriendly": false,
+          "autoSaveFriendly": false,
+          "rollOther": false,
+          "critOther": false,
+          "offHandWeapon": false,
+          "magicdam": false,
+          "magiceffect": false,
+          "concentration": false,
+          "noConcentrationCheck": false,
+          "toggleEffect": false,
+          "ignoreTotalCover": false
+        }
+      },
       "img": "icons/commodities/treasure/stone-cracked-lightning-blue.webp",
       "effects": [],
       "folder": null,
       "_stats": {
         "systemId": "dnd5e",
-        "systemVersion": "2.3.1",
-        "coreVersion": "10.303",
+        "systemVersion": "2.4.0",
+        "coreVersion": "11.315",
         "createdTime": 1661787234087,
-        "modifiedTime": 1693773924605,
-        "lastModifiedBy": "1VOK90B3fElXpLfM"
+        "modifiedTime": 1701305914619,
+        "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.nDz43FUB8sNyK7Xe"
     },
@@ -15593,13 +15956,34 @@
         "default": 0,
         "1VOK90B3fElXpLfM": 3
       },
-      "flags": {},
+      "flags": {
+        "midi-qol": {
+          "effectActivation": false
+        },
+        "midiProperties": {
+          "confirmTargets": false,
+          "nodam": false,
+          "fulldam": false,
+          "halfdam": false,
+          "autoFailFriendly": false,
+          "autoSaveFriendly": false,
+          "rollOther": false,
+          "critOther": false,
+          "offHandWeapon": false,
+          "magicdam": false,
+          "magiceffect": false,
+          "concentration": false,
+          "noConcentrationCheck": false,
+          "toggleEffect": false,
+          "ignoreTotalCover": false
+        }
+      },
       "_stats": {
         "systemId": "dnd5e",
-        "systemVersion": "2.3.1",
+        "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1693439186700,
-        "modifiedTime": 1700271508963,
+        "modifiedTime": 1701305919115,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.7ZjJipVD72uqPDEl"
@@ -16542,7 +16926,7 @@
           "unidentified": ""
         },
         "source": {},
-        "quantity": 8,
+        "quantity": 7,
         "weight": 0,
         "price": {
           "value": 200,
@@ -16624,7 +17008,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233817,
-        "modifiedTime": 1700858254942,
+        "modifiedTime": 1701051609095,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "kFvck9mw0m2MPY4n",
@@ -16928,105 +17312,6 @@
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.vrGOqcBi6JDag1Uq"
     },
     {
-      "name": "Spell Scroll 2: Aid",
-      "type": "consumable",
-      "img": "icons/sundries/scrolls/scroll-bound-gold-brown.webp",
-      "system": {
-        "description": {
-          "value": "<p>A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.</p>\n<p>If the spell is on your class's spell list but of a higher level than you can normally cast, you must make a DC 12 ability check using your spellcasting ability to determine whether you cast it successfully. On a failed check, the spell disappears from the scroll with no other effect.</p>\n<p>The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity.</p>\n<p><strong>Save DC</strong>: 13<br /><strong>Attack Bonus</strong>: +5.</p>\n<p>A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 12 Intelligence (Arcana) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": {},
-        "quantity": 1,
-        "weight": 0,
-        "price": {
-          "value": 120,
-          "denomination": "gp"
-        },
-        "attunement": 0,
-        "equipped": false,
-        "rarity": "uncommon",
-        "identified": true,
-        "activation": {
-          "type": "special",
-          "cost": null,
-          "condition": "Spell must be on the caster's spell list"
-        },
-        "duration": {
-          "value": "",
-          "units": ""
-        },
-        "cover": null,
-        "crewed": false,
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": "",
-          "prompt": true
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 1,
-          "max": "1",
-          "per": "charges",
-          "recovery": "",
-          "autoDestroy": true,
-          "prompt": true
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null,
-          "scale": false
-        },
-        "ability": "",
-        "actionType": "",
-        "attackBonus": "5",
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": ""
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": 13,
-          "scaling": "flat"
-        },
-        "consumableType": "scroll",
-        "properties": {}
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 100000,
-      "ownership": {
-        "default": 0,
-        "1VOK90B3fElXpLfM": 3,
-        "YGKnOmFfMM1H7piE": 3
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "dnd5e",
-        "systemVersion": "2.4.0",
-        "coreVersion": "11.315",
-        "createdTime": 1661787233703,
-        "modifiedTime": 1700859288191,
-        "lastModifiedBy": "YGKnOmFfMM1H7piE"
-      },
-      "_id": "PkD0h8yNk6WCzhCb",
-      "_key": "!actors.items!MdNtAtpGMdbnwXQV.PkD0h8yNk6WCzhCb"
-    },
-    {
       "_id": "8SxPO7WtI1LvQhFF",
       "name": "Potion of Poison Resistance",
       "type": "consumable",
@@ -17209,7 +17494,7 @@
         "uses": {
           "value": 3,
           "max": "3",
-          "per": "charges",
+          "per": "dawn",
           "recovery": "1d3",
           "prompt": true
         },
@@ -17268,7 +17553,21 @@
       },
       "flags": {
         "midiProperties": {
-          "concentration": true
+          "concentration": true,
+          "confirmTargets": false,
+          "nodam": false,
+          "fulldam": false,
+          "halfdam": false,
+          "autoFailFriendly": false,
+          "autoSaveFriendly": false,
+          "rollOther": false,
+          "critOther": false,
+          "offHandWeapon": false,
+          "magicdam": false,
+          "magiceffect": false,
+          "noConcentrationCheck": false,
+          "toggleEffect": false,
+          "ignoreTotalCover": false
         },
         "autoanimations": {
           "id": "9d883eb8-fa5b-48c0-b670-eacb8d84889a",
@@ -17460,14 +17759,17 @@
           "isCustomized": true,
           "fromAmmo": false,
           "version": 5
+        },
+        "midi-qol": {
+          "effectActivation": false
         }
       },
       "_stats": {
         "systemId": "dnd5e",
-        "systemVersion": "2.3.1",
+        "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1700253988120,
-        "modifiedTime": 1700256626780,
+        "modifiedTime": 1701306425439,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.RC3vsQS4OeupgnaZ"
@@ -17520,7 +17822,7 @@
         "uses": {
           "value": 10,
           "max": "10",
-          "per": "charges",
+          "per": "dawn",
           "recovery": "1d6+4",
           "prompt": true
         },
@@ -17651,15 +17953,16 @@
           "concentration": false,
           "noConcentrationCheck": false,
           "toggleEffect": false,
-          "ignoreTotalCover": false
+          "ignoreTotalCover": false,
+          "confirmTargets": false
         }
       },
       "_stats": {
         "systemId": "dnd5e",
-        "systemVersion": "2.3.1",
+        "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1700270732798,
-        "modifiedTime": 1700514379746,
+        "modifiedTime": 1701306098838,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.IBOWml28vacHgNxe"
@@ -17799,7 +18102,7 @@
     },
     {
       "_id": "xTgv2ENAi0SdeUDi",
-      "name": "Telekinesis",
+      "name": "Telekinesis (120 ft, no conc)",
       "ownership": {
         "default": 0,
         "YGKnOmFfMM1H7piE": 3
@@ -17836,7 +18139,7 @@
           "prompt": true
         },
         "range": {
-          "value": 60,
+          "value": 120,
           "long": null,
           "units": "ft"
         },
@@ -17922,7 +18225,7 @@
         },
         "autoanimations": {
           "id": "5a686839-1292-4107-9fc9-3c4f65c19d20",
-          "label": "Telekinesis",
+          "label": "Telekinesis (120 ft, no conc)",
           "macro": {
             "enable": false,
             "playWhen": "0"
@@ -17958,12 +18261,13 @@
               "playbackRate": 1
             },
             "sound": {
-              "enable": false,
-              "delay": 0,
+              "enable": true,
+              "delay": 250,
               "repeat": 1,
-              "repeatDelay": 250,
+              "repeatDelay": 4000,
               "startTime": 0,
-              "volume": 0.75
+              "volume": 0.75,
+              "file": "modules/feanor/audios/chromatic-orb-casting.wav"
             }
           }
         }
@@ -18040,7 +18344,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787234107,
-        "modifiedTime": 1700795163770,
+        "modifiedTime": 1701311683175,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.xTgv2ENAi0SdeUDi"
@@ -18285,12 +18589,13 @@
                   "saturation": -0.5
                 },
                 "sound": {
-                  "enable": false,
+                  "enable": true,
                   "delay": 0,
                   "repeat": 1,
                   "repeatDelay": 250,
                   "startTime": 0,
-                  "volume": 0.75
+                  "volume": 1,
+                  "file": "modules/feanor/audios/shield.wav"
                 }
               },
               "secondary": {
@@ -18400,7 +18705,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1700786434458,
-        "modifiedTime": 1700865323186,
+        "modifiedTime": 1701308166536,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.4RZLP04AfN5KBJ7r"
@@ -18717,7 +19022,8 @@
           "concentration": false,
           "noConcentrationCheck": false,
           "toggleEffect": false,
-          "ignoreTotalCover": false
+          "ignoreTotalCover": false,
+          "confirmTargets": false
         }
       },
       "img": "icons/magic/fire/projectile-fireball-smoke-strong-orange.webp",
@@ -18728,7 +19034,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787234246,
-        "modifiedTime": 1700795267402,
+        "modifiedTime": 1701305376041,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "n7ZlWEC2c4ABllZl",
@@ -19052,7 +19358,8 @@
           "concentration": false,
           "noConcentrationCheck": false,
           "toggleEffect": false,
-          "ignoreTotalCover": false
+          "ignoreTotalCover": false,
+          "confirmTargets": false
         },
         "midi-qol": {
           "onUseMacroName": "[postActiveEffects]function.feanor.spells.disintegrate",
@@ -19067,7 +19374,7 @@
           "effectActivation": false
         },
         "autoanimations": {
-          "menu": "range",
+          "menu": "melee",
           "isEnabled": false,
           "version": 5
         }
@@ -19080,7 +19387,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787234106,
-        "modifiedTime": 1700864806331,
+        "modifiedTime": 1701305461051,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "NonmeQwnbs8xGkPZ",
@@ -19355,7 +19662,8 @@
           "concentration": false,
           "noConcentrationCheck": false,
           "toggleEffect": false,
-          "ignoreTotalCover": false
+          "ignoreTotalCover": false,
+          "confirmTargets": false
         },
         "core": {
           "sourceId": "Item.ORGDAuLDE6DC5DuF"
@@ -19370,10 +19678,335 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1700517084243,
-        "modifiedTime": 1700865964765,
+        "modifiedTime": 1701305394249,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.0FumPxNIfpEmiX4f"
+    },
+    {
+      "name": "4. Wall of Fire (ring)",
+      "ownership": {
+        "default": 0,
+        "1VOK90B3fElXpLfM": 3,
+        "YGKnOmFfMM1H7piE": 3
+      },
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>You create a wall of fire on a solid surface within range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration.</p><p>When the wall appears, each creature within its area must make a Dexterity saving throw. On a failed save, a creature takes 5d8 fire damage, or half as much damage on a successful save.</p><p>One side of the wall, selected by you when you cast this spell, deals 5d8 fire damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage.</p><p><em><strong>At Higher Levels</strong></em><strong>.</strong> When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "custom": "PHB pg. 285"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "value": 20,
+          "width": null,
+          "units": "ft",
+          "type": "radius",
+          "prompt": true
+        },
+        "range": {
+          "value": 120,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "5d8",
+              "fire"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "5d8[fire]",
+        "save": {
+          "ability": "dex",
+          "dc": 15,
+          "scaling": "flat"
+        },
+        "level": 4,
+        "school": "evo",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "A small piece of phosphorous",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "atwill",
+          "prepared": false
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d8"
+        }
+      },
+      "sort": 531250,
+      "flags": {
+        "midi-qol": {
+          "effectActivation": false
+        },
+        "midiProperties": {
+          "nodam": false,
+          "fulldam": false,
+          "halfdam": false,
+          "autoFailFriendly": false,
+          "autoSaveFriendly": false,
+          "rollOther": false,
+          "critOther": false,
+          "offHandWeapon": false,
+          "magicdam": false,
+          "magiceffect": false,
+          "concentration": false,
+          "noConcentrationCheck": false,
+          "toggleEffect": false,
+          "ignoreTotalCover": false,
+          "confirmTargets": true
+        },
+        "autoanimations": {
+          "id": "c1ea0e5d-0f22-41d9-b081-caaaac258e9e",
+          "label": "4. Wall of Fire (ring)",
+          "macro": {
+            "enable": false,
+            "playWhen": "0"
+          },
+          "menu": "templatefx",
+          "primary": {
+            "video": {
+              "dbSection": "templatefx",
+              "menuType": "circle",
+              "animation": "energy",
+              "variant": "loop",
+              "color": "orange",
+              "enableCustom": true,
+              "customPath": "jb2a.wall_of_fire.500x100.yellow"
+            },
+            "sound": {
+              "enable": true,
+              "delay": 0,
+              "file": "modules/feanor/audios/inflict-fire.wav",
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "isMasked": false,
+              "isWait": false,
+              "occlusionAlpha": 0.5,
+              "occlusionMode": "3",
+              "opacity": 1,
+              "persistent": true,
+              "persistType": "sequencerground",
+              "playbackRate": 1,
+              "removeTemplate": true,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "rotate": 0,
+              "saturate": 0,
+              "scale": "1",
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1,
+              "aboveTemplate": false
+            }
+          },
+          "secondary": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": true,
+              "isWait": false,
+              "opacity": 1,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1.5,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1
+            }
+          },
+          "soundOnly": {
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            }
+          },
+          "source": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": false,
+              "isWait": true,
+              "opacity": 1,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1
+            }
+          },
+          "target": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": false,
+              "opacity": 1,
+              "persistent": false,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "unbindAlpha": false,
+              "unbindVisibility": false,
+              "zIndex": 1
+            }
+          },
+          "isEnabled": true,
+          "isCustomized": true,
+          "fromAmmo": false,
+          "version": 5
+        }
+      },
+      "img": "icons/magic/fire/barrier-wall-flame-ring-yellow.webp",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.4.0",
+        "coreVersion": "11.315",
+        "createdTime": 1661787234155,
+        "modifiedTime": 1701315049979,
+        "lastModifiedBy": "YGKnOmFfMM1H7piE"
+      },
+      "_id": "Sl3uk2gvyvZ3lAzD",
+      "_key": "!actors.items!MdNtAtpGMdbnwXQV.Sl3uk2gvyvZ3lAzD"
     }
   ],
   "effects": [
@@ -19518,20 +20151,20 @@
       "changes": [
         {
           "key": "system.bonuses.spell.attack",
-          "value": "+2",
           "mode": 2,
+          "value": "+2",
           "priority": 20
         },
         {
           "key": "system.bonuses.spell.dc",
-          "value": "+2",
           "mode": 2,
+          "value": "+2",
           "priority": 20
         }
       ],
       "disabled": false,
       "duration": {
-        "startTime": 684,
+        "startTime": 3732,
         "seconds": null,
         "combat": null,
         "rounds": null,
@@ -19932,117 +20565,13 @@
       "_key": "!actors.effects!MdNtAtpGMdbnwXQV.0lF80PuYWd8TVQD9"
     },
     {
-      "name": "2x walking speed",
-      "icon": "icons/equipment/feet/boots-leather-red.webp",
-      "origin": "Actor.MdNtAtpGMdbnwXQV.Item.niGD1JsBwRvtyxnG",
-      "duration": {
-        "seconds": null,
-        "startTime": 47182264132,
-        "combat": null,
-        "rounds": 100,
-        "turns": null,
-        "startRound": 1,
-        "startTurn": 8
-      },
-      "disabled": false,
-      "_id": "ol5i6HaiOySacc3t",
-      "changes": [
-        {
-          "key": "system.attributes.movement.walk",
-          "mode": 1,
-          "value": "2",
-          "priority": 20
-        }
-      ],
-      "tint": null,
-      "transfer": false,
-      "flags": {
-        "dae": {
-          "stackable": "none",
-          "dontApply": true,
-          "specialDuration": [],
-          "transfer": false
-        },
-        "effectmacro": {
-          "onTurnStart": {
-            "script": "feanor.items.bootsOfSpeed({trigger: \"onTurnStart\", actor, item: origin});"
-          },
-          "onTurnEnd": {
-            "script": "feanor.items.bootsOfSpeed({trigger: \"onTurnEnd\", actor});"
-          },
-          "onDelete": {
-            "script": "feanor.items.bootsOfSpeed({trigger: \"onDelete\", actor, token});"
-          },
-          "onCombatEnd": {
-            "script": "feanor.items.bootsOfSpeed({trigger: \"onCombatEnd\", actor, item: origin, token});"
-          }
-        },
-        "visual-active-effects": {
-          "data": {
-            "content": "<p><em>Wondrous item, rare (requires attunement)</em></p><p>While you wear these boots, you can use a bonus action and click the boots' heels together. If you do, the boots double your walking speed, and any creature that makes an opportunity attack against you has disadvantage on the attack roll. If you click your heels together again, you end the effect.</p><p>When the boots' property has been used for a total of 10 minutes, the magic ceases to function until you finish a long rest.</p>"
-          }
-        },
-        "times-up": {
-          "isPassive": false
-        }
-      },
-      "description": "",
-      "statuses": [],
-      "_key": "!actors.effects!MdNtAtpGMdbnwXQV.ol5i6HaiOySacc3t"
-    },
-    {
-      "name": "Grants disadvantage on OAs",
-      "icon": "icons/equipment/feet/boots-leather-red.webp",
-      "origin": "Actor.MdNtAtpGMdbnwXQV.Item.niGD1JsBwRvtyxnG",
-      "duration": {
-        "seconds": null,
-        "startTime": 47182264132,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": 1,
-        "startTurn": 8
-      },
-      "disabled": true,
-      "_id": "xlBXfsQZc72YVRsF",
-      "changes": [
-        {
-          "key": "flags.midi-qol.grants.disadvantage.attack.all",
-          "mode": 2,
-          "value": "1",
-          "priority": 20
-        }
-      ],
-      "tint": null,
-      "transfer": false,
-      "flags": {
-        "dae": {
-          "stackable": "none",
-          "dontApply": true,
-          "specialDuration": [],
-          "transfer": false
-        },
-        "visual-active-effects": {
-          "data": {
-            "content": "<p><em>Wondrous item, rare (requires attunement)</em></p><p>While you wear these boots, you can use a bonus action and click the boots' heels together. If you do, the boots double your walking speed, and any creature that makes an opportunity attack against you has disadvantage on the attack roll. If you click your heels together again, you end the effect.</p><p>When the boots' property has been used for a total of 10 minutes, the magic ceases to function until you finish a long rest.</p>"
-          }
-        },
-        "times-up": {
-          "isPassive": false
-        }
-      },
-      "description": "",
-      "statuses": [],
-      "_key": "!actors.effects!MdNtAtpGMdbnwXQV.xlBXfsQZc72YVRsF"
-    },
-    {
       "_id": "lnpuOzjfJnsQ6Wch",
       "name": "Dragon Wings",
       "changes": [
         {
           "key": "system.attributes.movement.fly",
-          "value": "80",
           "mode": 4,
+          "value": "@attributes.movement.walk",
           "priority": 20
         }
       ],
@@ -20197,7 +20726,10 @@
           },
           "transfer": false,
           "token": "Scene.UA360QlodoEZGd8M.Token.x2jLWj9LGSqPnB0V",
-          "specialDuration": []
+          "specialDuration": [],
+          "disableIncapacitated": false,
+          "showIcon": false,
+          "macroRepeat": "none"
         },
         "midi-qol": {
           "castData": {
@@ -20215,251 +20747,6 @@
         }
       },
       "_key": "!actors.effects!MdNtAtpGMdbnwXQV.lnpuOzjfJnsQ6Wch"
-    },
-    {
-      "_id": "gGqccflwR3FgxFjW",
-      "name": "Resistance to acid damage",
-      "changes": [
-        {
-          "key": "system.traits.dr.value",
-          "mode": 0,
-          "value": "acid",
-          "priority": 20
-        }
-      ],
-      "disabled": false,
-      "duration": {
-        "startTime": 47182264150,
-        "combat": null,
-        "rounds": 600,
-        "turns": 0,
-        "startRound": 4,
-        "startTurn": 8,
-        "seconds": null
-      },
-      "description": "",
-      "icon": "icons/consumables/potions/bottle-bulb-corked-green.webp",
-      "origin": "Actor.MdNtAtpGMdbnwXQV.Item.ML95oZ8KzNOfbBFo",
-      "tint": null,
-      "transfer": false,
-      "statuses": [],
-      "flags": {
-        "times-up": {
-          "isPassive": false
-        },
-        "dae": {
-          "itemData": {
-            "_id": "ML95oZ8KzNOfbBFo",
-            "name": "Potion of Acid Resistance",
-            "type": "consumable",
-            "img": "icons/consumables/potions/bottle-round-label-cork-green.webp",
-            "system": {
-              "description": {
-                "value": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p>\n<p>When you drink this potion, you gain resistance to Acidic type damage for 1 hour.</p>\n<p>For other potions of resistance, roll on the @Compendium[dnd5e.tables.JzLOE4IxcmxjLLuz]{Potion of Resistance} table.</p>",
-                "chat": "",
-                "unidentified": ""
-              },
-              "source": "DMG pg. 188",
-              "quantity": 0,
-              "weight": 0.1,
-              "price": {
-                "value": 300,
-                "denomination": "gp"
-              },
-              "rarity": "uncommon",
-              "identified": true,
-              "attunement": 0,
-              "equipped": false,
-              "activation": {
-                "type": "action",
-                "cost": 1,
-                "condition": ""
-              },
-              "duration": {
-                "value": 1,
-                "units": "hour"
-              },
-              "cover": null,
-              "crewed": false,
-              "target": {
-                "value": 1,
-                "width": null,
-                "units": "",
-                "type": "creature"
-              },
-              "range": {
-                "value": null,
-                "long": null,
-                "units": "touch"
-              },
-              "uses": {
-                "value": 1,
-                "max": 1,
-                "per": "charges",
-                "recovery": "",
-                "autoDestroy": true
-              },
-              "consume": {
-                "type": "",
-                "target": null,
-                "amount": null
-              },
-              "ability": null,
-              "actionType": "",
-              "attackBonus": "",
-              "chatFlavor": "",
-              "critical": {
-                "threshold": null,
-                "damage": ""
-              },
-              "damage": {
-                "parts": [],
-                "versatile": ""
-              },
-              "formula": "",
-              "save": {
-                "ability": "",
-                "dc": null,
-                "scaling": "spell"
-              },
-              "consumableType": "potion",
-              "properties": {}
-            },
-            "effects": [
-              {
-                "_id": "NGlberEVL3FPDXBq",
-                "name": "Resistance to acid damage",
-                "changes": [
-                  {
-                    "key": "system.traits.dr.value",
-                    "value": "acid",
-                    "mode": 0,
-                    "priority": 20
-                  }
-                ],
-                "disabled": false,
-                "duration": {
-                  "startTime": null,
-                  "seconds": 3600,
-                  "combat": null,
-                  "rounds": null,
-                  "turns": null,
-                  "startRound": null,
-                  "startTurn": null
-                },
-                "description": "",
-                "icon": "icons/consumables/potions/bottle-bulb-corked-green.webp",
-                "origin": "Actor.MdNtAtpGMdbnwXQV.Item.ML95oZ8KzNOfbBFo",
-                "tint": null,
-                "transfer": false,
-                "statuses": [],
-                "flags": {
-                  "times-up": {
-                    "isPassive": false
-                  }
-                }
-              }
-            ],
-            "folder": null,
-            "sort": 500000,
-            "ownership": {
-              "default": 0,
-              "YGKnOmFfMM1H7piE": 3
-            },
-            "flags": {
-              "midi-qol": {
-                "onUseMacroParts": {
-                  "items": []
-                }
-              }
-            },
-            "_stats": {
-              "systemId": "dnd5e",
-              "systemVersion": "2.3.1",
-              "coreVersion": "11.313",
-              "createdTime": 1661787233979,
-              "modifiedTime": 1700532923096,
-              "lastModifiedBy": "odXFaxFXYQodAFjt"
-            }
-          },
-          "transfer": false,
-          "token": "Scene.UA360QlodoEZGd8M.Token.x2jLWj9LGSqPnB0V",
-          "specialDuration": [],
-          "disableIncapacitated": false,
-          "showIcon": false,
-          "macroRepeat": "none"
-        },
-        "midi-qol": {
-          "castData": {
-            "castLevel": 0,
-            "itemUuid": "Actor.MdNtAtpGMdbnwXQV.Item.ML95oZ8KzNOfbBFo"
-          }
-        },
-        "ActiveAuras": {
-          "isAura": false,
-          "aura": "None",
-          "nameOverride": "",
-          "radius": "",
-          "alignment": "",
-          "type": "",
-          "customCheck": "",
-          "ignoreSelf": false,
-          "height": false,
-          "hidden": false,
-          "displayTemp": false,
-          "hostile": false,
-          "onlyOnce": false,
-          "wallsBlock": "system"
-        }
-      },
-      "_key": "!actors.effects!MdNtAtpGMdbnwXQV.gGqccflwR3FgxFjW"
-    },
-    {
-      "changes": [],
-      "description": "Some Spells require you to maintain Concentration in order to keep their magic active. If you lose Concentration, such a spell ends.",
-      "disabled": false,
-      "duration": {
-        "seconds": 600,
-        "startTime": 47182264162,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": 6,
-        "startTurn": 8
-      },
-      "flags": {
-        "dfreds-convenient-effects": {
-          "isConvenient": true,
-          "isDynamic": false,
-          "isViewable": true,
-          "nestedEffects": [],
-          "subEffects": []
-        },
-        "midi-qol": {
-          "isConcentration": "Actor.MdNtAtpGMdbnwXQV.Item.2m0oTutHFlTbLUGc"
-        },
-        "dae": {
-          "transfer": false,
-          "specialDuration": []
-        },
-        "visual-active-effects": {
-          "data": {
-            "content": "<p>You gain the ability to move or manipulate creatures or objects by thought. When you cast the spell, and as your action each round for the Duration, you can exert your will on one creature or object that you can see within range, causing the appropriate effect below. You can affect the same target round after round, or choose a new one at any time. If you switch targets, the prior target is no longer affected by the spell.</p><p><strong>Creature</strong>. You can try to move a Huge or smaller creature. Make an ability check with your spellcasting ability contested by the creature's Strength check. If you win the contest, you move the creature up to 30 feet in any direction, including upward but not beyond the range of this spell. Until the end of your next turn, the creature is Restrained in your telekinetic grip. A creature lifted upward is suspended in mid-air.</p><p>On subsequent rounds, you can use your action to attempt to maintain your telekinetic grip on the creature by repeating the contest.</p><p><strong>Object</strong>. You can try to move an object that weighs up to 1,000 pounds. If the object isn't being worn or carried, you automatically move it up to 30 feet in any direction, but not beyond the range of this spell.</p><p>If the object is worn or carried by a creature, you must make an ability check with your Spellcasting ability contested by that creature's Strength check. If you succeed, you pull the object away from that creature and can move it up to 30 feet in any direction but not beyond the range of this spell.</p><p>You can exert fine control on Objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial.</p>"
-          }
-        },
-        "times-up": {
-          "isPassive": false
-        }
-      },
-      "icon": "modules/dfreds-convenient-effects/images/concentrating.svg",
-      "name": "Concentrating",
-      "origin": "Actor.MdNtAtpGMdbnwXQV.Item.2m0oTutHFlTbLUGc",
-      "transfer": false,
-      "statuses": [
-        "Convenient Effect: Concentrating"
-      ],
-      "_id": "WmInujk3pZ6MnP8n",
-      "_key": "!actors.effects!MdNtAtpGMdbnwXQV.WmInujk3pZ6MnP8n"
     },
     {
       "_id": "XfHpSxeugWz0Xm2Y",
@@ -20528,24 +20815,10 @@
         "bonus": false,
         "action": false,
         "reaction": false
-      },
-      "concentration-data": {
-        "uuid": "Actor.MdNtAtpGMdbnwXQV.Item.2m0oTutHFlTbLUGc",
-        "targets": [
-          {
-            "tokenUuid": "Scene.UA360QlodoEZGd8M.Token.pOzoTcXL3aIDzr5a",
-            "actorUuid": "Scene.UA360QlodoEZGd8M.Token.pOzoTcXL3aIDzr5a.Actor.pC85FSXB6tzWC9w1"
-          },
-          {
-            "actorUuid": "Actor.MdNtAtpGMdbnwXQV"
-          }
-        ],
-        "templates": [],
-        "removeUuids": []
       }
     },
     "dae": {
-      "damageApplied": -6
+      "damageApplied": -10
     },
     "sequencer": {
       "effects": []
@@ -20555,8 +20828,8 @@
     "systemId": "dnd5e",
     "systemVersion": "2.4.0",
     "coreVersion": "11.315",
-    "createdTime": 1661787234107,
-    "modifiedTime": 1700866519154,
+    "createdTime": 1700786434458,
+    "modifiedTime": 1701471448200,
     "lastModifiedBy": "YGKnOmFfMM1H7piE"
   },
   "sort": 0,

@@ -8,7 +8,7 @@
       "discord": "ph2526"
     }
   ],
-  "version": "15.1",
+  "version": "15.2",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -69,15 +69,16 @@
         "type": "module"
       },
       {
-        "id": "tokenmagic",
-        "type": "module"
-      },
-      {
         "id": "warpgate",
         "type": "module"
       }
     ],
     "recommends": [
+      {
+        "id": "autoanimations",
+        "type": "module",
+        "reason": "Automatically runs animations for some items, features and spells."
+      },
       {
         "id": "dnd5e-animations",
         "type": "module",
@@ -97,6 +98,11 @@
         "id": "times-up",
         "type": "module",
         "reason": "Automatically expires Active Effects during combat."
+      },
+      {
+        "id": "tokenmagic",
+        "type": "module",
+        "reason": "Provides animations and graphic effects to canvas objects."
       }
     ]
   },

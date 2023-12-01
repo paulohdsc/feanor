@@ -4,6 +4,7 @@ import {transmutedSpell} from "./features/transmuted-spell.js";
 import {twinnedSpell} from "./features/twinned-spell.js";
 import {bootsOfSpeed} from "./items/boots-of-speed.js";
 import {ashardalonsStride} from "./spells/ashardalons-stride.js";
+import {blink} from "./spells/blink.js";
 import {chainLightning} from "./spells/chain-lightning.js";
 import {disintegrate} from "./spells/disintegrate.js";
 import {summonDraconicSpirit} from "./spells/summon-draconic-spirit.js";
@@ -11,7 +12,7 @@ import * as utils from "./utils.js";
 
 const features = {flexibleCasting, transmutedSpell, twinnedSpell};
 const items = {bootsOfSpeed};
-const spells = {ashardalonsStride, chainLightning, disintegrate, summonDraconicSpirit};
+const spells = {ashardalonsStride, blink, chainLightning, disintegrate, summonDraconicSpirit};
 const consts = {
   actorName: "Fëanor Dragorion",
   userName: "PH"
@@ -52,7 +53,8 @@ function preventIllandrilsSorter() {
 }
 
 // Update the current default sheets using user preferences
-function updateDefaultSheets() {
+async function updateDefaultSheets() {
+  await new Promise(resolve => setTimeout(resolve, 5000)); // Remove after ToD campaign
   const newDefaultSheets = {
     Actor: {
       character: "dnd5e.ActorSheet5eCharacter",
@@ -80,12 +82,6 @@ Hooks.once("ready", () => {
   if ( game.user.name === consts.userName ) {
     activateOwnerClientHooks();
     preventIllandrilsSorter();
-  }
-});
-
-Hooks.once("canvasReady", () => {
-  if ( game.user.name === consts.userName ) {
-    // Move to the "ready" hook after ToD campaign
     updateDefaultSheets();
   }
 });

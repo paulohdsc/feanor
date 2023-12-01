@@ -1,6 +1,7 @@
 /* eslint-disable jsdoc/require-jsdoc, jsdoc/require-param, quote-props */
 
-/* Hypnotic Pattern | 3rd-Level Illusion | PHB pg. 252
+/*
+Hypnotic Pattern | 3rd-Level Illusion | PHB pg. 252
 new Sequence({moduleName: "Fëanor", softFail: true})
   .effect()
     .file("upload-player/feanor/hypnotic-pattern.webp")
@@ -12,23 +13,24 @@ new Sequence({moduleName: "Fëanor", softFail: true})
     .persist()
   // BUG: effect do not play when 'remote: true' and only the GM is logged
   .play({remote: true});
- */
+*/
 
-/* Web | 2nd-Level Conjuration | PHB pg. 287
+/*
+Web | 2nd-Level Conjuration | PHB pg. 287
 actor.rollAbilityTest("str", {targetValue: 18})
- */
+*/
 
 // import {db as database} from "./database.js";
 const main = async () => { // Use with Midi OnUseMacro + world macro or with Core macro.execute()
 // function main({actor, token, item, args}) { // Use with Midi OnUseMacro + global function
 
   // Created inside main's scope in order to take advantage of the closure
-  function createDialog() {}
+  function runInside() {}
 };
 
 // Create outside main's scope in order to be exported
-function dismissDraconicSpirit() {}
+function runOutside() {}
 
-// export const summonDraconicSpirit = {main, dismissDraconicSpirit};
+// export const functions = {main, runOutside};
 main();
 // return main();
