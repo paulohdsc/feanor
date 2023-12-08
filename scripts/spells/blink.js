@@ -1,21 +1,17 @@
 /**
  * Blink | 3rd-level Transmutation | PHB pg. 219
- * Modules: DAE, Item Macro, JB2A, Midi QoL, Sequencer, Token Magic Fx
- *
- * Usage: Run as ItemMacro via Midi's On Use Macro on the item sheet
- * To do: Use Perfect Vision to restrict vision to 60 ft. and create a "shades of gray" effect
- *        Improve teleport to account for Large+ tokens
+ * Modules: Effect Macro, JB2A, Sequencer, Token Magic Fx
+ * To do: Use Perfect Vision to restrict vision to 60 ft and create a "shades of gray" effect
+ *        Improve teleport logic to account for Large+ tokens
  */
 export async function blink({trigger, actor, effect, token}) {
-  const tokenMagicFx = game.modules.get("tokenmagic").active;
-  const soundFile = "modules/feanor/audios/misty-step.wav";
-  const videoFiles = {
-    vanish: "jb2a.misty_step.01.blue",
-    appear: "jb2a.misty_step.02.blue",
-    range: "jb2a.extras.tmfx.border.circle.simple.01"
-  };
-  await Sequencer.Preloader.preloadForClients([soundFile, ...Object.values(videoFiles)]);
+  const tokenMagic = game.modules.get("tokenmagic")?.active;
+  const macroData = feanor.utils.getClientSettings("feanor.macroData");
+  const isEthereal = tokenMagic ? TokenMagic.hasFilterId(token, "spectral-body") : macroData?.blink?.isEthereal;
+  const {blink} = feanor.database;
+  await feanor.utils.preload(blink);
 
+  // Effect Macro: feanor.spells.blink({trigger: "onTurnEnd", actor, effect, token})
   if ( trigger === "onTurnEnd" ) {
     const roll = new Roll("d20");
     await roll.toMessage({
@@ -29,114 +25,117 @@ export async function blink({trigger, actor, effect, token}) {
         </div>
       `
     });
-    if ( roll.total >= 11 ) vanish();
+    if ( roll.total >= 11 ) playVanishSequence();
+    else playFailSequence();
   }
 
+  // Effect Macro: feanor.spells.blink({trigger: "onTurnStart", token}) | Same for the others
   if ( ["onTurnStart", "onEffectDeletion", "onCombatEnding"].includes(trigger) ) {
-    const inEtherealPlane = tokenMagicFx
-      ? TokenMagic.hasFilterId(token, "spectral-body")
-      : actor.getFlag("world", "inEtherealPlane");
-    if ( inEtherealPlane ) {
-      // Todo: enhance this wait logic
-      while ( token.document.alpha < 1 ) {
-        ui.notifications.info("Waiting for the vanish function to finish.");
-        await Sequencer.Helpers.wait(3000);
-      }
-      getDestination();
-    }
+    if ( !isEthereal ) return;
+    playRangeSequence();
+    canvas.app.stage.addListener("pointerdown", getDestination);
   }
 
-  // Play animation to represent the character vanishing to the Ethereal Plane
-  function vanish() {
+  // Represent the character vanishing to the Ethereal Plane
+  function playVanishSequence() {
     new Sequence({moduleName: "Fëanor", softFail: true})
       .sound()
-        .file(soundFile)
+        .file(blink.sounds.vanish)
       .wait(2000)
       .effect()
-        .file(videoFiles.vanish)
+        .file(blink.effects.vanish)
         .atLocation(token)
         .size(token.document.width * 2, {gridUnits: true})
-        .randomRotation()
       .wait(1000)
       .animation()
         .on(token)
         .opacity(0)
+        .playIf(!tokenMagic)
       .thenDo(() => {
-        if ( tokenMagicFx ) TokenMagic.addFilters(token, "spectral-body");
-        else actor.setFlag("world", "inEtherealPlane", true); // setFlag before animation?
+        if ( tokenMagic ) TokenMagic.addFilters(token, "spectral-body");
+        else feanor.utils.updateClientSettings("feanor.macroData", {blink: {isEthereal: true}});
       })
-      .wait(10000)
-      .animation()
-        .on(token)
-        .fadeIn(5000)
       .play();
   }
 
-  function getDestination() {
+  // Represent the spell failing to vanish the character
+  function playFailSequence() {
     new Sequence({moduleName: "Fëanor", softFail: true})
-      .animation()
-        .on(token)
-        .fadeOut(2000)
+      .sound()
+        .file(blink.sounds.vanish)
+        .fadeOutAudio(2700, {ease: "easeOutExpo"})
+      .wait(2000)
+      .sound()
+        .file(blink.sounds.fail)
       .effect()
-        .file(videoFiles.range)
-        .size(token.document.width + 4.3, {gridUnits: true})
+        .file(blink.effects.fail)
         .atLocation(token)
         .belowTokens()
-        .fadeIn(2000)
-        .fadeOut(2000)
-        .persist(true)
-        .name("range-template")
-      .wait(2000)
-      .thenDo(() => {
-        if ( tokenMagicFx ) TokenMagic.deleteFilters(token); // Todo: delete only blink filter
-        else actor.setFlag("world", "inEtherealPlane", false);
-      })
+        .scaleToObject(2)
       .play();
-
-    canvas.app.stage.addListener("pointerdown", event => {
-      const token = game.user.character.getActiveTokens()[0];
-      if ( !token ) return ui.notifications.error("No token found.");
-      const position = event.data.getLocalPosition(canvas.app.stage);
-      const topLeft = canvas.grid.getTopLeft(position.x, position.y);
-      const fakeToken = {
-        document: {x: topLeft[0], y: topLeft[1], width: 1, height: 1, elevation: token.document.elevation}
-      };
-      const distance = MidiQOL.computeDistance(token, fakeToken);
-      if ( event.data.button === 0 ) { // Left click
-        if ( distance > 10 ) {
-          return ui.notifications.error("The selected spot is out of range. Choose again or middle click to cancel.");
-        }
-        Sequencer.EffectManager.endEffects({name: "range-template"});
-        canvas.app.stage.removeListener("pointerdown");
-        appear(token, topLeft);
-      } else if ( event.data.button === 1 ) { // Middle click
-        Sequencer.EffectManager.endEffects({name: "range-template"});
-        canvas.app.stage.removeListener("pointerdown");
-        appear(token);
-      }
-    });
   }
 
-  // Play animation to represent the character returning from the Ethereal Plane
-  // Teleport animation relative to the top left corner of the token
-  function appear(token, destination=[]) {
-    new Sequence()
-      .sound()
-        .file(soundFile)
+  // Represent the range available for the character to appear within
+  function playRangeSequence() {
+    new Sequence({moduleName: "Fëanor", softFail: true})
+      .effect()
+        .name("blink-range")
+        .file(blink.effects.range)
+        .atLocation(token)
+        .belowTokens()
+        .size(token.document.width + 4, {gridUnits: true})
+        .fadeIn(1000)
+        .persist()
+        .fadeOut(5000)
       .animation()
         .on(token)
-        .teleportTo({x: destination[0], y: destination[1]})
-        .playIf(destination.length)
+        .fadeOut(1000)
+        .waitUntilFinished()
+      .animation()
+        .on(token)
+        .hide()
+      .play();
+  }
+
+  // Get the appearance destination within the available range
+  function getDestination(event) {
+    const pos = event.getLocalPosition(canvas.app.stage);
+    const [x, y] = canvas.grid.getTopLeft(pos.x, pos.y);
+    const destination = {x, y};
+    const distance = canvas.grid.measureDistance(token, destination, {gridSpaces: true});
+    if ( event.button === 0 ) { // Left mouse button
+      if ( distance > 10 ) ui.notifications.warn("Choose a space within range or middle-click to return in-place.");
+      else playAppearSequence(token, destination, true);
+    } else if ( event.button === 1 ) { // Middle mouse button
+      playAppearSequence(token, destination, false);
+    }
+  }
+
+  // Represent the character returning from the Ethereal Plane
+  function playAppearSequence(token, destination, teleport) {
+    Sequencer.EffectManager.endEffects({name: "blink-range"});
+    canvas.app.stage.removeListener("pointerdown", getDestination);
+    new Sequence({moduleName: "Fëanor", softFail: true})
+      .sound()
+        .file(blink.sounds.vanish)
+      .animation()
+        .on(token)
+        .teleportTo(destination)
+        .playIf(teleport)
+      .thenDo(() => {
+        if ( tokenMagic ) TokenMagic.deleteFilters(token, "spectral-body");
+        else feanor.utils.updateClientSettings("feanor.macroData", {"-=blink": null});
+      })
       .wait(1500)
       .effect()
-        .file(videoFiles.appear)
+        .file(blink.effects.appear)
         .atLocation(token)
         .size(token.document.width * 2, {gridUnits: true})
-        .randomRotation()
-      .wait(1500)
+      .wait(1300)
       .animation()
         .on(token)
         .opacity(1)
+        .show()
       .play();
   }
 }

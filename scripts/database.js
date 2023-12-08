@@ -77,6 +77,19 @@ db.ashardalons_stride = {
   }
 };
 
+db.blink = {
+  sounds: {
+    fail: "modules/feanor/audios/counterspell-drain.ogg",
+    vanish: "modules/feanor/audios/misty-step.wav"
+  },
+  effects: {
+    fail: "jb2a.template_circle.vortex.outro.blue",
+    vanish: "jb2a.misty_step.01.blue",
+    range: "jb2a.extras.tmfx.border.circle.simple.01",
+    appear: "jb2a.misty_step.02.blue"
+  }
+};
+
 db.boots_of_speed = {
   sounds: {
     transmute: "modules/feanor/audios/transmute.wav"

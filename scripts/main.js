@@ -54,7 +54,7 @@ function preventIllandrilsSorter() {
 
 // Update the current default sheets using user preferences
 async function updateDefaultSheets() {
-  await new Promise(resolve => setTimeout(resolve, 5000)); // Remove after ToD campaign
+  await new Promise(resolve => setTimeout(resolve, 20000)); // Remove after ToD campaign
   const newDefaultSheets = {
     Actor: {
       character: "dnd5e.ActorSheet5eCharacter",
