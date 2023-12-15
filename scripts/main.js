@@ -15,7 +15,7 @@ const items = {bootsOfSpeed};
 const spells = {ashardalonsStride, blink, chainLightning, disintegrate, summonDraconicSpirit};
 const consts = {
   actorName: "Fëanor Dragorion",
-  userName: "PH"
+  userName: "Paulo Henrique"
 };
 
 globalThis.feanor = {
@@ -29,7 +29,7 @@ globalThis.feanor = {
 
 // import {draft} from "./draft.js"; globalThis.feanor.draft = draft;
 
-// Register Hook callback handlers for the active features
+// Register Hook callback handlers for active features
 function activateOwnerClientHooks() {
   const activeHooks = feanor.utils.getClientSettings("feanor.macroData")?.activeHooks;
   for ( const feature in activeHooks ) {
@@ -52,9 +52,8 @@ function preventIllandrilsSorter() {
   if ( value === null ) globalThis.localStorage.setItem(key, "true");
 }
 
-// Update the current default sheets using user preferences
+// Update user default sheets to avoid Tidy5e module sheets
 async function updateDefaultSheets() {
-  await new Promise(resolve => setTimeout(resolve, 20000)); // Remove after ToD campaign
   const newDefaultSheets = {
     Actor: {
       character: "dnd5e.ActorSheet5eCharacter",
@@ -79,9 +78,11 @@ async function updateDefaultSheets() {
 }
 
 Hooks.once("ready", () => {
-  if ( game.user.name === consts.userName ) {
+  if ( game.user.character?.name === consts.actorName ) {
     activateOwnerClientHooks();
     preventIllandrilsSorter();
     updateDefaultSheets();
+  } else if ( game.user.name === consts.userName ) {
+    ui.notifications.warn(`Select ${consts.actorName}'s actor at User Configuration.`);
   }
 });

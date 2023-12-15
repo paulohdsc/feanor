@@ -24,9 +24,14 @@ function main({actor, token, item, args, workflow}) {
    *
    * Use Midi to calculate distance (to take elevation into consideration)
    * BUG: Concentration is being applied on every damage roll
+   *
+   * SNIPPETS
+   * console.warn('This is the workflow || ', workflow);
+   * await game.dice3d?.showForRoll(damage, game.user, true);
+   * await MidiQOL.applyTokenDamage([{damage, type:'fire'}], damage, new Set([target]), workflow.item, {}, {});
    */
 
-  // console.log(arguments); // DELETE
+  // console.warn(arguments); // DELETE
 
   if ( args[0]?.macroPass === "preItemRoll" ) {
     // if ( args[0].targets.length > 1 || args[0].targets[0].id !== args[0].tokenId ) {
@@ -40,10 +45,11 @@ function main({actor, token, item, args, workflow}) {
   if ( args[0]?.macroPass === "preDamageRoll" ) {
     const damageType = item.system.damage.parts[0][1];
     if ( token ) playCastingSequence(token, damageType);
-    Hooks.once(`midi-qol.preDamageRoll.${args[0].uuid}`, () => false); // OR workflow.systemCard = true;
+    // Hooks.once(`midi-qol.preDamageRoll.${args[0].uuid}`, () => false); // OR workflow.systemCard = true;
     // Hooks.off("preUpdateToken", playTrailSequence); // Issue: findSplice
     Hooks.on("preUpdateToken", playTrailSequence);
-    workflow.next(15); // Apply dynamic effects
+    // workflow.next(15); // Apply dynamic effects
+    // workflow.WorkflowState_ApplyDynamicEffects(); // ???
     actor.update({
       "system.attributes.movement": getNewMovement(actor, args[0].spellLevel),
       flags: {

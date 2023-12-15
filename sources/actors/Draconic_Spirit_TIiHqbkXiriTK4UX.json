@@ -1320,10 +1320,10 @@
   },
   "_stats": {
     "systemId": "dnd5e",
-    "systemVersion": "2.4.0",
+    "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686015495615,
-    "modifiedTime": 1701471448200,
+    "modifiedTime": 1702681520104,
     "lastModifiedBy": "YGKnOmFfMM1H7piE"
   },
   "sort": 0,

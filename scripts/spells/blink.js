@@ -3,6 +3,7 @@
  * Modules: Effect Macro, JB2A, Sequencer, Token Magic Fx
  * To do: Use Perfect Vision to restrict vision to 60 ft and create a "shades of gray" effect
  *        Improve teleport logic to account for Large+ tokens
+ *        (consider .moveTowards(destination, {relativeToCenter: true}))
  */
 export async function blink({trigger, actor, effect, token}) {
   const tokenMagic = game.modules.get("tokenmagic")?.active;
@@ -87,55 +88,53 @@ export async function blink({trigger, actor, effect, token}) {
         .fadeIn(1000)
         .persist()
         .fadeOut(5000)
-      .animation()
-        .on(token)
-        .fadeOut(1000)
-        .waitUntilFinished()
-      .animation()
-        .on(token)
-        .hide()
+      // .animation()
+      //   .on(token)
+      //   .fadeOut(1000)
       .play();
   }
 
   // Get the appearance destination within the available range
   function getDestination(event) {
     const pos = event.getLocalPosition(canvas.app.stage);
-    const [x, y] = canvas.grid.getTopLeft(pos.x, pos.y);
-    const destination = {x, y};
-    const distance = canvas.grid.measureDistance(token, destination, {gridSpaces: true});
+    const [x1, y1] = canvas.grid.getCenter(pos.x, pos.y);
+    const [x2, y2] = canvas.grid.getTopLeft(pos.x, pos.y);
+    const destCenter = {x: x1, y: y1};
+    const destTopLeft = {x: x2, y: y2};
+    const distance = canvas.grid.measureDistance(token, destTopLeft, {gridSpaces: true});
     if ( event.button === 0 ) { // Left mouse button
       if ( distance > 10 ) ui.notifications.warn("Choose a space within range or middle-click to return in-place.");
-      else playAppearSequence(token, destination, true);
+      else playAppearSequence(token, destCenter, destTopLeft, true);
     } else if ( event.button === 1 ) { // Middle mouse button
-      playAppearSequence(token, destination, false);
+      playAppearSequence(token, destCenter, destTopLeft, false);
     }
   }
 
   // Represent the character returning from the Ethereal Plane
-  function playAppearSequence(token, destination, teleport) {
+  function playAppearSequence(token, destCenter, destTopLeft, teleport) {
     Sequencer.EffectManager.endEffects({name: "blink-range"});
     canvas.app.stage.removeListener("pointerdown", getDestination);
     new Sequence({moduleName: "Fëanor", softFail: true})
       .sound()
         .file(blink.sounds.vanish)
+      .wait(1500)
+      .effect()
+        .file(blink.effects.appear)
+        .atLocation(destCenter)
+        .size(token.document.width * 2, {gridUnits: true})
+      .wait(1200)
       .animation()
         .on(token)
-        .teleportTo(destination)
+        .teleportTo(destTopLeft)
         .playIf(teleport)
+      .animation()
+        .on(token)
+        .opacity(1)
+        .playIf(!tokenMagic)
       .thenDo(() => {
         if ( tokenMagic ) TokenMagic.deleteFilters(token, "spectral-body");
         else feanor.utils.updateClientSettings("feanor.macroData", {"-=blink": null});
       })
-      .wait(1500)
-      .effect()
-        .file(blink.effects.appear)
-        .atLocation(token)
-        .size(token.document.width * 2, {gridUnits: true})
-      .wait(1300)
-      .animation()
-        .on(token)
-        .opacity(1)
-        .show()
       .play();
   }
 }

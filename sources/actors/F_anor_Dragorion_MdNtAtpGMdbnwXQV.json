@@ -67,10 +67,10 @@
         "formula": ""
       },
       "hp": {
-        "value": 115,
+        "value": 132,
         "max": null,
-        "temp": null,
-        "tempmax": null,
+        "temp": 10,
+        "tempmax": 10,
         "bonuses": {
           "level": "+1",
           "overall": "+10"
@@ -118,7 +118,7 @@
       "background": "jworzfvuLxGiOLCy",
       "originalClass": "5FeJwtOtARstNAH4",
       "xp": {
-        "value": 193421
+        "value": 201870
       },
       "appearance": "Idade: 33 anos;\nAltura: 1,8 m;\nPeso: 80 kg;\nOlhos: dourados;\nPele: bronze;\nCabelos: negros.",
       "trait": "As pessoas comuns me amam por minha bondade e generosidade.\n\nApesar da minha origem nobre, eu não estou acima dos outros. O sangue é um só.",
@@ -344,19 +344,19 @@
         "override": null
       },
       "spell2": {
-        "value": 3,
+        "value": 2,
         "override": null
       },
       "spell3": {
-        "value": 3,
+        "value": 2,
         "override": null
       },
       "spell4": {
-        "value": 3,
+        "value": 2,
         "override": null
       },
       "spell5": {
-        "value": 1,
+        "value": 0,
         "override": null
       },
       "spell6": {
@@ -1664,7 +1664,7 @@
           "units": ""
         },
         "uses": {
-          "value": 84,
+          "value": 74,
           "max": "100",
           "per": "lr",
           "recovery": "",
@@ -1847,7 +1847,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233624,
-        "modifiedTime": 1701304664586,
+        "modifiedTime": 1702172604644,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.niGD1JsBwRvtyxnG"
@@ -2111,7 +2111,7 @@
           "unidentified": ""
         },
         "source": {},
-        "quantity": 33,
+        "quantity": 19,
         "weight": 0.1,
         "price": {
           "value": 50,
@@ -2218,7 +2218,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233972,
-        "modifiedTime": 1701304923979,
+        "modifiedTime": 1702172643430,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.aAkQCwV5jrfDmpPO"
@@ -2508,14 +2508,18 @@
         "default": 0,
         "1VOK90B3fElXpLfM": 3
       },
-      "flags": {},
+      "flags": {
+        "midi-qol": {
+          "effectActivation": false
+        }
+      },
       "_stats": {
         "systemId": "dnd5e",
-        "systemVersion": "2.3.0",
-        "coreVersion": "10.303",
+        "systemVersion": "2.4.0",
+        "coreVersion": "11.315",
         "createdTime": 1661787233712,
-        "modifiedTime": 1692237143164,
-        "lastModifiedBy": "1VOK90B3fElXpLfM"
+        "modifiedTime": 1702612205702,
+        "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.DxHoIGUWDwPs6hOY"
     },
@@ -2788,7 +2792,12 @@
           "chat": "",
           "unidentified": ""
         },
-        "source": {},
+        "source": {
+          "book": "DMG",
+          "page": "200",
+          "custom": "",
+          "license": ""
+        },
         "quantity": 4,
         "weight": 0,
         "price": {
@@ -2870,7 +2879,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233496,
-        "modifiedTime": 1701050441448,
+        "modifiedTime": 1702612267765,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "8kM0M5BHumN2nXt3",
@@ -2887,7 +2896,10 @@
           "unidentified": ""
         },
         "source": {
-          "custom": "DMG pg. 200"
+          "book": "DMG",
+          "page": "200",
+          "custom": "",
+          "license": ""
         },
         "quantity": 2,
         "weight": 0,
@@ -2970,7 +2982,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233703,
-        "modifiedTime": 1700853729979,
+        "modifiedTime": 1702612277026,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "9TRlgnDsGcvhyvhI",
@@ -2987,7 +2999,10 @@
           "unidentified": ""
         },
         "source": {
-          "custom": "DMG pg. 200"
+          "book": "DMG",
+          "page": "200",
+          "custom": "",
+          "license": ""
         },
         "quantity": 2,
         "weight": 0,
@@ -3070,7 +3085,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233703,
-        "modifiedTime": 1700853729979,
+        "modifiedTime": 1702612285401,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "dgfvh5mKvcXLZhtk",
@@ -3086,8 +3101,13 @@
           "chat": "",
           "unidentified": ""
         },
-        "source": {},
-        "quantity": 2,
+        "source": {
+          "book": "DMG",
+          "page": "200",
+          "custom": "",
+          "license": ""
+        },
+        "quantity": 1,
         "weight": 0,
         "price": {
           "value": 120,
@@ -3168,7 +3188,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233703,
-        "modifiedTime": 1701050497877,
+        "modifiedTime": 1702612293315,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "cw7coQC1pU49vdTe",
@@ -3184,8 +3204,13 @@
           "chat": "",
           "unidentified": ""
         },
-        "source": {},
-        "quantity": 2,
+        "source": {
+          "book": "DMG",
+          "page": "200",
+          "custom": "",
+          "license": ""
+        },
+        "quantity": 1,
         "weight": 0,
         "price": {
           "value": 120,
@@ -3266,7 +3291,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233703,
-        "modifiedTime": 1700853829492,
+        "modifiedTime": 1702612310147,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "v33cj0mY0B4MgkWY",
@@ -3282,8 +3307,13 @@
           "chat": "",
           "unidentified": ""
         },
-        "source": {},
-        "quantity": 5,
+        "source": {
+          "book": "DMG",
+          "page": "200",
+          "custom": "",
+          "license": ""
+        },
+        "quantity": 4,
         "weight": 0,
         "price": {
           "value": 200,
@@ -3364,7 +3394,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233817,
-        "modifiedTime": 1701050851040,
+        "modifiedTime": 1702612318238,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "vULchHXUjF6vnELv",
@@ -3380,8 +3410,13 @@
           "chat": "",
           "unidentified": ""
         },
-        "source": {},
-        "quantity": 5,
+        "source": {
+          "book": "DMG",
+          "page": "200",
+          "custom": "",
+          "license": ""
+        },
+        "quantity": 3,
         "weight": 0,
         "price": {
           "value": 200,
@@ -3462,7 +3497,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233817,
-        "modifiedTime": 1700853729979,
+        "modifiedTime": 1702612326644,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "Zm8QDerxD08lH9wb",
@@ -3479,7 +3514,10 @@
           "unidentified": ""
         },
         "source": {
-          "custom": "DMG pg. 200"
+          "book": "DMG",
+          "page": "200",
+          "custom": "",
+          "license": ""
         },
         "quantity": 2,
         "weight": 0,
@@ -3562,7 +3600,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233817,
-        "modifiedTime": 1700853729979,
+        "modifiedTime": 1702612346911,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "Om7iqexHtSVcRMqy",
@@ -4069,8 +4107,214 @@
             }
           }
         },
-        "core": {
-          "sourceId": "Actor.MdNtAtpGMdbnwXQV.Item.tm8IwE16DKOEXG16"
+        "autoanimations": {
+          "id": "28934f1b-b726-49c1-ae7f-7e142f740031",
+          "label": "3. Blink",
+          "levels3d": {
+            "type": "explosion",
+            "data": {
+              "color01": "#FFFFFF",
+              "color02": "#FFFFFF",
+              "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+            },
+            "sound": {
+              "enable": false
+            },
+            "secondary": {
+              "enable": false,
+              "data": {
+                "color01": "#FFFFFF",
+                "color02": "#FFFFFF",
+                "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+              }
+            }
+          },
+          "macro": {
+            "enable": false,
+            "playWhen": "0"
+          },
+          "menu": "ontoken",
+          "primary": {
+            "video": {
+              "dbSection": "static",
+              "menuType": "marker",
+              "animation": "energystrands",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": true,
+              "delay": 0,
+              "file": "modules/feanor/audios/transmute.wav",
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": false,
+              "isWait": false,
+              "opacity": 1,
+              "persistent": false,
+              "playbackRate": 1,
+              "playOn": "source",
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "unbindAlpha": false,
+              "unbindVisibility": false,
+              "zIndex": 1
+            }
+          },
+          "secondary": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": true,
+              "isWait": false,
+              "opacity": 1,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1.5,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1
+            }
+          },
+          "soundOnly": {
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            }
+          },
+          "source": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": false,
+              "isWait": true,
+              "opacity": 1,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1
+            }
+          },
+          "target": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": false,
+              "opacity": 1,
+              "persistent": false,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "unbindAlpha": false,
+              "unbindVisibility": false,
+              "zIndex": 1
+            }
+          },
+          "isEnabled": true,
+          "isCustomized": true,
+          "fromAmmo": false,
+          "version": 5
         }
       },
       "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
@@ -4106,17 +4350,17 @@
               "specialDuration": []
             },
             "effectmacro": {
-              "onDelete": {
-                "script": "feanor.spells.blink({trigger: \"onEffectDeletion\", actor, effect, token});"
-              },
-              "onTurnStart": {
-                "script": "feanor.spells.blink({trigger: \"onTurnStart\", actor, effect, token});"
-              },
               "onTurnEnd": {
                 "script": "feanor.spells.blink({trigger: \"onTurnEnd\", actor, effect, token});"
               },
+              "onTurnStart": {
+                "script": "feanor.spells.blink({trigger: \"onTurnStart\", token});"
+              },
+              "onDelete": {
+                "script": "feanor.spells.blink({trigger: \"onEffectDeletion\", token});"
+              },
               "onCombatEnd": {
-                "script": "feanor.spells.blink({trigger: \"onCombatEnding\", actor, effect, token});"
+                "script": "feanor.spells.blink({trigger: \"onCombatEnding\", token});"
               }
             }
           },
@@ -4131,7 +4375,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787234105,
-        "modifiedTime": 1701471212322,
+        "modifiedTime": 1702074098337,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.tm8IwE16DKOEXG16"
@@ -8509,7 +8753,7 @@
           "units": ""
         },
         "uses": {
-          "value": 12,
+          "value": 14,
           "max": "@classes.sorcerer.levels",
           "per": "lr",
           "recovery": "",
@@ -8564,7 +8808,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1672457286535,
-        "modifiedTime": 1701050995711,
+        "modifiedTime": 1702176078481,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.OlPzhisxQ0TpOzbc"
@@ -11301,7 +11545,7 @@
           "unidentified": ""
         },
         "source": {},
-        "quantity": 2,
+        "quantity": 1,
         "weight": 0.1,
         "price": {
           "value": 150,
@@ -11415,7 +11659,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1688686155555,
-        "modifiedTime": 1701052902944,
+        "modifiedTime": 1702178247751,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.t3S3RgNctx1xc531"
@@ -11430,8 +11674,13 @@
           "chat": "",
           "unidentified": ""
         },
-        "source": {},
-        "quantity": 3,
+        "source": {
+          "book": "DMG",
+          "page": "200",
+          "custom": "",
+          "license": ""
+        },
+        "quantity": 2,
         "weight": 0,
         "price": {
           "value": 120,
@@ -11512,7 +11761,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233703,
-        "modifiedTime": 1700853729979,
+        "modifiedTime": 1702612301309,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "6BE6whijZQjP4yXO",
@@ -12294,9 +12543,12 @@
           "unidentified": ""
         },
         "source": {
-          "custom": "DMG pg. 187"
+          "book": "DMG",
+          "page": "187",
+          "custom": "",
+          "license": ""
         },
-        "quantity": 1,
+        "quantity": 0,
         "weight": 0.1,
         "price": {
           "value": 960,
@@ -12377,7 +12629,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233729,
-        "modifiedTime": 1700853729979,
+        "modifiedTime": 1702612521141,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.T8KsS6gtqxnU35Oq"
@@ -12394,7 +12646,7 @@
           "unidentified": ""
         },
         "source": {},
-        "quantity": 14,
+        "quantity": 11,
         "weight": 0.1,
         "price": {
           "value": 150,
@@ -12501,7 +12753,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233614,
-        "modifiedTime": 1701304918660,
+        "modifiedTime": 1702178423507,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.9V17snHJf3buEifz"
@@ -12520,7 +12772,7 @@
         "source": {
           "custom": "DMG pg. 188"
         },
-        "quantity": 1,
+        "quantity": 0,
         "weight": 0.1,
         "price": {
           "value": 300,
@@ -12629,10 +12881,10 @@
       "flags": {},
       "_stats": {
         "systemId": "dnd5e",
-        "systemVersion": "2.4.0",
+        "systemVersion": "2.4.1",
         "coreVersion": "11.315",
         "createdTime": 1661787233490,
-        "modifiedTime": 1700853729979,
+        "modifiedTime": 1702614023280,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.BfeeaGcSh2lrWtmW"
@@ -12774,7 +13026,7 @@
         "source": {
           "custom": "DMG pg. 188"
         },
-        "quantity": 1,
+        "quantity": 0,
         "weight": 0.1,
         "price": {
           "value": 300,
@@ -12883,10 +13135,10 @@
       "flags": {},
       "_stats": {
         "systemId": "dnd5e",
-        "systemVersion": "2.4.0",
+        "systemVersion": "2.4.1",
         "coreVersion": "11.315",
         "createdTime": 1661787233451,
-        "modifiedTime": 1700853729979,
+        "modifiedTime": 1702613653566,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "NAmUpAXz24muCAv6",
@@ -12902,7 +13154,12 @@
           "chat": "",
           "unidentified": ""
         },
-        "source": {},
+        "source": {
+          "book": "DMG",
+          "page": "200",
+          "custom": "",
+          "license": ""
+        },
         "quantity": 2,
         "weight": 0,
         "price": {
@@ -12984,7 +13241,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233817,
-        "modifiedTime": 1700853729979,
+        "modifiedTime": 1702612354608,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "nLMRpH8IjdOK33xJ",
@@ -13002,7 +13259,10 @@
           "unidentified": ""
         },
         "source": {
-          "custom": "DMG pg. 200"
+          "book": "DMG",
+          "page": "200",
+          "custom": "",
+          "license": ""
         },
         "quantity": 1,
         "weight": 0,
@@ -13085,7 +13345,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233909,
-        "modifiedTime": 1700853729979,
+        "modifiedTime": 1702612129384,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.Q3WTeCA5scFUbMXu"
@@ -13101,7 +13361,10 @@
           "unidentified": ""
         },
         "source": {
-          "custom": "DMG pg. 200"
+          "book": "DMG",
+          "page": "200",
+          "custom": "",
+          "license": ""
         },
         "quantity": 1,
         "weight": 0,
@@ -13184,7 +13447,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233522,
-        "modifiedTime": 1700853729979,
+        "modifiedTime": 1702612183560,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "QQQFqf4ysxsYNtNy",
@@ -13201,7 +13464,10 @@
           "unidentified": ""
         },
         "source": {
-          "custom": "DMG pg. 200"
+          "book": "DMG",
+          "page": "200",
+          "custom": "",
+          "license": ""
         },
         "quantity": 2,
         "weight": 0,
@@ -13284,7 +13550,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233817,
-        "modifiedTime": 1700853729979,
+        "modifiedTime": 1702612403575,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "6UFOs7gEMPoBB2jV",
@@ -13301,7 +13567,10 @@
           "unidentified": ""
         },
         "source": {
-          "custom": "DMG pg. 200"
+          "book": "DMG",
+          "page": "200",
+          "custom": "",
+          "license": ""
         },
         "quantity": 1,
         "weight": 0,
@@ -13384,7 +13653,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233958,
-        "modifiedTime": 1700853729979,
+        "modifiedTime": 1702612159918,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "y1GnQBgQry5FEj0K",
@@ -13401,7 +13670,10 @@
           "unidentified": ""
         },
         "source": {
-          "custom": "DMG pg. 200"
+          "book": "DMG",
+          "page": "200",
+          "custom": "",
+          "license": ""
         },
         "quantity": 1,
         "weight": 0,
@@ -13484,7 +13756,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233522,
-        "modifiedTime": 1700853729979,
+        "modifiedTime": 1702612170267,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "dbZCoj9aFnx8bpFx",
@@ -13500,8 +13772,13 @@
           "chat": "",
           "unidentified": ""
         },
-        "source": {},
-        "quantity": 2,
+        "source": {
+          "book": "DMG",
+          "page": "200",
+          "custom": "",
+          "license": ""
+        },
+        "quantity": 1,
         "weight": 0,
         "price": {
           "value": 200,
@@ -13582,7 +13859,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233817,
-        "modifiedTime": 1700853729979,
+        "modifiedTime": 1702612407240,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "4sHWmgsSUqehn9bd",
@@ -13884,11 +14161,11 @@
             {
               "key": "flags.midi-qol.optional.evasion.count",
               "mode": 5,
-              "value": "reaction",
+              "value": "ItemUses.Ring of Evasion",
               "priority": 20
             },
             {
-              "key": "flags.midi-qol.optional.evasion.save.dex",
+              "key": "flags.midi-qol.optional.evasion.save.fail.dex",
               "mode": 5,
               "value": "success",
               "priority": 20
@@ -13925,10 +14202,10 @@
       "flags": {},
       "_stats": {
         "systemId": "dnd5e",
-        "systemVersion": "2.4.0",
+        "systemVersion": "2.4.1",
         "coreVersion": "11.315",
         "createdTime": 1661787233451,
-        "modifiedTime": 1701306356541,
+        "modifiedTime": 1702616436849,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.CpWWk9a0jey9BwxK"
@@ -14317,7 +14594,12 @@
           "chat": "",
           "unidentified": ""
         },
-        "source": {},
+        "source": {
+          "book": "DMG",
+          "page": "200",
+          "custom": "",
+          "license": ""
+        },
         "quantity": 6,
         "weight": 0,
         "price": {
@@ -14399,7 +14681,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233890,
-        "modifiedTime": 1700858332591,
+        "modifiedTime": 1702612241751,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.MOrsgmbGupzIMaJZ"
@@ -14998,7 +15280,7 @@
           "noConcentrationCheck": false,
           "toggleEffect": false,
           "ignoreTotalCover": false,
-          "confirmTargets": false
+          "confirmTargets": true
         }
       },
       "img": "icons/magic/lightning/bolt-blue.webp",
@@ -15009,7 +15291,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787234110,
-        "modifiedTime": 1701305386931,
+        "modifiedTime": 1701901714874,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.sse2HjDheHNi6krB"
@@ -16130,7 +16412,10 @@
           "unidentified": ""
         },
         "source": {
-          "custom": "DMG pg. 200"
+          "book": "DMG",
+          "page": "200",
+          "custom": "",
+          "license": ""
         },
         "quantity": 1,
         "weight": 0,
@@ -16213,7 +16498,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233817,
-        "modifiedTime": 1700853729979,
+        "modifiedTime": 1702612394077,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "AF1iU9Js2OhuVWPJ",
@@ -16497,9 +16782,12 @@
           "unidentified": ""
         },
         "source": {
-          "custom": "DMG pg. 188"
+          "book": "DMG",
+          "page": "188",
+          "custom": "",
+          "license": ""
         },
-        "quantity": 2,
+        "quantity": 1,
         "weight": 0.1,
         "price": {
           "value": 300,
@@ -16615,7 +16903,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233969,
-        "modifiedTime": 1700853729979,
+        "modifiedTime": 1702613131640,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.dCOelwHBZJhErFJt"
@@ -16632,9 +16920,12 @@
           "unidentified": ""
         },
         "source": {
-          "custom": "DMG pg. 188"
+          "book": "DMG",
+          "page": "188",
+          "custom": "",
+          "license": ""
         },
-        "quantity": 2,
+        "quantity": 1,
         "weight": 0.1,
         "price": {
           "value": 180,
@@ -16767,7 +17058,8 @@
           "concentration": false,
           "noConcentrationCheck": false,
           "toggleEffect": false,
-          "ignoreTotalCover": false
+          "ignoreTotalCover": false,
+          "confirmTargets": false
         }
       },
       "_stats": {
@@ -16775,7 +17067,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233957,
-        "modifiedTime": 1700853729979,
+        "modifiedTime": 1702613157986,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.8YaY437oEeMGLJZP"
@@ -16794,7 +17086,7 @@
         "source": {
           "custom": "DMG pg. 188"
         },
-        "quantity": 1,
+        "quantity": 0,
         "weight": 0.1,
         "price": {
           "value": 300,
@@ -16907,10 +17199,10 @@
       "flags": {},
       "_stats": {
         "systemId": "dnd5e",
-        "systemVersion": "2.4.0",
+        "systemVersion": "2.4.1",
         "coreVersion": "11.315",
         "createdTime": 1661787233579,
-        "modifiedTime": 1700853729979,
+        "modifiedTime": 1702613666227,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.ieEMpqVADlQacf4A"
@@ -16925,8 +17217,13 @@
           "chat": "",
           "unidentified": ""
         },
-        "source": {},
-        "quantity": 7,
+        "source": {
+          "book": "DMG",
+          "page": "200",
+          "custom": "",
+          "license": ""
+        },
+        "quantity": 3,
         "weight": 0,
         "price": {
           "value": 200,
@@ -17008,7 +17305,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233817,
-        "modifiedTime": 1701051609095,
+        "modifiedTime": 1702612385596,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "kFvck9mw0m2MPY4n",
@@ -17024,7 +17321,12 @@
           "chat": "",
           "unidentified": ""
         },
-        "source": {},
+        "source": {
+          "book": "DMG",
+          "page": "200",
+          "custom": "",
+          "license": ""
+        },
         "quantity": 2,
         "weight": 0,
         "price": {
@@ -17107,7 +17409,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233817,
-        "modifiedTime": 1700853729979,
+        "modifiedTime": 1702612339422,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "wCswbuWVyBrPiMBN",
@@ -17123,7 +17425,12 @@
           "chat": "",
           "unidentified": ""
         },
-        "source": {},
+        "source": {
+          "book": "DMG",
+          "page": "200",
+          "custom": "",
+          "license": ""
+        },
         "quantity": 2,
         "weight": 0,
         "price": {
@@ -17206,7 +17513,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233817,
-        "modifiedTime": 1700857264060,
+        "modifiedTime": 1702612375496,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "wqbt4Bll7nCPAQ4x",
@@ -17222,7 +17529,12 @@
           "chat": "",
           "unidentified": ""
         },
-        "source": {},
+        "source": {
+          "book": "DMG",
+          "page": "200",
+          "custom": "",
+          "license": ""
+        },
         "quantity": 5,
         "weight": 0,
         "price": {
@@ -17305,7 +17617,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233817,
-        "modifiedTime": 1700859027263,
+        "modifiedTime": 1702612409931,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "vrGOqcBi6JDag1Uq",
@@ -18181,7 +18493,7 @@
           "somatic": true,
           "material": false,
           "ritual": false,
-          "concentration": true
+          "concentration": false
         },
         "materials": {
           "value": "",
@@ -18344,7 +18656,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787234107,
-        "modifiedTime": 1701311683175,
+        "modifiedTime": 1702611065532,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.xTgv2ENAi0SdeUDi"
@@ -19041,107 +19353,6 @@
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.n7ZlWEC2c4ABllZl"
     },
     {
-      "name": "Spell Scroll 1: Shield",
-      "type": "consumable",
-      "img": "icons/sundries/scrolls/scroll-bound-orange-tan.webp",
-      "system": {
-        "description": {
-          "value": "<p>A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.</p>\n<p>If the spell is on your class's spell list but of a higher level than you can normally cast, you must make a DC 11 ability check using your spellcasting ability to determine whether you cast it successfully. On a failed check, the spell disappears from the scroll with no other effect.</p>\n<p>The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity.</p>\n<p><strong>Save DC</strong>: 13<br /><strong>Attack Bonus</strong>: +5.</p>\n<p>A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 11 Intelligence (Arcana) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": {
-          "custom": "DMG pg. 200"
-        },
-        "quantity": 2,
-        "weight": 0,
-        "price": {
-          "value": 60,
-          "denomination": "gp"
-        },
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "common",
-        "identified": true,
-        "activation": {
-          "type": "special",
-          "cost": null,
-          "condition": "Spell must be on the caster's spell list"
-        },
-        "duration": {
-          "value": "",
-          "units": ""
-        },
-        "cover": null,
-        "crewed": false,
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": "",
-          "prompt": true
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 1,
-          "max": "1",
-          "per": "charges",
-          "recovery": "",
-          "autoDestroy": true,
-          "prompt": true
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null,
-          "scale": false
-        },
-        "ability": "",
-        "actionType": "",
-        "attackBonus": "5",
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": ""
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": 13,
-          "scaling": "flat"
-        },
-        "consumableType": "scroll",
-        "properties": {}
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 2400000,
-      "ownership": {
-        "default": 0,
-        "1VOK90B3fElXpLfM": 3,
-        "YGKnOmFfMM1H7piE": 3
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "dnd5e",
-        "systemVersion": "2.4.0",
-        "coreVersion": "11.315",
-        "createdTime": 1661787233496,
-        "modifiedTime": 1700853729979,
-        "lastModifiedBy": "YGKnOmFfMM1H7piE"
-      },
-      "_id": "5p6Nf9EJNO6il5Ym",
-      "_key": "!actors.items!MdNtAtpGMdbnwXQV.5p6Nf9EJNO6il5Ym"
-    },
-    {
       "name": "Spell Scroll 1: Absorb Elements",
       "type": "consumable",
       "img": "icons/sundries/scrolls/scroll-bound-orange-tan.webp",
@@ -19152,7 +19363,10 @@
           "unidentified": ""
         },
         "source": {
-          "custom": "DMG pg. 200"
+          "custom": "",
+          "book": "DMG",
+          "page": "200",
+          "license": ""
         },
         "quantity": 5,
         "weight": 0,
@@ -19236,7 +19450,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1661787233496,
-        "modifiedTime": 1700854034383,
+        "modifiedTime": 1702612252685,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_id": "6Hop62Xz6eYCKgMs",
@@ -19565,7 +19779,7 @@
           "value": 12,
           "width": null,
           "units": "ft",
-          "type": "sphere",
+          "type": "radius",
           "prompt": true
         },
         "range": {
@@ -19678,7 +19892,7 @@
         "systemVersion": "2.4.0",
         "coreVersion": "11.315",
         "createdTime": 1700517084243,
-        "modifiedTime": 1701305394249,
+        "modifiedTime": 1702074366480,
         "lastModifiedBy": "YGKnOmFfMM1H7piE"
       },
       "_key": "!actors.items!MdNtAtpGMdbnwXQV.0FumPxNIfpEmiX4f"
@@ -20749,7 +20963,2012 @@
       "_key": "!actors.effects!MdNtAtpGMdbnwXQV.lnpuOzjfJnsQ6Wch"
     },
     {
-      "_id": "XfHpSxeugWz0Xm2Y",
+      "changes": [],
+      "description": "<p>Add to current and maximum hit points for 8 hours</p>",
+      "disabled": false,
+      "duration": {
+        "rounds": null,
+        "seconds": 28800,
+        "turns": null,
+        "startTime": 47182207567,
+        "combat": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "dfreds-convenient-effects": {
+          "isConvenient": true,
+          "isDynamic": false,
+          "isViewable": true,
+          "nestedEffects": [],
+          "subEffects": []
+        },
+        "core": {},
+        "dae": {
+          "specialDuration": [],
+          "stackable": "noneName",
+          "transfer": false,
+          "disableIncapacitated": false,
+          "showIcon": false,
+          "macroRepeat": "none"
+        },
+        "times-up": {
+          "isPassive": false
+        }
+      },
+      "icon": "icons/magic/life/heart-cross-blue.webp",
+      "name": "Aid",
+      "origin": "Actor.MdNtAtpGMdbnwXQV",
+      "tint": null,
+      "transfer": false,
+      "statuses": [
+        "Convenient Effect: Aid"
+      ],
+      "_id": "lHwWkpxQGFHATkeR",
+      "_key": "!actors.effects!MdNtAtpGMdbnwXQV.lHwWkpxQGFHATkeR"
+    },
+    {
+      "_id": "e4iUmc9RZoEyT9Wg",
+      "name": "Resistance to cold damage",
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "value": "cold",
+          "mode": 0,
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 47182207669,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "icon": "icons/consumables/potions/bottle-bulb-corked-labeled-blue.webp",
+      "origin": "Actor.MdNtAtpGMdbnwXQV.Item.NAmUpAXz24muCAv6",
+      "tint": null,
+      "transfer": false,
+      "statuses": [],
+      "flags": {
+        "dae": {
+          "itemData": {
+            "_id": "NAmUpAXz24muCAv6",
+            "name": "Potion of Cold Resistance",
+            "type": "consumable",
+            "img": "icons/consumables/potions/bottle-round-label-cork-blue.webp",
+            "system": {
+              "description": {
+                "value": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Cold type damage for 1 hour.</p>",
+                "chat": "",
+                "unidentified": ""
+              },
+              "source": {
+                "custom": "DMG pg. 188"
+              },
+              "quantity": 1,
+              "weight": 0.1,
+              "price": {
+                "value": 300,
+                "denomination": "gp"
+              },
+              "rarity": "uncommon",
+              "identified": true,
+              "attunement": 0,
+              "equipped": false,
+              "activation": {
+                "type": "action",
+                "cost": 1,
+                "condition": ""
+              },
+              "duration": {
+                "value": 1,
+                "units": "hour"
+              },
+              "cover": null,
+              "crewed": false,
+              "target": {
+                "value": 1,
+                "width": null,
+                "units": "",
+                "type": "creature",
+                "prompt": true
+              },
+              "range": {
+                "value": null,
+                "long": null,
+                "units": "touch"
+              },
+              "uses": {
+                "value": 1,
+                "max": 1,
+                "per": "charges",
+                "recovery": "",
+                "prompt": true,
+                "autoDestroy": true
+              },
+              "consume": {
+                "type": "",
+                "target": null,
+                "amount": null,
+                "scale": false
+              },
+              "ability": "",
+              "actionType": "",
+              "attackBonus": "",
+              "chatFlavor": "",
+              "critical": {
+                "threshold": null,
+                "damage": ""
+              },
+              "damage": {
+                "parts": [],
+                "versatile": ""
+              },
+              "formula": "",
+              "save": {
+                "ability": "",
+                "dc": null,
+                "scaling": "spell"
+              },
+              "consumableType": "potion",
+              "properties": {}
+            },
+            "effects": [
+              {
+                "_id": "lATTzxQzzF01hRt3",
+                "name": "Resistance to cold damage",
+                "changes": [
+                  {
+                    "key": "system.traits.dr.value",
+                    "value": "cold",
+                    "mode": 0,
+                    "priority": 20
+                  }
+                ],
+                "disabled": false,
+                "duration": {
+                  "startTime": null,
+                  "seconds": 3600,
+                  "combat": null,
+                  "rounds": null,
+                  "turns": null,
+                  "startRound": null,
+                  "startTurn": null
+                },
+                "description": "",
+                "icon": "icons/consumables/potions/bottle-bulb-corked-labeled-blue.webp",
+                "origin": "Actor.MdNtAtpGMdbnwXQV.Item.FI7US0otzafgmlhy",
+                "tint": null,
+                "transfer": false,
+                "statuses": [],
+                "flags": {}
+              }
+            ],
+            "folder": null,
+            "sort": 700000,
+            "ownership": {
+              "default": 0,
+              "1VOK90B3fElXpLfM": 3
+            },
+            "flags": {
+              "midi-qol": {
+                "onUseMacroParts": {
+                  "items": []
+                }
+              }
+            },
+            "_stats": {
+              "systemId": "dnd5e",
+              "systemVersion": "2.4.0",
+              "coreVersion": "11.315",
+              "createdTime": 1661787233451,
+              "modifiedTime": 1700853729979,
+              "lastModifiedBy": "YGKnOmFfMM1H7piE"
+            }
+          },
+          "transfer": false,
+          "token": "Scene.4vM7Iw83gsY5JILT.Token.2Iq4TTZQTtYv2Hn4",
+          "specialDuration": [],
+          "stackable": "noneName"
+        },
+        "midi-qol": {
+          "castData": {
+            "castLevel": 0,
+            "itemUuid": "Actor.MdNtAtpGMdbnwXQV.Item.NAmUpAXz24muCAv6"
+          }
+        },
+        "visual-active-effects": {
+          "data": {
+            "content": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Cold type damage for 1 hour.</p>"
+          }
+        },
+        "times-up": {
+          "isPassive": false
+        }
+      },
+      "_key": "!actors.effects!MdNtAtpGMdbnwXQV.e4iUmc9RZoEyT9Wg"
+    },
+    {
+      "_id": "zyDp9iTmGocAQFly",
+      "name": "Resistance to fire damage",
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "value": "fire",
+          "mode": 0,
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 47182207669,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "icon": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
+      "origin": "Actor.MdNtAtpGMdbnwXQV.Item.ieEMpqVADlQacf4A",
+      "tint": null,
+      "transfer": false,
+      "statuses": [],
+      "flags": {
+        "times-up": {
+          "isPassive": false
+        },
+        "dae": {
+          "itemData": {
+            "_id": "ieEMpqVADlQacf4A",
+            "name": "Potion of Fire Resistance",
+            "type": "consumable",
+            "img": "icons/consumables/potions/bottle-round-label-cork-red.webp",
+            "system": {
+              "description": {
+                "value": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p>\n<p>When you drink this potion, you gain resistance to Fire type damage for 1 hour.</p>\n<p>For other potions of resistance, roll on the @Compendium[dnd5e.tables.JzLOE4IxcmxjLLuz]{Potion of Resistance} table.</p>",
+                "chat": "",
+                "unidentified": ""
+              },
+              "source": {
+                "custom": "DMG pg. 188"
+              },
+              "quantity": 1,
+              "weight": 0.1,
+              "price": {
+                "value": 300,
+                "denomination": "gp"
+              },
+              "rarity": "uncommon",
+              "identified": true,
+              "attunement": 0,
+              "equipped": false,
+              "activation": {
+                "type": "action",
+                "cost": 1,
+                "condition": ""
+              },
+              "duration": {
+                "value": 1,
+                "units": "hour"
+              },
+              "cover": null,
+              "crewed": false,
+              "target": {
+                "value": 1,
+                "width": null,
+                "units": "",
+                "type": "creature",
+                "prompt": true
+              },
+              "range": {
+                "value": null,
+                "long": null,
+                "units": "touch"
+              },
+              "uses": {
+                "value": 1,
+                "max": 1,
+                "per": "charges",
+                "recovery": "",
+                "prompt": true,
+                "autoDestroy": true
+              },
+              "consume": {
+                "type": "",
+                "target": null,
+                "amount": null,
+                "scale": false
+              },
+              "ability": "",
+              "actionType": "",
+              "attackBonus": "",
+              "chatFlavor": "",
+              "critical": {
+                "threshold": null,
+                "damage": ""
+              },
+              "damage": {
+                "parts": [],
+                "versatile": ""
+              },
+              "formula": "",
+              "save": {
+                "ability": "",
+                "dc": null,
+                "scaling": "spell"
+              },
+              "consumableType": "potion",
+              "properties": {}
+            },
+            "effects": [
+              {
+                "_id": "VgqX546WjGC9UvAj",
+                "name": "Resistance to fire damage",
+                "changes": [
+                  {
+                    "key": "system.traits.dr.value",
+                    "value": "fire",
+                    "mode": 0,
+                    "priority": 20
+                  }
+                ],
+                "disabled": false,
+                "duration": {
+                  "startTime": null,
+                  "seconds": 3600,
+                  "combat": null,
+                  "rounds": null,
+                  "turns": null,
+                  "startRound": null,
+                  "startTurn": null
+                },
+                "description": "",
+                "icon": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
+                "origin": "Actor.MdNtAtpGMdbnwXQV.Item.ieEMpqVADlQacf4A",
+                "tint": null,
+                "transfer": false,
+                "statuses": [],
+                "flags": {
+                  "times-up": {
+                    "isPassive": false
+                  }
+                }
+              }
+            ],
+            "folder": null,
+            "sort": 800000,
+            "ownership": {
+              "default": 0,
+              "YGKnOmFfMM1H7piE": 3
+            },
+            "flags": {
+              "midi-qol": {
+                "onUseMacroParts": {
+                  "items": []
+                }
+              }
+            },
+            "_stats": {
+              "systemId": "dnd5e",
+              "systemVersion": "2.4.0",
+              "coreVersion": "11.315",
+              "createdTime": 1661787233579,
+              "modifiedTime": 1700853729979,
+              "lastModifiedBy": "YGKnOmFfMM1H7piE"
+            }
+          },
+          "transfer": false,
+          "token": "Scene.4vM7Iw83gsY5JILT.Token.2Iq4TTZQTtYv2Hn4",
+          "specialDuration": [],
+          "stackable": "noneName"
+        },
+        "midi-qol": {
+          "castData": {
+            "castLevel": 0,
+            "itemUuid": "Actor.MdNtAtpGMdbnwXQV.Item.ieEMpqVADlQacf4A"
+          }
+        },
+        "visual-active-effects": {
+          "data": {
+            "content": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p>\n<p>When you drink this potion, you gain resistance to Fire type damage for 1 hour.</p>\n<p>For other potions of resistance, roll on the @Compendium[dnd5e.tables.JzLOE4IxcmxjLLuz]{Potion of Resistance} table.</p>"
+          }
+        }
+      },
+      "_key": "!actors.effects!MdNtAtpGMdbnwXQV.zyDp9iTmGocAQFly"
+    },
+    {
+      "_id": "TwwTSLdw9ClRNepb",
+      "name": "Resistance to lightning damage",
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "value": "lightning",
+          "mode": 0,
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 47182207669,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "icon": "icons/consumables/potions/bottle-round-corked-yellow.webp",
+      "origin": "Actor.MdNtAtpGMdbnwXQV.Item.BfeeaGcSh2lrWtmW",
+      "tint": null,
+      "transfer": false,
+      "statuses": [],
+      "flags": {
+        "dae": {
+          "itemData": {
+            "_id": "BfeeaGcSh2lrWtmW",
+            "name": "Potion of Lightning Resistance",
+            "type": "consumable",
+            "img": "icons/consumables/potions/bottle-round-label-cork-yellow.webp",
+            "system": {
+              "description": {
+                "value": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Lightning type damage for 1 hour.</p>",
+                "chat": "",
+                "unidentified": ""
+              },
+              "source": {
+                "custom": "DMG pg. 188"
+              },
+              "quantity": 1,
+              "weight": 0.1,
+              "price": {
+                "value": 300,
+                "denomination": "gp"
+              },
+              "rarity": "uncommon",
+              "identified": true,
+              "attunement": 0,
+              "equipped": false,
+              "activation": {
+                "type": "action",
+                "cost": 1,
+                "condition": ""
+              },
+              "duration": {
+                "value": 1,
+                "units": "hour"
+              },
+              "cover": null,
+              "crewed": false,
+              "target": {
+                "value": 1,
+                "width": null,
+                "units": "",
+                "type": "creature",
+                "prompt": true
+              },
+              "range": {
+                "value": null,
+                "long": null,
+                "units": "touch"
+              },
+              "uses": {
+                "value": 1,
+                "max": 1,
+                "per": "charges",
+                "recovery": "",
+                "prompt": true,
+                "autoDestroy": true
+              },
+              "consume": {
+                "type": "",
+                "target": null,
+                "amount": null,
+                "scale": false
+              },
+              "ability": "",
+              "actionType": "",
+              "attackBonus": "",
+              "chatFlavor": "",
+              "critical": {
+                "threshold": null,
+                "damage": ""
+              },
+              "damage": {
+                "parts": [],
+                "versatile": ""
+              },
+              "formula": "",
+              "save": {
+                "ability": "",
+                "dc": null,
+                "scaling": "spell"
+              },
+              "consumableType": "potion",
+              "properties": {}
+            },
+            "effects": [
+              {
+                "_id": "JV8pYubnrzA2UQ21",
+                "name": "Resistance to lightning damage",
+                "changes": [
+                  {
+                    "key": "system.traits.dr.value",
+                    "value": "lightning",
+                    "mode": 0,
+                    "priority": 20
+                  }
+                ],
+                "disabled": false,
+                "duration": {
+                  "startTime": null,
+                  "seconds": 3600,
+                  "combat": null,
+                  "rounds": null,
+                  "turns": null,
+                  "startRound": null,
+                  "startTurn": null
+                },
+                "description": "",
+                "icon": "icons/consumables/potions/bottle-round-corked-yellow.webp",
+                "origin": "Actor.MdNtAtpGMdbnwXQV.Item.BfeeaGcSh2lrWtmW",
+                "tint": null,
+                "transfer": false,
+                "statuses": [],
+                "flags": {}
+              }
+            ],
+            "folder": null,
+            "sort": 1500000,
+            "ownership": {
+              "default": 0,
+              "1VOK90B3fElXpLfM": 3
+            },
+            "flags": {
+              "midi-qol": {
+                "onUseMacroParts": {
+                  "items": []
+                }
+              }
+            },
+            "_stats": {
+              "systemId": "dnd5e",
+              "systemVersion": "2.4.0",
+              "coreVersion": "11.315",
+              "createdTime": 1661787233490,
+              "modifiedTime": 1700853729979,
+              "lastModifiedBy": "YGKnOmFfMM1H7piE"
+            }
+          },
+          "transfer": false,
+          "token": "Scene.4vM7Iw83gsY5JILT.Token.2Iq4TTZQTtYv2Hn4",
+          "specialDuration": [],
+          "stackable": "noneName"
+        },
+        "midi-qol": {
+          "castData": {
+            "castLevel": 0,
+            "itemUuid": "Actor.MdNtAtpGMdbnwXQV.Item.BfeeaGcSh2lrWtmW"
+          }
+        },
+        "visual-active-effects": {
+          "data": {
+            "content": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Lightning type damage for 1 hour.</p>"
+          }
+        },
+        "times-up": {
+          "isPassive": false
+        }
+      },
+      "_key": "!actors.effects!MdNtAtpGMdbnwXQV.TwwTSLdw9ClRNepb"
+    },
+    {
+      "_id": "J9URfe5BSG5PKD67",
+      "name": "Resistance to necrotic damage",
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "value": "necrotic",
+          "mode": 0,
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 47182207669,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "icon": "icons/consumables/potions/bottle-round-label-cork-purple.webp",
+      "origin": "Actor.MdNtAtpGMdbnwXQV.Item.dCOelwHBZJhErFJt",
+      "tint": null,
+      "transfer": false,
+      "statuses": [],
+      "flags": {
+        "times-up": {
+          "isPassive": false
+        },
+        "dae": {
+          "itemData": {
+            "_id": "dCOelwHBZJhErFJt",
+            "name": "Potion of Necrotic Resistance",
+            "type": "consumable",
+            "img": "icons/consumables/potions/bottle-round-label-cork-purple.webp",
+            "system": {
+              "description": {
+                "value": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p>\n<p>When you drink this potion, you gain resistance to Necrotic type damage for 1 hour.</p>\n<p>For other potions of resistance, roll on the @Compendium[dnd5e.tables.JzLOE4IxcmxjLLuz]{Potion of Resistance} table.</p>",
+                "chat": "",
+                "unidentified": ""
+              },
+              "source": {
+                "custom": "DMG pg. 188"
+              },
+              "quantity": 1,
+              "weight": 0.1,
+              "price": {
+                "value": 300,
+                "denomination": "gp"
+              },
+              "rarity": "uncommon",
+              "identified": true,
+              "attunement": 0,
+              "equipped": false,
+              "activation": {
+                "type": "action",
+                "cost": 1,
+                "condition": ""
+              },
+              "duration": {
+                "value": 1,
+                "units": "hour"
+              },
+              "cover": null,
+              "crewed": false,
+              "target": {
+                "value": 1,
+                "width": null,
+                "units": "",
+                "type": "creature",
+                "prompt": true
+              },
+              "range": {
+                "value": null,
+                "long": null,
+                "units": "touch"
+              },
+              "uses": {
+                "value": 1,
+                "max": 1,
+                "per": "charges",
+                "recovery": "",
+                "prompt": true,
+                "autoDestroy": true
+              },
+              "consume": {
+                "type": "",
+                "target": null,
+                "amount": null,
+                "scale": false
+              },
+              "ability": "",
+              "actionType": "",
+              "attackBonus": "",
+              "chatFlavor": "",
+              "critical": {
+                "threshold": null,
+                "damage": ""
+              },
+              "damage": {
+                "parts": [],
+                "versatile": ""
+              },
+              "formula": "",
+              "save": {
+                "ability": "",
+                "dc": null,
+                "scaling": "spell"
+              },
+              "consumableType": "potion",
+              "properties": {}
+            },
+            "effects": [
+              {
+                "_id": "n67Q6WInANWjr6eE",
+                "name": "Resistance to necrotic damage",
+                "changes": [
+                  {
+                    "key": "system.traits.dr.value",
+                    "value": "necrotic",
+                    "mode": 0,
+                    "priority": 20
+                  }
+                ],
+                "disabled": false,
+                "duration": {
+                  "startTime": null,
+                  "seconds": 3600,
+                  "combat": null,
+                  "rounds": null,
+                  "turns": null,
+                  "startRound": null,
+                  "startTurn": null
+                },
+                "description": "",
+                "icon": "icons/consumables/potions/bottle-round-label-cork-purple.webp",
+                "origin": "Actor.MdNtAtpGMdbnwXQV.Item.dCOelwHBZJhErFJt",
+                "tint": null,
+                "transfer": false,
+                "statuses": [],
+                "flags": {
+                  "times-up": {
+                    "isPassive": false
+                  }
+                }
+              }
+            ],
+            "folder": null,
+            "sort": 1600000,
+            "ownership": {
+              "default": 0,
+              "YGKnOmFfMM1H7piE": 3
+            },
+            "flags": {
+              "midi-qol": {
+                "onUseMacroParts": {
+                  "items": []
+                }
+              }
+            },
+            "_stats": {
+              "systemId": "dnd5e",
+              "systemVersion": "2.4.0",
+              "coreVersion": "11.315",
+              "createdTime": 1661787233969,
+              "modifiedTime": 1702086111802,
+              "lastModifiedBy": "odXFaxFXYQodAFjt"
+            }
+          },
+          "transfer": false,
+          "token": "Scene.4vM7Iw83gsY5JILT.Token.2Iq4TTZQTtYv2Hn4",
+          "specialDuration": [],
+          "stackable": "noneName"
+        },
+        "midi-qol": {
+          "castData": {
+            "castLevel": 0,
+            "itemUuid": "Actor.MdNtAtpGMdbnwXQV.Item.dCOelwHBZJhErFJt"
+          }
+        },
+        "visual-active-effects": {
+          "data": {
+            "content": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p>\n<p>When you drink this potion, you gain resistance to Necrotic type damage for 1 hour.</p>\n<p>For other potions of resistance, roll on the @Compendium[dnd5e.tables.JzLOE4IxcmxjLLuz]{Potion of Resistance} table.</p>"
+          }
+        }
+      },
+      "_key": "!actors.effects!MdNtAtpGMdbnwXQV.J9URfe5BSG5PKD67"
+    },
+    {
+      "changes": [
+        {
+          "key": "system.bonuses.abilities.save",
+          "mode": 2,
+          "value": "+1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.msak.attack",
+          "mode": 2,
+          "value": "+1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.mwak.attack",
+          "mode": 2,
+          "value": "+1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rsak.attack",
+          "mode": 2,
+          "value": "+1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rwak.attack",
+          "mode": 2,
+          "value": "+1d4",
+          "priority": null
+        },
+        {
+          "key": "macro.tokenMagic",
+          "mode": 0,
+          "value": "bloom",
+          "priority": null
+        }
+      ],
+      "description": "Add 1d4 to all saving throws and attack rolls for 1 minute",
+      "disabled": false,
+      "duration": {
+        "rounds": null,
+        "seconds": 60,
+        "turns": null,
+        "startTime": 47182207669,
+        "combat": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "dfreds-convenient-effects": {
+          "isConvenient": true,
+          "isDynamic": false,
+          "isViewable": true,
+          "nestedEffects": [],
+          "subEffects": []
+        },
+        "dae": {
+          "transfer": false,
+          "specialDuration": [],
+          "stackable": "noneName"
+        },
+        "midi-qol": {
+          "castData": {
+            "castLevel": 0,
+            "itemUuid": "Actor.MdNtAtpGMdbnwXQV.Item.8YaY437oEeMGLJZP"
+          }
+        },
+        "core": {
+          "overlay": false
+        },
+        "times-up": {
+          "isPassive": false
+        },
+        "visual-active-effects": {
+          "data": {
+            "content": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>For 1 hour after drinking it, you gain 10 temporary hit points that last for 1 hour. For the same duration, you are under the effect of the @Compendium[dnd5e.spells.8dzaICjGy6mTUaUr]{Bless} spell (no concentration required)</p><section class=\"secret foundry-note\" id=\"secret-bF4l2V0GJ0rrbVZK\"><p><strong>Foundry Note</strong></p><p>The Other Formula button can be used to roll the bonus 1d4 received from Bless.</p></section>"
+          }
+        }
+      },
+      "icon": "icons/magic/control/buff-flight-wings-blue.webp",
+      "name": "Bless",
+      "origin": "Actor.MdNtAtpGMdbnwXQV.Item.8YaY437oEeMGLJZP",
+      "tint": null,
+      "transfer": false,
+      "statuses": [
+        "Convenient Effect: Bless",
+        "Convenient Effect: Bless"
+      ],
+      "_id": "Ip3o3vYZjb1DacqR",
+      "_key": "!actors.effects!MdNtAtpGMdbnwXQV.Ip3o3vYZjb1DacqR"
+    },
+    {
+      "_id": "jPo7m2HSmGOvvuIl",
+      "name": "Advantage on one d20 Test",
+      "changes": [
+        {
+          "key": "flags.midi-qol.advantage.all",
+          "value": "1",
+          "mode": 2,
+          "priority": 20
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": 47182207669,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "icon": "icons/consumables/potions/bottle-conical-corked-tied-blue.webp",
+      "origin": "Actor.MdNtAtpGMdbnwXQV.Item.t3S3RgNctx1xc531",
+      "tint": null,
+      "transfer": false,
+      "statuses": [],
+      "flags": {
+        "dae": {
+          "itemData": {
+            "_id": "t3S3RgNctx1xc531",
+            "name": "Potion of Advantage",
+            "type": "consumable",
+            "img": "icons/consumables/potions/bottle-conical-corked-tied-blue.webp",
+            "system": {
+              "description": {
+                "value": "<p>When you drink this potion, you gain advantage on one ability check, attack roll, or saving throw of your choice that you make within the next hour.</p><p>This potion takes the form of a sparkling, golden mist that moves and pours like water.</p>",
+                "chat": "",
+                "unidentified": ""
+              },
+              "source": {},
+              "quantity": 1,
+              "weight": 0.1,
+              "price": {
+                "value": 150,
+                "denomination": "gp"
+              },
+              "rarity": "uncommon",
+              "identified": true,
+              "attunement": 0,
+              "equipped": false,
+              "activation": {
+                "type": "action",
+                "cost": 1,
+                "condition": ""
+              },
+              "duration": {
+                "value": 1,
+                "units": "hour"
+              },
+              "cover": null,
+              "crewed": false,
+              "target": {
+                "value": 1,
+                "width": null,
+                "units": "",
+                "type": "creature",
+                "prompt": true
+              },
+              "range": {
+                "value": null,
+                "long": null,
+                "units": "touch"
+              },
+              "uses": {
+                "value": 1,
+                "max": 1,
+                "per": "charges",
+                "recovery": "",
+                "prompt": true,
+                "autoDestroy": true
+              },
+              "consume": {
+                "type": "",
+                "target": null,
+                "amount": null,
+                "scale": false
+              },
+              "ability": null,
+              "actionType": "",
+              "attackBonus": "",
+              "chatFlavor": "",
+              "critical": {
+                "threshold": null,
+                "damage": ""
+              },
+              "damage": {
+                "parts": [],
+                "versatile": ""
+              },
+              "formula": "",
+              "save": {
+                "ability": "",
+                "dc": null,
+                "scaling": "spell"
+              },
+              "consumableType": "potion",
+              "properties": {}
+            },
+            "effects": [
+              {
+                "_id": "zW4QUEeXuWLEL6Ta",
+                "name": "Advantage on one d20 Test",
+                "changes": [
+                  {
+                    "key": "flags.midi-qol.advantage.all",
+                    "value": "1",
+                    "mode": 2,
+                    "priority": 20
+                  }
+                ],
+                "disabled": true,
+                "duration": {
+                  "startTime": null,
+                  "seconds": 3600,
+                  "combat": null,
+                  "rounds": null,
+                  "turns": null,
+                  "startRound": null,
+                  "startTurn": null
+                },
+                "description": "",
+                "icon": "icons/consumables/potions/bottle-conical-corked-tied-blue.webp",
+                "origin": "Actor.MdNtAtpGMdbnwXQV.Item.t3S3RgNctx1xc531",
+                "tint": null,
+                "transfer": false,
+                "statuses": [],
+                "flags": {}
+              }
+            ],
+            "folder": null,
+            "sort": 500000,
+            "ownership": {
+              "default": 0,
+              "1VOK90B3fElXpLfM": 3
+            },
+            "flags": {
+              "midi-qol": {
+                "onUseMacroParts": {
+                  "items": []
+                }
+              }
+            },
+            "_stats": {
+              "systemId": "dnd5e",
+              "systemVersion": "2.4.0",
+              "coreVersion": "11.315",
+              "createdTime": 1688686155555,
+              "modifiedTime": 1702086015964,
+              "lastModifiedBy": "odXFaxFXYQodAFjt"
+            }
+          },
+          "transfer": false,
+          "token": "Scene.4vM7Iw83gsY5JILT.Token.2Iq4TTZQTtYv2Hn4",
+          "specialDuration": [],
+          "stackable": "noneName"
+        },
+        "midi-qol": {
+          "castData": {
+            "castLevel": 0,
+            "itemUuid": "Actor.MdNtAtpGMdbnwXQV.Item.t3S3RgNctx1xc531"
+          }
+        },
+        "visual-active-effects": {
+          "data": {
+            "content": "<p>When you drink this potion, you gain advantage on one ability check, attack roll, or saving throw of your choice that you make within the next hour.</p><p>This potion takes the form of a sparkling, golden mist that moves and pours like water.</p>"
+          }
+        },
+        "times-up": {
+          "isPassive": false
+        }
+      },
+      "_key": "!actors.effects!MdNtAtpGMdbnwXQV.jPo7m2HSmGOvvuIl"
+    },
+    {
+      "changes": [],
+      "description": "Some Spells require you to maintain Concentration in order to keep their magic active. If you lose Concentration, such a spell ends.",
+      "disabled": false,
+      "duration": {
+        "seconds": 600,
+        "startTime": 47182207669,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "dfreds-convenient-effects": {
+          "isConvenient": true,
+          "isDynamic": false,
+          "isViewable": true,
+          "nestedEffects": [],
+          "subEffects": []
+        },
+        "midi-qol": {
+          "isConcentration": "Actor.MdNtAtpGMdbnwXQV.Item.xTgv2ENAi0SdeUDi"
+        },
+        "dae": {
+          "transfer": false,
+          "specialDuration": [],
+          "stackable": "noneName"
+        },
+        "visual-active-effects": {
+          "data": {
+            "content": "<p>You gain the ability to move or manipulate creatures or objects by thought. When you cast the spell, and as your action each round for the Duration, you can exert your will on one creature or object that you can see within range, causing the appropriate effect below. You can affect the same target round after round, or choose a new one at any time. If you switch targets, the prior target is no longer affected by the spell.</p><p><strong>Creature</strong>. You can try to move a Huge or smaller creature. Make an ability check with your spellcasting ability contested by the creature's Strength check. If you win the contest, you move the creature up to 30 feet in any direction, including upward but not beyond the range of this spell. Until the end of your next turn, the creature is Restrained in your telekinetic grip. A creature lifted upward is suspended in mid-air.</p><p>On subsequent rounds, you can use your action to attempt to maintain your telekinetic grip on the creature by repeating the contest.</p><p><strong>Object</strong>. You can try to move an object that weighs up to 1,000 pounds. If the object isn't being worn or carried, you automatically move it up to 30 feet in any direction, but not beyond the range of this spell.</p><p>If the object is worn or carried by a creature, you must make an ability check with your Spellcasting ability contested by that creature's Strength check. If you succeed, you pull the object away from that creature and can move it up to 30 feet in any direction but not beyond the range of this spell.</p><p>You can exert fine control on Objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial.</p>"
+          }
+        },
+        "times-up": {
+          "isPassive": false
+        }
+      },
+      "icon": "modules/dfreds-convenient-effects/images/concentrating.svg",
+      "name": "Concentrating",
+      "origin": "Actor.MdNtAtpGMdbnwXQV.Item.xTgv2ENAi0SdeUDi",
+      "transfer": false,
+      "statuses": [
+        "Convenient Effect: Concentrating"
+      ],
+      "_id": "yguy0Mj5GWcOY0Eb",
+      "_key": "!actors.effects!MdNtAtpGMdbnwXQV.yguy0Mj5GWcOY0Eb"
+    },
+    {
+      "_id": "2IXrmzdDT4u2R1gS",
+      "name": "Illusory duplicates",
+      "changes": [
+        {
+          "key": "macro.tokenMagic",
+          "value": "spectral-images",
+          "mode": 0,
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 47182207669,
+        "seconds": null,
+        "combat": null,
+        "rounds": 10,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "icon": "icons/sundries/gaming/chess-pawn-white-glass.webp",
+      "origin": "Actor.MdNtAtpGMdbnwXQV.Item.3MlUccz4zUmh3JZ1",
+      "tint": null,
+      "transfer": false,
+      "statuses": [],
+      "flags": {
+        "dae": {
+          "itemData": {
+            "_id": "3MlUccz4zUmh3JZ1",
+            "name": "2. Mirror Image",
+            "type": "spell",
+            "img": "icons/sundries/gaming/chess-pawn-white-glass.webp",
+            "system": {
+              "description": {
+                "value": "<p>Three illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it's impossible to track which image is real. You can use your action to dismiss the illusory duplicates.</p><p>Each time a creature targets you with an attack during the spell's duration, roll a [[/r d20 #Mirror Image Check]] to determine whether the attack instead targets one of your duplicates.</p><p>If you have three duplicates, you must roll a 6 or higher to change the attack's target to a duplicate. With two duplicates, you must roll an 8 or higher. With one duplicate, you must roll an 11 or higher.</p><p>A duplicate's AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when all three duplicates are destroyed.</p><p>A creature is unaffected by this spell if it can't see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight.</p>",
+                "chat": "",
+                "unidentified": ""
+              },
+              "source": {
+                "custom": "PHB pg. 260"
+              },
+              "activation": {
+                "type": "action",
+                "cost": 1,
+                "condition": ""
+              },
+              "duration": {
+                "value": 1,
+                "units": "minute"
+              },
+              "cover": null,
+              "crewed": false,
+              "target": {
+                "value": null,
+                "width": null,
+                "units": null,
+                "type": "self",
+                "prompt": true
+              },
+              "range": {
+                "value": null,
+                "long": null,
+                "units": "self"
+              },
+              "uses": {
+                "value": null,
+                "max": "",
+                "per": null,
+                "recovery": "",
+                "prompt": true
+              },
+              "consume": {
+                "type": "",
+                "target": "",
+                "amount": null,
+                "scale": false
+              },
+              "ability": "",
+              "actionType": "",
+              "attackBonus": "",
+              "chatFlavor": "",
+              "critical": {
+                "threshold": null,
+                "damage": ""
+              },
+              "damage": {
+                "parts": [],
+                "versatile": ""
+              },
+              "formula": "",
+              "save": {
+                "ability": "",
+                "dc": null,
+                "scaling": "spell"
+              },
+              "level": 2,
+              "school": "ill",
+              "components": {
+                "vocal": true,
+                "somatic": true,
+                "material": false,
+                "ritual": false,
+                "concentration": false
+              },
+              "materials": {
+                "value": "",
+                "consumed": false,
+                "cost": 0,
+                "supply": 0
+              },
+              "preparation": {
+                "mode": "atwill",
+                "prepared": false
+              },
+              "scaling": {
+                "mode": "none",
+                "formula": ""
+              }
+            },
+            "effects": [
+              {
+                "_id": "1Ufmx1hXnmlmG1aM",
+                "name": "Illusory duplicates",
+                "changes": [
+                  {
+                    "key": "macro.tokenMagic",
+                    "value": "spectral-images",
+                    "mode": 0,
+                    "priority": 20
+                  }
+                ],
+                "disabled": false,
+                "duration": {
+                  "startTime": null,
+                  "seconds": null,
+                  "combat": null,
+                  "rounds": 10,
+                  "turns": null,
+                  "startRound": null,
+                  "startTurn": null
+                },
+                "description": "",
+                "icon": "icons/sundries/gaming/chess-pawn-white-glass.webp",
+                "origin": "Actor.MdNtAtpGMdbnwXQV.Item.3MlUccz4zUmh3JZ1",
+                "tint": null,
+                "transfer": false,
+                "statuses": [],
+                "flags": {}
+              }
+            ],
+            "folder": null,
+            "sort": 500000,
+            "ownership": {
+              "default": 0,
+              "1VOK90B3fElXpLfM": 3
+            },
+            "flags": {
+              "midi-qol": {
+                "onUseMacroParts": {
+                  "items": []
+                }
+              },
+              "midiProperties": {}
+            },
+            "_stats": {
+              "systemId": "dnd5e",
+              "systemVersion": "2.4.0",
+              "coreVersion": "11.315",
+              "createdTime": 1661787234155,
+              "modifiedTime": 1702077992914,
+              "lastModifiedBy": "jXVgMc2huKo0j1VO"
+            }
+          },
+          "transfer": false,
+          "token": "Scene.4vM7Iw83gsY5JILT.Token.2Iq4TTZQTtYv2Hn4",
+          "specialDuration": [],
+          "stackable": "noneName"
+        },
+        "midi-qol": {
+          "castData": {
+            "baseLevel": 2,
+            "castLevel": 2,
+            "itemUuid": "Actor.MdNtAtpGMdbnwXQV.Item.3MlUccz4zUmh3JZ1"
+          }
+        },
+        "visual-active-effects": {
+          "data": {
+            "content": "<p>Three illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it's impossible to track which image is real. You can use your action to dismiss the illusory duplicates.</p><p>Each time a creature targets you with an attack during the spell's duration, roll a [[/r d20 #Mirror Image Check]] to determine whether the attack instead targets one of your duplicates.</p><p>If you have three duplicates, you must roll a 6 or higher to change the attack's target to a duplicate. With two duplicates, you must roll an 8 or higher. With one duplicate, you must roll an 11 or higher.</p><p>A duplicate's AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when all three duplicates are destroyed.</p><p>A creature is unaffected by this spell if it can't see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight.</p>"
+          }
+        },
+        "times-up": {
+          "isPassive": false
+        }
+      },
+      "_key": "!actors.effects!MdNtAtpGMdbnwXQV.2IXrmzdDT4u2R1gS"
+    },
+    {
+      "_id": "s09us6h4UtRqf7A4",
+      "name": "See Invisibility",
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": 47182207669,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "icon": "icons/magic/control/silhouette-aura-energy.webp",
+      "origin": "Actor.MdNtAtpGMdbnwXQV.Item.XECRITPMBTwW3tUN",
+      "tint": null,
+      "transfer": false,
+      "statuses": [],
+      "flags": {
+        "dae": {
+          "itemData": {
+            "_id": "XECRITPMBTwW3tUN",
+            "name": "2. See Invisibility",
+            "type": "spell",
+            "img": "icons/magic/control/silhouette-aura-energy.webp",
+            "system": {
+              "description": {
+                "value": "<p>For the duration, you see invisible creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.</p>",
+                "chat": "",
+                "unidentified": ""
+              },
+              "source": {
+                "custom": "PHB pg. 274"
+              },
+              "activation": {
+                "type": "action",
+                "cost": 1,
+                "condition": ""
+              },
+              "duration": {
+                "value": 1,
+                "units": "hour"
+              },
+              "cover": null,
+              "crewed": false,
+              "target": {
+                "value": null,
+                "width": null,
+                "units": null,
+                "type": "self",
+                "prompt": true
+              },
+              "range": {
+                "value": null,
+                "long": null,
+                "units": "self"
+              },
+              "uses": {
+                "value": null,
+                "max": "",
+                "per": null,
+                "recovery": "",
+                "prompt": true
+              },
+              "consume": {
+                "type": "",
+                "target": "",
+                "amount": null,
+                "scale": false
+              },
+              "ability": "",
+              "actionType": "",
+              "attackBonus": "",
+              "chatFlavor": "",
+              "critical": {
+                "threshold": null,
+                "damage": ""
+              },
+              "damage": {
+                "parts": [],
+                "versatile": ""
+              },
+              "formula": "",
+              "save": {
+                "ability": "",
+                "dc": null,
+                "scaling": "spell"
+              },
+              "level": 2,
+              "school": "div",
+              "components": {
+                "vocal": true,
+                "somatic": true,
+                "material": true,
+                "ritual": false,
+                "concentration": false
+              },
+              "materials": {
+                "value": "A pinch of talc and a small sprinkling of silver powder",
+                "consumed": false,
+                "cost": 0,
+                "supply": 0
+              },
+              "preparation": {
+                "mode": "atwill",
+                "prepared": false
+              },
+              "scaling": {
+                "mode": "none",
+                "formula": ""
+              }
+            },
+            "effects": [
+              {
+                "_id": "L4jcB00BFakp20mk",
+                "name": "See Invisibility",
+                "changes": [],
+                "disabled": false,
+                "duration": {
+                  "startTime": null,
+                  "seconds": 3600,
+                  "combat": null,
+                  "rounds": null,
+                  "turns": null,
+                  "startRound": null,
+                  "startTurn": null
+                },
+                "description": "",
+                "icon": "icons/magic/control/silhouette-aura-energy.webp",
+                "origin": "Actor.MdNtAtpGMdbnwXQV.Item.XECRITPMBTwW3tUN",
+                "tint": null,
+                "transfer": false,
+                "statuses": [],
+                "flags": {}
+              }
+            ],
+            "folder": null,
+            "sort": 700000,
+            "ownership": {
+              "default": 0,
+              "1VOK90B3fElXpLfM": 3
+            },
+            "flags": {
+              "midi-qol": {
+                "onUseMacroParts": {
+                  "items": []
+                }
+              },
+              "midiProperties": {}
+            },
+            "_stats": {
+              "systemId": "dnd5e",
+              "systemVersion": "2.4.0",
+              "coreVersion": "11.315",
+              "createdTime": 1661787234098,
+              "modifiedTime": 1702077992914,
+              "lastModifiedBy": "jXVgMc2huKo0j1VO"
+            }
+          },
+          "transfer": false,
+          "token": "Scene.4vM7Iw83gsY5JILT.Token.2Iq4TTZQTtYv2Hn4",
+          "specialDuration": [],
+          "stackable": "noneName"
+        },
+        "midi-qol": {
+          "castData": {
+            "baseLevel": 2,
+            "castLevel": 2,
+            "itemUuid": "Actor.MdNtAtpGMdbnwXQV.Item.XECRITPMBTwW3tUN"
+          }
+        },
+        "visual-active-effects": {
+          "data": {
+            "content": "<p>For the duration, you see invisible creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.</p>"
+          }
+        },
+        "times-up": {
+          "isPassive": false
+        }
+      },
+      "_key": "!actors.effects!MdNtAtpGMdbnwXQV.s09us6h4UtRqf7A4"
+    },
+    {
+      "_id": "u1Lgh8Q78vzX4EyI",
+      "name": "Blink",
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": 47182207669,
+        "seconds": null,
+        "combat": null,
+        "rounds": 10,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "icon": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+      "origin": "Actor.MdNtAtpGMdbnwXQV.Item.tm8IwE16DKOEXG16",
+      "tint": null,
+      "transfer": false,
+      "statuses": [],
+      "flags": {
+        "dae": {
+          "macroRepeat": "none",
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": [],
+          "itemData": {
+            "_id": "tm8IwE16DKOEXG16",
+            "name": "3. Blink",
+            "type": "spell",
+            "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+            "system": {
+              "description": {
+                "value": "<p>Roll a [[/r d20 #Blink Check]] at the end of each of your turns for the duration of the spell. On a roll of 11 or higher, you vanish from your current plane of existence and appear in the Ethereal Plane (the spell fails and the casting is wasted if you were already on that plane). At the start of your next turn, and when the spell ends if you are on the Ethereal Plane, you return to an unoccupied space of your choice that you can see within 10 feet of the space you vanished from. If no unoccupied space is available within that range, you appear in the nearest unoccupied space (chosen at random if more than one space is equally near). You can dismiss this spell as an action.</p><p>While on the Ethereal Plane, you can see and hear the plane you originated from, which is cast in shades of gray, and you can't see anything there more than 60 feet away. You can only affect and be affected by other creatures on the Ethereal Plane. Creatures that aren't there can't perceive you or interact with you, unless they have the ability to do so.</p>",
+                "chat": "",
+                "unidentified": ""
+              },
+              "source": {
+                "custom": "PHB pg. 219"
+              },
+              "activation": {
+                "type": "action",
+                "cost": 1,
+                "condition": ""
+              },
+              "duration": {
+                "value": 1,
+                "units": "minute"
+              },
+              "cover": null,
+              "crewed": false,
+              "target": {
+                "value": null,
+                "width": null,
+                "units": null,
+                "type": "self",
+                "prompt": true
+              },
+              "range": {
+                "value": null,
+                "long": null,
+                "units": "self"
+              },
+              "uses": {
+                "value": null,
+                "max": "",
+                "per": null,
+                "recovery": "",
+                "prompt": true
+              },
+              "consume": {
+                "type": "",
+                "target": "",
+                "amount": null,
+                "scale": false
+              },
+              "ability": "",
+              "actionType": "",
+              "attackBonus": "",
+              "chatFlavor": "",
+              "critical": {
+                "threshold": null,
+                "damage": ""
+              },
+              "damage": {
+                "parts": [],
+                "versatile": ""
+              },
+              "formula": "",
+              "save": {
+                "ability": "",
+                "dc": null,
+                "scaling": "spell"
+              },
+              "level": 3,
+              "school": "trs",
+              "components": {
+                "vocal": true,
+                "somatic": true,
+                "material": false,
+                "ritual": false,
+                "concentration": false
+              },
+              "materials": {
+                "value": "",
+                "consumed": false,
+                "cost": 0,
+                "supply": 0
+              },
+              "preparation": {
+                "mode": "atwill",
+                "prepared": false
+              },
+              "scaling": {
+                "mode": "none",
+                "formula": ""
+              }
+            },
+            "effects": [
+              {
+                "_id": "67LXObjFpqfhfiKa",
+                "name": "Blink",
+                "changes": [],
+                "disabled": false,
+                "duration": {
+                  "startTime": null,
+                  "seconds": null,
+                  "combat": null,
+                  "rounds": 10,
+                  "turns": null,
+                  "startRound": null,
+                  "startTurn": null
+                },
+                "description": "",
+                "icon": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+                "origin": "Actor.MdNtAtpGMdbnwXQV.Item.tm8IwE16DKOEXG16",
+                "tint": null,
+                "transfer": false,
+                "statuses": [],
+                "flags": {
+                  "dae": {
+                    "macroRepeat": "none",
+                    "disableIncapacitated": false,
+                    "selfTarget": false,
+                    "selfTargetAlways": false,
+                    "dontApply": false,
+                    "stackable": "noneName",
+                    "showIcon": false,
+                    "durationExpression": "",
+                    "specialDuration": []
+                  },
+                  "effectmacro": {
+                    "onTurnEnd": {
+                      "script": "feanor.spells.blink({trigger: \"onTurnEnd\", actor, effect, token});"
+                    },
+                    "onTurnStart": {
+                      "script": "feanor.spells.blink({trigger: \"onTurnStart\", token});"
+                    },
+                    "onDelete": {
+                      "script": "feanor.spells.blink({trigger: \"onEffectDeletion\", token});"
+                    },
+                    "onCombatEnd": {
+                      "script": "feanor.spells.blink({trigger: \"onCombatEnding\", token});"
+                    }
+                  }
+                }
+              }
+            ],
+            "folder": null,
+            "sort": 800000,
+            "ownership": {
+              "default": 0,
+              "1VOK90B3fElXpLfM": 3
+            },
+            "flags": {
+              "itemacro": {
+                "macro": {
+                  "name": "Blink",
+                  "type": "script",
+                  "scope": "global",
+                  "command": "return ui.notifications.warn(\"ItemMacro blocked until revision.\");\n\n/**\n * Blink automation macro for DnD5e\n * MIT License Copyright (c) 2022 Paulo Henrique (PH#2526)\n * Required modules: DAE, Item Macro, JB2A, Midi QoL, Sequencer, Token Magic Fx\n * Usage: Run as ItemMacro via Midi's On Use Macro on the item sheet\n * To do: Use Perfect Vision to restrict vision to 60 ft. and create a \"shades of gray\" effect\n *        Improve teleport to account for Large+ tokens\n */\nconst soundFile = \"upload-player/feanor/misty-step.wav\";\nconst videoFiles = {\n\tvanish: \"jb2a.misty_step.01.blue\",\n\tappear: \"jb2a.misty_step.02.blue\",\n\trange: \"jb2a.extras.tmfx.border.circle.simple.01\"\n};\nawait Sequencer.Preloader.preloadForClients([soundFile, ...Object.values(videoFiles)]);\n\nif ( args[0] === \"each\" || args[0] === \"off\" ) {\n\tconst lastArg = args[args.length - 1];\n\tconst sourceActor = MidiQOL.MQfromActorUuid(lastArg.actorUuid);\n\tconst sourceToken = MidiQOL.MQfromUuid(lastArg.tokenUuid).object;\n\tconst effect = sourceActor.effects.get(lastArg.effectId);\n\n\tif ( args[0] === \"each\" && lastArg.efData.flags.dae.macroRepeat === \"endEveryTurn\" ) {\n\t\tconst itemData = lastArg.efData.flags.dae.itemData;\n\t\tconst roll = await new Roll(\"d20\").evaluate({async: true});\n\t\troll.toMessage({\n\t\t\tspeaker: ChatMessage.getSpeaker({actor: sourceActor}),\n\t\t\tflavor: `<div class=\"dnd5e chat-card\"><header class=\"card-header\" style=\"display:flex\">\n\t\t\t\t<img src=${itemData.img} width=\"36\" height=\"36\"><h3>${itemData.name} roll</h3>\n\t\t\t</header></div>`\n\t\t});\n\t\tif ( roll.total >= 11 ) {\n\t\t\tawait effect.setFlag(\"dae\", \"macroRepeat\", \"startEveryTurn\");\n\t\t\tvanish(sourceToken);\n\t\t\treturn;\n\t\t}\n\t}\n\n\tif ( lastArg.efData.flags.dae.macroRepeat === \"startEveryTurn\" ) {\n\t\tif ( effect ) await effect.setFlag(\"dae\", \"macroRepeat\", \"endEveryTurn\");\n\t\twhile ( sourceToken.data.alpha < 1 ) {\n\t\t\tui.notifications.info(\"Waiting for the vanish function to finish.\");\n\t\t\tawait Sequencer.Helpers.wait(3000);\n\t\t}\n\t\tchooseDestination(sourceToken);\n\t}\n}\n\nfunction vanish(token) {\n\tnew Sequence()\n\t\t.sound()\n\t\t\t.file(soundFile)\n\t\t.wait(2000)\n\t\t.effect()\n\t\t\t.file(videoFiles.vanish)\n\t\t\t.atLocation(token)\n\t\t\t.size(token.data.width * 2, {gridUnits: true})\n\t\t\t.randomRotation()\n\t\t.wait(1000)\n\t\t.animation()\n\t\t\t.on(token)\n\t\t\t.opacity(0)\n\t\t.thenDo(() => {TokenMagic.addFilters(token, \"spectral-body\")})\n\t\t.wait(10000)\n\t\t.animation()\n\t\t\t.on(token)\n\t\t\t.fadeIn(5000)\n\t\t.play();\n}\n\nfunction chooseDestination(token) {\n\tnew Sequence()\n\t\t.animation()\n\t\t\t.on(token)\n\t\t\t.fadeOut(2000)\n\t\t.effect()\n\t\t\t.file(videoFiles.range)\n\t\t\t.size(token.data.width + 4.3, {gridUnits: true})\n\t\t\t.atLocation(token)\n\t\t\t.belowTokens()\n\t\t\t.fadeIn(2000)\n\t\t\t.fadeOut(2000)\n\t\t\t.persist(true)\n\t\t\t.name(\"range-template\")\n\t\t.wait(2000)\n\t\t.thenDo(() => {TokenMagic.deleteFilters(token)})\n\t\t.play();\n\n\tcanvas.app.stage.addListener(\"pointerdown\", event => {\n\t\tconst position = event.data.getLocalPosition(canvas.app.stage);\n\t\tconst topLeft = canvas.grid.getTopLeft(position.x, position.y);\n\t\tconst fakeToken = {data: {x: topLeft[0], y: topLeft[1], width: 1, height: 1, elevation: token.data.elevation}};\n\t\tconst distance = MidiQOL.getDistance(token, fakeToken);\n\t\tif ( event.data.button === 0 ) { // Left click\n\t\t\tif ( distance > 10 ) {\n\t\t\t\treturn ui.notifications.error(\"The selected spot is out of range. Choose again or middle click to cancel.\");\n\t\t\t}\n\t\t\tSequencer.EffectManager.endEffects({name: \"range-template\"});\n\t\t\tcanvas.app.stage.removeListener(\"pointerdown\");\n\t\t\tappear(token, topLeft);\n\t\t} else if ( event.data.button === 1 ) { // Middle click\n\t\t\tSequencer.EffectManager.endEffects({name: \"range-template\"});\n\t\t\tcanvas.app.stage.removeListener(\"pointerdown\");\n\t\t\tappear(token);\n\t\t}\n\t});\n}\n\n// Teleport animation relative to the top left corner of the token\nfunction appear(token, destination=[]) {\n\tnew Sequence()\n\t\t.sound()\n\t\t\t.file(soundFile)\n\t\t.animation()\n\t\t\t.on(token)\n\t\t\t.teleportTo({x: destination[0], y: destination[1]})\n\t\t\t.playIf(destination.length)\n\t\t.wait(1500)\n\t\t.effect()\n\t\t\t.file(videoFiles.appear)\n\t\t\t.atLocation(token)\n\t\t\t.size(token.data.width * 2, {gridUnits: true})\n\t\t\t.randomRotation()\n\t\t.wait(1500)\n\t\t.animation()\n\t\t\t.on(token)\n\t\t\t.opacity(1)\n\t\t.play();\n}",
+                  "author": "1VOK90B3fElXpLfM",
+                  "_id": null,
+                  "img": "icons/svg/dice-target.svg",
+                  "folder": null,
+                  "sort": 0,
+                  "ownership": {
+                    "default": 0
+                  },
+                  "flags": {},
+                  "_stats": {
+                    "systemId": null,
+                    "systemVersion": null,
+                    "coreVersion": null,
+                    "createdTime": null,
+                    "modifiedTime": null,
+                    "lastModifiedBy": null
+                  }
+                }
+              },
+              "dae": {
+                "macro": {
+                  "name": "3. Blink",
+                  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+                  "type": "script",
+                  "scope": "global",
+                  "command": "// return ui.notifications.warn(\"ItemMacro blocked until revision.\");\n\n/**\n * Blink automation macro for DnD5e\n * MIT License Copyright (c) 2022 Paulo Henrique (PH#2526)\n * Required modules: DAE, Item Macro, JB2A, Midi QoL, Sequencer, Token Magic Fx\n * Usage: Run as ItemMacro via Midi's On Use Macro on the item sheet\n * To do: Use Perfect Vision to restrict vision to 60 ft. and create a \"shades of gray\" effect\n *        Improve teleport to account for Large+ tokens\n */\nconst soundFile = \"modules/feanor/audios/misty-step.wav\";\nconst videoFiles = {\n\tvanish: \"jb2a.misty_step.01.blue\",\n\tappear: \"jb2a.misty_step.02.blue\",\n\trange: \"jb2a.extras.tmfx.border.circle.simple.01\"\n};\nawait Sequencer.Preloader.preloadForClients([soundFile, ...Object.values(videoFiles)]);\n\nconsole.log(arguments); // DELETE\n\nif ( args[0] === \"each\" || args[0] === \"off\" ) {\n\t// const lastArg = args[args.length - 1];\n\tconst lastArg = lastArgValue;\n\tconst sourceActor = MidiQOL.MQfromActorUuid(lastArg.actorUuid);\n\tconst sourceToken = MidiQOL.MQfromUuid(lastArg.tokenUuid).object;\n\tconst effect = sourceActor.effects.get(lastArg.effectId);\n\n\tif ( args[0] === \"each\" && lastArg.efData.flags.dae.macroRepeat === \"endEveryTurn\" ) {\n\t\tconst itemData = lastArg.efData.flags.dae.itemData;\n\t\tconst roll = await new Roll(\"d20\").evaluate({async: true});\n\t\troll.toMessage({\n\t\t\tspeaker: ChatMessage.getSpeaker({actor: sourceActor}),\n\t\t\tflavor: `<div class=\"dnd5e chat-card\"><header class=\"card-header\" style=\"display:flex\">\n\t\t\t\t<img src=${itemData.img} width=\"36\" height=\"36\"><h3>${itemData.name} roll</h3>\n\t\t\t</header></div>`\n\t\t});\n\t\tif ( roll.total >= 11 ) {\n\t\t\tawait effect.setFlag(\"dae\", \"macroRepeat\", \"startEveryTurn\");\n\t\t\tvanish(sourceToken);\n\t\t\treturn;\n\t\t}\n\t}\n\n\tif ( lastArg.efData.flags.dae.macroRepeat === \"startEveryTurn\" ) {\n\t\tif ( effect ) await effect.setFlag(\"dae\", \"macroRepeat\", \"endEveryTurn\");\n\t\twhile ( sourceToken.document.alpha < 1 ) {\n\t\t\tui.notifications.info(\"Waiting for the vanish function to finish.\");\n\t\t\tawait Sequencer.Helpers.wait(3000);\n\t\t}\n\t\tchooseDestination(sourceToken);\n\t}\n}\n\nfunction vanish(token) {\n\tnew Sequence()\n\t\t.sound()\n\t\t\t.file(soundFile)\n\t\t.wait(2000)\n\t\t.effect()\n\t\t\t.file(videoFiles.vanish)\n\t\t\t.atLocation(token)\n\t\t\t.size(token.document.width * 2, {gridUnits: true})\n\t\t\t.randomRotation()\n\t\t.wait(1000)\n\t\t.animation()\n\t\t\t.on(token)\n\t\t\t.opacity(0)\n\t\t.thenDo(() => {TokenMagic.addFilters(token, \"spectral-body\")})\n\t\t.wait(10000)\n\t\t.animation()\n\t\t\t.on(token)\n\t\t\t.fadeIn(5000)\n\t\t.play();\n}\n\nfunction chooseDestination(token) {\n\tnew Sequence()\n\t\t.animation()\n\t\t\t.on(token)\n\t\t\t.fadeOut(2000)\n\t\t.effect()\n\t\t\t.file(videoFiles.range)\n\t\t\t.size(token.document.width + 4.3, {gridUnits: true})\n\t\t\t.atLocation(token)\n\t\t\t.belowTokens()\n\t\t\t.fadeIn(2000)\n\t\t\t.fadeOut(2000)\n\t\t\t.persist(true)\n\t\t\t.name(\"range-template\")\n\t\t.wait(2000)\n\t\t.thenDo(() => {TokenMagic.deleteFilters(token)})\n\t\t.play();\n\n\tcanvas.app.stage.addListener(\"pointerdown\", event => {\n\t\tconsole.log(event);\n\t\tconsole.log(arguments);\n\t\tconst position = event.data.getLocalPosition(canvas.app.stage);\n\t\tconst topLeft = canvas.grid.getTopLeft(position.x, position.y);\n\t\tconst fakeToken = {document: {x: topLeft[0], y: topLeft[1], width: 1, height: 1, elevation: token.document.elevation}};\n\t\tconst distance = MidiQOL.getDistance(token, fakeToken);\n\t\tif ( event.data.button === 0 ) { // Left click\n\t\t\tif ( distance > 10 ) {\n\t\t\t\treturn ui.notifications.error(\"The selected spot is out of range. Choose again or middle click to cancel.\");\n\t\t\t}\n\t\t\tSequencer.EffectManager.endEffects({name: \"range-template\"});\n\t\t\tcanvas.app.stage.removeListener(\"pointerdown\");\n\t\t\tappear(token, topLeft);\n\t\t} else if ( event.data.button === 1 ) { // Middle click\n\t\t\tSequencer.EffectManager.endEffects({name: \"range-template\"});\n\t\t\tcanvas.app.stage.removeListener(\"pointerdown\");\n\t\t\tappear(token);\n\t\t}\n\t});\n}\n\n// Teleport animation relative to the top left corner of the token\nfunction appear(token, destination=[]) {\n\tnew Sequence()\n\t\t.sound()\n\t\t\t.file(soundFile)\n\t\t.animation()\n\t\t\t.on(token)\n\t\t\t.teleportTo({x: destination[0], y: destination[1]})\n\t\t\t.playIf(destination.length)\n\t\t.wait(1500)\n\t\t.effect()\n\t\t\t.file(videoFiles.appear)\n\t\t\t.atLocation(token)\n\t\t\t.size(token.document.width * 2, {gridUnits: true})\n\t\t\t.randomRotation()\n\t\t.wait(1500)\n\t\t.animation()\n\t\t\t.on(token)\n\t\t\t.opacity(1)\n\t\t.play();\n}",
+                  "author": "YGKnOmFfMM1H7piE",
+                  "ownership": {
+                    "default": 3
+                  },
+                  "_id": null,
+                  "folder": null,
+                  "sort": 0,
+                  "flags": {},
+                  "_stats": {
+                    "systemId": null,
+                    "systemVersion": null,
+                    "coreVersion": null,
+                    "createdTime": null,
+                    "modifiedTime": null,
+                    "lastModifiedBy": null
+                  }
+                }
+              },
+              "autoanimations": {
+                "id": "28934f1b-b726-49c1-ae7f-7e142f740031",
+                "label": "3. Blink",
+                "levels3d": {
+                  "type": "explosion",
+                  "data": {
+                    "color01": "#FFFFFF",
+                    "color02": "#FFFFFF",
+                    "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+                  },
+                  "sound": {
+                    "enable": false
+                  },
+                  "secondary": {
+                    "enable": false,
+                    "data": {
+                      "color01": "#FFFFFF",
+                      "color02": "#FFFFFF",
+                      "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+                    }
+                  }
+                },
+                "macro": {
+                  "enable": false,
+                  "playWhen": "0"
+                },
+                "menu": "ontoken",
+                "primary": {
+                  "video": {
+                    "dbSection": "static",
+                    "menuType": "marker",
+                    "animation": "energystrands",
+                    "variant": "01",
+                    "color": "blue",
+                    "enableCustom": false,
+                    "customPath": ""
+                  },
+                  "sound": {
+                    "enable": true,
+                    "delay": 0,
+                    "file": "modules/feanor/audios/transmute.wav",
+                    "repeat": 1,
+                    "repeatDelay": 250,
+                    "startTime": 0,
+                    "volume": 0.75
+                  },
+                  "options": {
+                    "addTokenWidth": false,
+                    "anchor": "0.5",
+                    "contrast": 0,
+                    "delay": 0,
+                    "elevation": 1000,
+                    "fadeIn": 250,
+                    "fadeOut": 500,
+                    "isMasked": false,
+                    "isRadius": false,
+                    "isWait": false,
+                    "opacity": 1,
+                    "persistent": false,
+                    "playbackRate": 1,
+                    "playOn": "source",
+                    "repeat": 1,
+                    "repeatDelay": 250,
+                    "saturate": 0,
+                    "size": 1,
+                    "tint": false,
+                    "tintColor": "#FFFFFF",
+                    "unbindAlpha": false,
+                    "unbindVisibility": false,
+                    "zIndex": 1
+                  }
+                },
+                "secondary": {
+                  "enable": false,
+                  "video": {
+                    "dbSection": "static",
+                    "menuType": "spell",
+                    "animation": "curewounds",
+                    "variant": "01",
+                    "color": "blue",
+                    "enableCustom": false,
+                    "customPath": ""
+                  },
+                  "sound": {
+                    "enable": false,
+                    "delay": 0,
+                    "repeat": 1,
+                    "repeatDelay": 250,
+                    "startTime": 0,
+                    "volume": 0.75
+                  },
+                  "options": {
+                    "addTokenWidth": false,
+                    "anchor": "0.5",
+                    "contrast": 0,
+                    "delay": 0,
+                    "elevation": 1000,
+                    "fadeIn": 250,
+                    "fadeOut": 500,
+                    "isMasked": false,
+                    "isRadius": true,
+                    "isWait": false,
+                    "opacity": 1,
+                    "repeat": 1,
+                    "repeatDelay": 250,
+                    "saturate": 0,
+                    "size": 1.5,
+                    "tint": false,
+                    "tintColor": "#FFFFFF",
+                    "zIndex": 1
+                  }
+                },
+                "soundOnly": {
+                  "sound": {
+                    "enable": false,
+                    "delay": 0,
+                    "repeat": 1,
+                    "repeatDelay": 250,
+                    "startTime": 0,
+                    "volume": 0.75
+                  }
+                },
+                "source": {
+                  "enable": false,
+                  "video": {
+                    "dbSection": "static",
+                    "menuType": "spell",
+                    "animation": "curewounds",
+                    "variant": "01",
+                    "color": "blue",
+                    "enableCustom": false,
+                    "customPath": ""
+                  },
+                  "sound": {
+                    "enable": false,
+                    "delay": 0,
+                    "repeat": 1,
+                    "repeatDelay": 250,
+                    "startTime": 0,
+                    "volume": 0.75
+                  },
+                  "options": {
+                    "addTokenWidth": false,
+                    "anchor": "0.5",
+                    "contrast": 0,
+                    "delay": 0,
+                    "elevation": 1000,
+                    "fadeIn": 250,
+                    "fadeOut": 500,
+                    "isMasked": false,
+                    "isRadius": false,
+                    "isWait": true,
+                    "opacity": 1,
+                    "repeat": 1,
+                    "repeatDelay": 250,
+                    "saturate": 0,
+                    "size": 1,
+                    "tint": false,
+                    "tintColor": "#FFFFFF",
+                    "zIndex": 1
+                  }
+                },
+                "target": {
+                  "enable": false,
+                  "video": {
+                    "dbSection": "static",
+                    "menuType": "spell",
+                    "animation": "curewounds",
+                    "variant": "01",
+                    "color": "blue",
+                    "enableCustom": false,
+                    "customPath": ""
+                  },
+                  "sound": {
+                    "enable": false,
+                    "delay": 0,
+                    "repeat": 1,
+                    "repeatDelay": 250,
+                    "startTime": 0,
+                    "volume": 0.75
+                  },
+                  "options": {
+                    "addTokenWidth": false,
+                    "anchor": "0.5",
+                    "contrast": 0,
+                    "delay": 0,
+                    "elevation": 1000,
+                    "fadeIn": 250,
+                    "fadeOut": 500,
+                    "isMasked": false,
+                    "isRadius": false,
+                    "opacity": 1,
+                    "persistent": false,
+                    "repeat": 1,
+                    "repeatDelay": 250,
+                    "saturate": 0,
+                    "size": 1,
+                    "tint": false,
+                    "tintColor": "#FFFFFF",
+                    "unbindAlpha": false,
+                    "unbindVisibility": false,
+                    "zIndex": 1
+                  }
+                },
+                "isEnabled": true,
+                "isCustomized": true,
+                "fromAmmo": false,
+                "version": 5
+              },
+              "walledtemplates": {
+                "wallsBlock": "globalDefault",
+                "wallRestriction": "globalDefault"
+              },
+              "rest-recovery": {
+                "data": {
+                  "recovery": {
+                    "enabled": false
+                  }
+                }
+              },
+              "midi-qol": {
+                "onUseMacroParts": {
+                  "items": []
+                }
+              },
+              "midiProperties": {}
+            },
+            "_stats": {
+              "systemId": "dnd5e",
+              "systemVersion": "2.4.0",
+              "coreVersion": "11.315",
+              "createdTime": 1661787234105,
+              "modifiedTime": 1702079107717,
+              "lastModifiedBy": "odXFaxFXYQodAFjt"
+            }
+          },
+          "transfer": false,
+          "token": "Scene.4vM7Iw83gsY5JILT.Token.2Iq4TTZQTtYv2Hn4"
+        },
+        "effectmacro": {
+          "onTurnEnd": {
+            "script": "feanor.spells.blink({trigger: \"onTurnEnd\", actor, effect, token});"
+          },
+          "onTurnStart": {
+            "script": "feanor.spells.blink({trigger: \"onTurnStart\", token});"
+          },
+          "onDelete": {
+            "script": "feanor.spells.blink({trigger: \"onEffectDeletion\", token});"
+          },
+          "onCombatEnd": {
+            "script": "feanor.spells.blink({trigger: \"onCombatEnding\", token});"
+          }
+        },
+        "midi-qol": {
+          "castData": {
+            "baseLevel": 3,
+            "castLevel": 3,
+            "itemUuid": "Actor.MdNtAtpGMdbnwXQV.Item.tm8IwE16DKOEXG16"
+          }
+        },
+        "visual-active-effects": {
+          "data": {
+            "content": "<p>Roll a [[/r d20 #Blink Check]] at the end of each of your turns for the duration of the spell. On a roll of 11 or higher, you vanish from your current plane of existence and appear in the Ethereal Plane (the spell fails and the casting is wasted if you were already on that plane). At the start of your next turn, and when the spell ends if you are on the Ethereal Plane, you return to an unoccupied space of your choice that you can see within 10 feet of the space you vanished from. If no unoccupied space is available within that range, you appear in the nearest unoccupied space (chosen at random if more than one space is equally near). You can dismiss this spell as an action.</p><p>While on the Ethereal Plane, you can see and hear the plane you originated from, which is cast in shades of gray, and you can't see anything there more than 60 feet away. You can only affect and be affected by other creatures on the Ethereal Plane. Creatures that aren't there can't perceive you or interact with you, unless they have the ability to do so.</p>"
+          }
+        },
+        "times-up": {
+          "isPassive": false
+        }
+      },
+      "_key": "!actors.effects!MdNtAtpGMdbnwXQV.u1Lgh8Q78vzX4EyI"
+    },
+    {
+      "_id": "jS4A86f1obQQfG3F",
       "name": "Evasion",
       "changes": [
         {
@@ -20760,12 +22979,12 @@
         },
         {
           "key": "flags.midi-qol.optional.evasion.count",
-          "value": "reaction",
+          "value": "ItemUses.Ring of Evasion",
           "mode": 5,
           "priority": 20
         },
         {
-          "key": "flags.midi-qol.optional.evasion.save.dex",
+          "key": "flags.midi-qol.optional.evasion.save.fail.dex",
           "value": "success",
           "mode": 5,
           "priority": 20
@@ -20773,7 +22992,7 @@
       ],
       "disabled": false,
       "duration": {
-        "startTime": 684,
+        "startTime": 2070,
         "seconds": null,
         "combat": null,
         "rounds": null,
@@ -20804,7 +23023,7 @@
           "transfer": true
         }
       },
-      "_key": "!actors.effects!MdNtAtpGMdbnwXQV.XfHpSxeugWz0Xm2Y"
+      "_key": "!actors.effects!MdNtAtpGMdbnwXQV.jS4A86f1obQQfG3F"
     }
   ],
   "folder": null,
@@ -20815,10 +23034,21 @@
         "bonus": false,
         "action": false,
         "reaction": false
+      },
+      "concentration-data": {
+        "uuid": "Actor.MdNtAtpGMdbnwXQV.Item.xTgv2ENAi0SdeUDi",
+        "targets": [
+          {
+            "tokenUuid": "Scene.4vM7Iw83gsY5JILT.Token.2Iq4TTZQTtYv2Hn4",
+            "actorUuid": "Actor.MdNtAtpGMdbnwXQV"
+          }
+        ],
+        "templates": [],
+        "removeUuids": []
       }
     },
     "dae": {
-      "damageApplied": -10
+      "damageApplied": 0
     },
     "sequencer": {
       "effects": []
@@ -20826,10 +23056,10 @@
   },
   "_stats": {
     "systemId": "dnd5e",
-    "systemVersion": "2.4.0",
+    "systemVersion": "2.4.1",
     "coreVersion": "11.315",
-    "createdTime": 1700786434458,
-    "modifiedTime": 1701471448200,
+    "createdTime": 1661787233451,
+    "modifiedTime": 1702681520104,
     "lastModifiedBy": "YGKnOmFfMM1H7piE"
   },
   "sort": 0,
